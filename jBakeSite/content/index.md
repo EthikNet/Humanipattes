@@ -6,6 +6,7 @@ status=published
 displayDate=false
 displayTitle=false
 displayBreadcrumb=false
+exerpt=Association de protection animale dans la Haute-Vienne
 order=001
 ~~~~~~
 	

@@ -14,10 +14,17 @@
 	background-color:${webleger.site.style.primary.highlight.color};
 }
 
+#preHeader_blocks .action_centered a {
+	margin:0;
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
 #preHeader_blocks {
 	display: flex;
-	flex-direction: column-reverse;
-	align-items: start;
+	flex-direction: row-reverse;
+	align-items: center;
 }
 #preHeader .blockContent {
 	padding: 0;
@@ -29,6 +36,11 @@
 #preHeader .blockIcon{
 	width: auto;
 	height:auto;
+}
+
+#lp_title {
+	color:${webleger.site.style.secondary.color};
+	background-color:${webleger.site.style.secondary.background.color};
 }
 
 #footer_blocks .block {
@@ -43,11 +55,13 @@
 		width:31%;
 	}
 	#preHeader_blocks {
-		flex-direction: row-reverse;
 		justify-content: flex-start;
-		gap:30px;
+		margin: 10px 0;
 	}
 	.preHeader .blockContent {
 		margin-left: 25px;
+	}
+	#lp_title {
+		height:840px;
 	}
 }
