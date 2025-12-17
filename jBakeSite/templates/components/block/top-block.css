@@ -62,19 +62,19 @@
 		width: 130px;
 		height: 130px;
 	}
-	.onePerRow .card{
+	.onePerRow .card, .onePerRow .block{
 		width:98%
 	}
-	.twoPerRow .card{
+	.twoPerRow .card, .twoPerRow .block{
 		width:45%
 	}
-	.threePerRow .card{
+	.threePerRow .card, .threePerRow .block{
 		width:30%
 	}
-	.fourPerRow .card{
+	.fourPerRow .card, .fourPerRow .block{
 		width:23%
 	}
-	.fivePerRow .card{
+	.fivePerRow .card, .fivePerRow .block{
 		width:19%
 	}
 }
