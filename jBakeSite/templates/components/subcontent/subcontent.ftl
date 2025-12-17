@@ -48,11 +48,11 @@ param : content : content to search for include content
 			<#local currentLang = langHelper.getLang(content)>
 			<#local subContents = subContents?filter(ct -> langHelper.isCorectLang(ct, currentLang))>
 			<#if logHelper??>
-				<@logHelper.debug "Included Type " + content.includeContent.type + ", for lang " + currentLang + " : number of subContent to display " + subContents?size/>
+				<@logHelper.debug "Included Type " + content.includeContent.type + " ("+allSubContents?size+") (category : " + includeContentFilter + "), for lang " + currentLang + " : number of subContent to display " + subContents?size/>
 			</#if>
 		<#else>	
 			<#if logHelper??>
-				<@logHelper.debug "Included Type " + content.includeContent.type + " : number of subContent to display " + subContents?size/>
+				<@logHelper.debug "Included Type " + content.includeContent.type + " ("+allSubContents?size+") (category : " + includeContentFilter + ") : number of subContent to display " + subContents?size/>
 			</#if>
 		</#if>
 		

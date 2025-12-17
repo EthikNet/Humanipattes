@@ -344,8 +344,8 @@ html {
 
 body {
 	font-family: ${webleger.site.style.font};
-	font-size: 14px;
-	line-height: 1.42857143;
+	font-size: ${webleger.site.style.font.size};
+	line-height: ${webleger.site.style.lineHeight};
 	color: ${webleger.site.style.color};
 	background-color: ${webleger.site.style.background.color}
 }
@@ -2698,6 +2698,52 @@ fieldset[disabled] .btn-primary.active {
 .btn-primary .badge {
 	color: ${webleger.site.style.primary.color};
 	background-color: ${webleger.site.style.primary.background.color}
+}
+
+.btn-secondary {
+	color: ${webleger.site.style.secondary.color};
+	background-color: ${webleger.site.style.secondary.background.color};
+	border-color: ${webleger.site.style.secondary.background.color}
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active,
+.btn-secondary.active,
+.open .dropdown-toggle.btn-secondary {
+	color: ${webleger.site.style.color};
+	background-color: ${webleger.site.style.background.color};
+	border-color: ${webleger.site.style.color}
+}
+
+.btn-secondary:active,
+.btn-secondary.active,
+.open .dropdown-toggle.btn-secondary {
+	background-image: none
+}
+
+.btn-secondary.disabled,
+.btn-secondary[disabled],
+fieldset[disabled] .btn-secondary,
+.btn-secondary.disabled:hover,
+.btn-secondary[disabled]:hover,
+fieldset[disabled] .btn-secondary:hover,
+.btn-secondary.disabled:focus,
+.btn-secondary[disabled]:focus,
+fieldset[disabled] .btn-secondary:focus,
+.btn-secondary.disabled:active,
+.btn-secondary[disabled]:active,
+fieldset[disabled] .btn-secondary:active,
+.btn-secondary.disabled.active,
+.btn-secondary[disabled].active,
+fieldset[disabled] .btn-secondary.active {
+	background-color: ${webleger.site.style.secondary.disabled.background.color};
+	border-color: ${webleger.site.style.secondary.disabled.background.color}
+}
+
+.btn-secondary .badge {
+	color: ${webleger.site.style.secondary.color};
+	background-color: ${webleger.site.style.secondary.background.color}
 }
 
 .btn-success {
@@ -7342,11 +7388,188 @@ button.close {
 .primary .btn-primary.disabled.active,
 .primary .btn-primary[disabled].active,
 .primary fieldset[disabled] .btn-primary.active {
-	background-color: ${webleger.site.style.disabled.background.color};
-	border-color: ${webleger.site.style.disabled.background.color}
+	background-color: ${webleger.site.style.primary.disabled.background.color};
+	border-color: ${webleger.site.style.primary.disabled.background.color}
 }
 
 .btn-primary .badge {
+	color: ${webleger.site.style.color};
+	background-color: ${webleger.site.style.background.color}
+}
+
+.secondary {
+	background-color:${webleger.site.style.secondary.background.color};
+	color:${webleger.site.style.secondary.color}
+}
+
+.secondary h1, .secondary h2, .secondary h3, .secondary h4, .secondary h5, .secondary h6, 
+.secondary .h1, .secondary .h2, .secondary .h3, .secondary .h4, .secondary .h5, .secondary .h6{
+	color:${webleger.site.style.secondary.color}
+}
+.secondary h1 strong, .secondary h2 strong, .secondary h3 strong, .secondary h4 strong, .secondary h5 strong, 
+.secondary h6 strong, .secondary h7 strong, .secondary h8 strong, .secondary h9 strong, .secondary h10 strong{
+	color:${webleger.site.style.secondary.highlight.color}
+}
+
+.secondary b,
+.secondary strong {
+	color:${webleger.site.style.secondary.highlight.color}
+}
+
+.secondary a {
+	color:${webleger.site.style.secondary.link.text-color}
+}
+
+.secondary a:hover,
+.secondary a:focus {
+	color: ${webleger.site.style.secondary.link.text-color.hover}
+}
+
+.secondary .dropdown-menu {
+	background-color: ${webleger.site.style.secondary.background.color};
+	color:${webleger.site.style.secondary.color}
+}
+
+.secondary open .caret {
+	color:${webleger.site.style.secondary.background.color}
+}
+
+.secondary .dropdown-menu>li>a {
+	color: ${webleger.site.style.secondary.color};
+}
+.secondary .dropdown-menu>li>a:hover,
+.secondary .dropdown-menu>li>a:focus {
+	color: ${webleger.site.style.color};
+	background-color: ${webleger.site.style.background.color}
+}
+
+.secondary .dropdown-menu>.active>a,
+.secondary .dropdown-menu>.active>a:hover,
+.secondary .dropdown-menu>.active>a:focus {
+	color: ${webleger.site.color};
+	background-color: ${webleger.site.style.background.color}
+}
+.secondary .dropdown-menu>.disabled>a,
+.secondary .dropdown-menu>.disabled>a:hover,
+.secondary .dropdown-menu>.disabled>a:focus {
+	color: ${webleger.site.style.secondary.disabled.color};
+	background-color:${webleger.site.style.secondary.disabled.color}
+}
+
+.secondary .nav>li>a {
+	color:${webleger.site.style.secondary.color}
+}
+.secondary .navbar-toggle .icon-bar {
+	background-color:${webleger.site.style.secondary.color}
+}
+
+
+.secondary .nav>li>a:hover,
+.secondary .nav>li>a:focus,
+.secondary .nav>li>a:hover .caret,
+.secondary .nav>li>a:focus .caret {
+	text-decoration: none;
+	background-color: ${webleger.site.style.background.color};
+	color: ${webleger.site.style.color}
+}
+
+.secondary .nav .open>a,
+.secondary .nav .open>a:hover,
+.secondary .nav .open>a:focus {
+	background-color: ${webleger.site.style.secondary.background.color};
+	color: ${webleger.site.style.secondary.color}
+}
+
+
+.secondary .nav>li.disabled>a {
+	color: ${webleger.site.style.secondary.disabled.color};
+	background-color:${webleger.site.style.secondary.disabled.background.color}
+}
+
+.secondary .nav>li.disabled>a:hover,
+.secondary .nav>li.disabled>a:focus {
+	color:${webleger.site.style.secondary.disabled.color};
+}
+
+.secondary .btn:hover,
+.secondary .btn:focus {
+	color: ${webleger.site.style.secondary.color}
+}
+
+.secondary .btn-default {
+	color: ${webleger.site.style.secondary.color};
+	background-color: ${webleger.site.style.secondary.background.color};
+	border-color: ${webleger.site.style.secondary.color}
+}
+
+.secondary .btn-default:hover,
+.secondary .btn-default:focus,
+.secondary .btn-default:active,
+.secondary .btn-default.active,
+.secondary .open .dropdown-toggle.btn-default {
+	color: ${webleger.site.style.secondary.background.color};
+	background-color: ${webleger.site.style.secondary.color}
+}
+
+.secondary .btn-default.disabled,
+.secondary .btn-default[disabled],
+.secondary fieldset[disabled] .btn-default,
+.secondary .btn-default.disabled:hover,
+.secondary .btn-default[disabled]:hover,
+.secondary fieldset[disabled] .btn-default:hover,
+.secondary .btn-default.disabled:focus,
+.secondary .btn-default[disabled]:focus,
+.secondary fieldset[disabled] .btn-default:focus,
+.secondary .btn-default.disabled:active,
+.secondary .btn-default[disabled]:active,
+.secondary fieldset[disabled] .btn-default:active,
+.secondary .btn-default.disabled.active,
+.secondary .btn-default[disabled].active,
+.secondary fieldset[disabled] .btn-default.active {
+	background-color: ${webleger.site.style.secondary.disabled.background.color}
+}
+
+.secondary .btn-default .badge {
+	color: ${webleger.site.style.color}
+	background-color: ${webleger.site.style.background.color}
+}
+
+.secondary .btn-secondary {
+	color: ${webleger.site.style.color};
+	background-color: ${webleger.site.style.background.color};
+	border-color: ${webleger.site.style.background.color}
+}
+
+.secondary .btn-secondary:hover,
+.secondary .btn-secondary:focus,
+.secondary .btn-secondary:active,
+.secondary .btn-secondary.active,
+.secondary .open .dropdown-toggle.btn-secondary {
+	color: ${webleger.site.style.secondary.color};
+	background-color: ${webleger.site.style.secondary.background.color};
+	border-color: ${webleger.site.style.secondary.color}
+}
+
+.secondary .btn-secondary.disabled,
+.secondary .btn-secondary[disabled],
+.secondary fieldset[disabled] .btn-secondary,
+.secondary .btn-secondary.disabled:hover,
+.secondary .btn-secondary[disabled]:hover,
+.secondary fieldset[disabled] .btn-secondary:hover,
+.secondary .btn-secondary.disabled:focus,
+.secondary.btn-secondary[disabled]:focus,
+.secondary fieldset[disabled] .btn-secondary:focus,
+.secondary .btn-secondary.disabled:active,
+.secondary .btn-secondary[disabled]:active,
+.secondary fieldset[disabled] .btn-secondary:active,
+.secondary .btn-secondary.disabled.active,
+.secondary .btn-secondary[disabled].active,
+.secondary fieldset[disabled] .btn-secondary.active {
+	background-color: ${webleger.site.style.secondary.disabled.background.color};
+	border-color: ${webleger.site.style.secondary.disabled.background.color}
+}
+
+.btn-secondary .badge {
 	color: ${webleger.site.style.color};
 	background-color: ${webleger.site.style.background.color}
 }

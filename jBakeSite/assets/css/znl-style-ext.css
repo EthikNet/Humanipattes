@@ -16,9 +16,6 @@
 
 #preHeader_blocks .action_centered a {
 	margin:0;
-	display: flex;
-	align-items: center;
-	gap: 15px;
 }
 
 #preHeader_blocks {
@@ -38,9 +35,130 @@
 	height:auto;
 }
 
-#lp_title {
-	color:${webleger.site.style.secondary.color};
-	background-color:${webleger.site.style.secondary.background.color};
+.homePage {
+	text-align:center;
+}
+
+.homePage .block {
+	padding: 20px 0;
+}
+
+.homePage .pageContent #afterBody > .block .blockTitle {
+	margin-top:0;
+	padding-top:25px;
+}
+.pageContent {
+    padding: 0;
+}
+
+.lp_title {
+	padding:50px;
+}
+.lp_title .blockTitle {
+	text-align: center;
+	font-size: 400%;
+}
+.lp_title .blockContent {
+	text-align: center;
+}
+.lp_title .blockContent h2 {
+	font-size: 200%;
+	padding-bottom:20px;
+}
+.lp_title .title_cta {
+	gap:50px;
+}
+.lp_impact .card {
+	text-align:center;
+	border: 2px solid hsl(212,20%,85%);
+    box-shadow: none;
+    border-radius: 20px;
+    background-color: ${webleger.site.style.highlight.background.color};
+    padding: 10px;
+    margin-top: 20px;
+}
+.lp_impact .card_image {
+	display: flex;
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    border-radius: 9999px;
+    background-color: #e5eae3;
+    justify-content: center;
+    align-items: center;
+	color:${webleger.site.style.primary.background.color};
+}
+.lp_impact .card_content strong {
+	color:${webleger.site.style.color};
+}
+.lp_impact .card_content p {
+	color:${webleger.site.style.discret.color};
+}
+
+.lp_adopter {
+	background-color:${webleger.site.style.highlight.background.color};
+}
+.lp_adopter .card {
+	border: 2px solid hsl(212,20%,85%);
+    box-shadow: none;
+    border-radius: 20px;
+    background-color:${webleger.site.style.background.color};
+}
+#mainContent .cardAnimal .card .card_image {
+	margin: 0 auto;
+	display: block;
+	border-radius: 12px;
+	max-height: 270px;
+	width: auto;
+}
+.cardAnimal  .card .card_title {
+	 padding: 10px 0;
+}
+.cardAnimal .card .card_exerpt {
+	 padding: 10px 0;
+}
+
+.lp_event {
+	background-color:${webleger.site.style.discret.background.color};
+}
+
+.homePage .help .card, .homePage .help .card h3 {
+	background-color : #5a8a79;
+	color:${webleger.site.style.primary.color};
+}
+
+.homePage .help .card {
+	box-shadow: none;
+	padding: 10px;
+}
+.homePage .help .card .card_image {
+	display: flex;
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    border-radius: 9999px;
+    background-color: #7a9f90;
+    justify-content: center;
+    align-items: center;
+}
+
+.sticker {
+	color:${webleger.site.style.primary.background.color};
+}
+
+.secondary a.no_state:link, 
+.secondary a.no_state:visited, 
+.secondary a.no_state:hover, 
+.secondary a.no_state:active,
+.btn-secondary.no_state:link, 
+.btn-secondary.no_state:visited, 
+.btn-secondary.no_state:hover, 
+.btn-secondary.no_state:active  {
+  color: ${webleger.site.style.secondary.color} !important;
+}
+.secondary a.no_state:hover, 
+.btn-secondary.no_state:hover  {
+  color: ${webleger.site.style.secondary.background.color} !important;
 }
 
 #footer_blocks .block {
@@ -50,10 +168,17 @@
 	flex-direction: row;
 }
 
+#footer_blocks .acrroche_footer .blockTitle img {
+	width:50px;
+	height:auto;
+}
+
+#push,
+#footer {
+  padding: 0;
+}
+
 @media screen and (min-width: 640px) {
-	#footer_blocks .block {
-		width:31%;
-	}
 	#preHeader_blocks {
 		justify-content: flex-start;
 		margin: 10px 0;
@@ -61,7 +186,7 @@
 	.preHeader .blockContent {
 		margin-left: 25px;
 	}
-	#lp_title {
-		height:840px;
+	.lp_title {
+		min-height: 250px;
 	}
 }
