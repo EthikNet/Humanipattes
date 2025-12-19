@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JBake</title>
+    <link>https://ethiknet.github.io/Humanipattes</link>
+    <atom:link href="https://ethiknet.github.io/Humanipattes/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Humani'Pattes : pour créer plus d'humanité envers nos animaux à quatre pattes.</description>
+    <language>fr_FR</language>
+    <pubDate>ven., 19 déc. 2025 22:11:01 +0100</pubDate>
+    <lastBuildDate>ven., 19 déc. 2025 22:11:01 +0100</lastBuildDate>
+
+
+  </channel> 
+</rss>
