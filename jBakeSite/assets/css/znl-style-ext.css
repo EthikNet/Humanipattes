@@ -286,7 +286,49 @@
 	background-repeat: no-repeat;
 	background-position: 0px 3px;
 	margin-top: 7px;
-	
+}
+
+.nousAider .particuliers .card {
+	text-align:center;
+    box-shadow: none;
+    padding: 10px;
+    margin-top: 20px;
+}
+.nousAider .particuliers .card_image {
+	display: flex;
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    border-radius: 9999px;
+    justify-content: center;
+    align-items: center;
+	color:${webleger.site.style.primary.background.color};
+}
+
+.partenaires .associations .card {
+	text-align:center;
+    box-shadow: none;
+    padding: 10px;
+    margin-top: 20px;
+    align-items: center;
+    border: 2px solid hsl(212,20%,85%);
+}
+.partenaires .associations .card_image {
+	display: flex;
+    height: 60px;
+    width: 60px;
+    margin: auto !important;
+    border-radius: 9999px;
+    justify-content: center;
+    align-items: center;
+	color:${webleger.site.style.primary.background.color};
+}
+
+.partenaires .magasins .card {
+	text-align:center;
+}
+.partenaires .magasins .card  img {
+	height:auto;
 }
 
 #footer_blocks .block {

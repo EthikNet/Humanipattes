@@ -7,6 +7,7 @@ displayDate=false
 displayTitle=false
 displayBreadcrumb=false
 pageSpecificClass=homePage
+useFacebook=true
 exerpt=Association de protection animale dans la Haute-Vienne
 order=001
 ~~~~~~
