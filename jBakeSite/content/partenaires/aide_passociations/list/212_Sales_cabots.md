@@ -7,7 +7,7 @@ contentImage=
 status=published
 order=212
 ~~~~~~
-Sales cabots est une association de protection des animaux à Châteauroux.
+qui, grâce à des collectes, reversent leur récolte à différentes associations de protection animale comme la nôtre.
 
     Manu,Nini,djeje et angélique des motards au grand coeur, oeuvre pour le bien être de nos amis à 4 pattes. En venant en aide au refuges et autres associations.
 
