@@ -137,6 +137,20 @@
 	</div>
 </#macro>
 
+<#macro imageRightTitleAndContentSubTemplate block>
+	<div <@generateAnchor block/> <@generateCssClass block "imageRightTitleAndContentSubTemplate"/>>
+		<div class="groupe_content">
+			<@generateTitle block/>
+			<div class="blockBody">
+				<@generateBodyContent block/>
+			</div>
+		</div>
+		<#if (block.contentImage)??>
+				<@common.addImageIcon block.contentImage "blockIcon"/>
+		</#if>
+	</div>
+</#macro>
+
 <#macro imageBeforeTitleSubTemplate block customCssStyle="">
 	<div <@generateAnchor block/> <@generateCssClass block "imageBeforeTitleSubTemplate"/> <#if customCssStyle?has_content>style="${customCssStyle}"</#if>>
 		<@generateTitle block true/>

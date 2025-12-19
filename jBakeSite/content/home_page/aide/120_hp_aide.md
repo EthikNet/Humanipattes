@@ -8,4 +8,4 @@ specificClass=primary
 status=published
 order=120
 ~~~~~~
-Restez informés de nos dernières nouvelles, adoptions et événements en nous suivant sur Facebook.
+Chaque geste compte ! Il existe plusieurs façons de soutenir notre action pour les animaux.

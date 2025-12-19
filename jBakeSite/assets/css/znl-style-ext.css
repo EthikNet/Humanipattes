@@ -161,6 +161,134 @@
   color: ${webleger.site.style.secondary.background.color} !important;
 }
 
+
+.headerTile {
+	text-align:center;
+	padding:25px 0;
+}
+
+.association .blockTitle {
+	text-align: center;
+	margin-top:0;
+	padding-top:25px;
+}
+
+.association  .histoire {
+	background-color:${webleger.site.style.discret.background.color};
+}
+.association .valeurs {
+	background-color:${webleger.site.style.highlight.background.color};
+}
+
+.association .valeurs .card {
+	text-align:center;
+    box-shadow: none;
+    padding: 10px;
+    margin-top: 20px;
+}
+.association .valeurs .card_image {
+	display: flex;
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    border-radius: 9999px;
+    background-color: #e5eae3;
+    justify-content: center;
+    align-items: center;
+}
+
+.association .equipe{
+	background-color:${webleger.site.style.discret.background.color};
+}
+.association .equipe  .card {
+	text-align:center;
+    box-shadow: none;
+    padding: 10px;
+    margin-top: 20px;
+}
+.association .equipe  .card_image {
+	display: flex;
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    background-color:${webleger.site.style.background.color};
+    border-radius: 9999px;
+    background-color: #e5eae3;
+    justify-content: center;
+    align-items: center;
+}
+
+.association .legal {
+	background-color:${webleger.site.style.highlight.background.color};
+}
+.association .legal .card {
+	text-align:center;
+    box-shadow: none;
+    padding: 10px;
+    margin-top: 20px;
+}
+.association .legal .card_image {
+	display: flex;
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    border-radius: 9999px;
+    justify-content: center;
+    align-items: center;
+	color:${webleger.site.style.primary.background.color};
+}
+
+.activitees .pageContent .block_title_image {
+	display:flex;
+    height: 60px;
+    width: 60px;
+    border-radius: 9999px;
+    justify-content: center;
+    align-items: center;
+	color:${webleger.site.style.primary.background.color};
+	background-color:#e5eae3;
+}
+
+.activitees .pageContent .blockIcon {
+	border-radius:20px;
+}
+
+.activitees .pageContent .block img {
+	max-width:initial;
+}
+
+.activitees .pageContent .blockContent{
+	padding-left:0;
+}
+
+.activitees .objectif2026 {
+	background-color: ${webleger.site.style.highlight.background.color};
+	text-align:center;
+	padding-bottom: 20px;
+}
+
+.activitees .objectif2026 ul {
+	margin: 0 auto;
+	background-color: white;
+	text-align:left;
+	padding:15px;
+	border-radius:15px;
+	margin-bottom:15px;
+	border:2px solid ${webleger.site.style.discret.background.color};
+	
+}
+.activitees .objectif2026 ul li {
+	background: url(${webleger.build.host}/images/tick_circle.svg);
+	padding: 5px 30px 5px 25px;
+	list-style: none;
+	margin: 0;
+	vertical-align: middle;
+	background-repeat: no-repeat;
+	background-position: 0px 3px;
+	margin-top: 7px;
+	
+}
+
 #footer_blocks .block {
 	text-align:left;
 }
@@ -171,6 +299,9 @@
 #footer_blocks .acrroche_footer .blockTitle img {
 	width:50px;
 	height:auto;
+}
+#footer_blocks .acrroche_footer .blockContent {
+	font-size:small;
 }
 
 #push,
@@ -188,5 +319,12 @@
 	}
 	.lp_title {
 		min-height: 250px;
+	}
+	.activitees .pageContent .blockIcon {
+		width : 50%;
+		height:auto;
+	}
+	.activitees .objectif2026 ul {
+		width: 60%;
 	}
 }
