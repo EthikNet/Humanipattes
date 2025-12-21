@@ -1,12 +1,12 @@
 title=Simca
 date=2025-12-16
 type=org_openCiLife_post
-includeContent={"type":"org_openCiLife_post", "category":"animal", "specificClass":"fourPerRow cardAnimal", "display":{"type":"card", "content":"link"}}
-category=animal, chat
+includeContent={"type":"org_openCiLife_post", "category":"chat", "specificClass":"fourPerRow cardAnimal", "display":{"type":"card", "content":"link"}}
+category=AAdopter, chat
 tags=
 status=published
 contentImage=images/animeaux/Simca.jpg
-order=203
+order=205
 exerpt=Simca fait partie des chats libres que nous souhaitons faire adopter.
 sexe=Femelle
 dateNaissance=estimée au 1er août 2022

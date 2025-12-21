@@ -7,4 +7,4 @@ contentImage=/images/partenaires/logoBricomarche.svg
 status=published
 order=214
 ~~~~~~
-Game Vert de Saint-Sulpice-Les-Feuilles
+	

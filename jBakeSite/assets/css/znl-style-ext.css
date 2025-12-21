@@ -23,6 +23,10 @@
 	flex-direction: row-reverse;
 	align-items: center;
 }
+
+#preHeader .block {
+	padding: 0 20px;
+}
 #preHeader .blockContent {
 	padding: 0;
 	margin-left: 12px;
@@ -39,7 +43,7 @@
 	text-align:center;
 }
 
-.homePage .block {
+.homePage .pageContent .block {
 	padding: 20px 0;
 }
 
@@ -56,7 +60,7 @@
 }
 .lp_title .blockTitle {
 	text-align: center;
-	font-size: 400%;
+	font-size: 300%;
 }
 .lp_title .blockContent {
 	text-align: center;
@@ -65,9 +69,7 @@
 	font-size: 200%;
 	padding-bottom:20px;
 }
-.lp_title .title_cta {
-	gap:50px;
-}
+
 .lp_impact .card {
 	text-align:center;
 	border: 2px solid hsl(212,20%,85%);
@@ -99,7 +101,9 @@
 	background-color:${webleger.site.style.highlight.background.color};
 }
 .lp_adopter .card {
-	border: 2px solid hsl(212,20%,85%);
+	border-left: 2px solid hsl(212,20%,85%);
+	border-right: 2px solid hsl(212,20%,85%);
+	border-bottom: 2px solid hsl(212,20%,85%);
     box-shadow: none;
     border-radius: 20px;
     background-color:${webleger.site.style.background.color};
@@ -107,9 +111,11 @@
 #mainContent .cardAnimal .card .card_image {
 	margin: 0 auto;
 	display: block;
-	border-radius: 12px;
-	max-height: 270px;
-	width: auto;
+	border-top-left-radius:12px;
+	border-top-right-radius:12px;
+	max-width: initial;
+	height:auto;
+	width: 100%;
 }
 .cardAnimal  .card .card_title {
 	 padding: 10px 0;
@@ -253,6 +259,12 @@
 	border-radius:20px;
 }
 
+.activitees .pageContent .blockIcon {
+	width:250px;
+	height:auto;
+	margin:auto;
+}
+
 .activitees .pageContent .block img {
 	max-width:initial;
 }
@@ -324,6 +336,17 @@
 	color:${webleger.site.style.primary.background.color};
 }
 
+.partenaires .magasins .subContent_tag {
+	display: inline-block;
+    list-style-type: none;
+    background-color:${webleger.site.style.primary.background.color};
+    color:${webleger.site.style.primary.color};
+    border: 1px solid ${webleger.site.style.primary.background.color};
+    border-radius:12px;
+    padding:3px;
+    margin-top: 5px;
+}
+
 .partenaires .magasins .card {
 	text-align:center;
 }
@@ -342,6 +365,9 @@
 	width:50px;
 	height:auto;
 }
+#footer_blocks .acrroche_footer .blockTitle {
+	font-size:x-large;
+}
 #footer_blocks .acrroche_footer .blockContent {
 	font-size:small;
 }
@@ -354,19 +380,25 @@
 @media screen and (min-width: 640px) {
 	#preHeader_blocks {
 		justify-content: flex-start;
-		margin: 10px 0;
 	}
 	.preHeader .blockContent {
-		margin-left: 25px;
+		margin-left:25px;
 	}
 	.lp_title {
-		min-height: 250px;
+		min-height:250px;
+	}
+	.lp_title .blockTitle {
+		font-size:400%;
+	}
+	.lp_title .title_cta {
+		gap:50px;
 	}
 	.activitees .pageContent .blockIcon {
-		width : 50%;
+		width:50%;
 		height:auto;
+		margin:0;
 	}
 	.activitees .objectif2026 ul {
-		width: 60%;
+		width:60%;
 	}
 }

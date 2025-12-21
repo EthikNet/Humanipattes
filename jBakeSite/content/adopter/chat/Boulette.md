@@ -1,12 +1,12 @@
 title=Boulette
 date=2025-12-16
 type=org_openCiLife_post
-includeContent={"type":"org_openCiLife_post", "category":"animal", "specificClass":"fourPerRow cardAnimal", "display":{"type":"card", "content":"link"}}
-category=animal, chat
+includeContent={"type":"org_openCiLife_post", "category":"chat", "specificClass":"fourPerRow cardAnimal", "display":{"type":"card", "content":"link"}}
+category=AAdopter, chat
 tags=
 status=published
 contentImage=images/animeaux/boulette.jpg
-order=201
+order=203
 exerpt=Boulette fait partie des chats libres que nous souhaitons faire adopter.
 sexe=Mâle
 dateNaissance=estimé au 1er août 2022

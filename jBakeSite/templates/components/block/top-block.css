@@ -46,12 +46,12 @@
 
 .imageLeftTitleAndContentSubTemplate {
 	display:flex;
-	flex-direction:row;
+	flex-direction:column-reverse;
 }
 
 .imageRightTitleAndContentSubTemplate {
 	display:flex;
-	flex-direction:row;
+	flex-direction:column;
 }
 
 /* Lastly, apply responsive CSS fixes as necessary */
@@ -66,6 +66,12 @@
 	.blockIcon {
 		width: 130px;
 		height: 130px;
+	}
+	.imageRightTitleAndContentSubTemplate {
+		flex-direction:row;
+	}
+	.imageLeftTitleAndContentSubTemplate {
+		flex-direction:row;
 	}
 	.onePerRow .card, .onePerRow .block{
 		width:98%

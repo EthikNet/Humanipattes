@@ -112,14 +112,18 @@
 <#-- build the site menu (using Boostrap) -->
 <#macro build content>
 <#if (content.displayMenu!"true") != "false">
-	<div class="navbar navbar-light bg-white" role="navigation">
+	<div class="navbar" role="navigation">
+		<div class="container-fluid">
 	      <div class="navbar-header">
-	  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
 	    <span class="sr-only">Toggle navigation</span>
 	    <span class="icon-bar"></span>
 	    <span class="icon-bar"></span>
 	    <span class="icon-bar"></span>
 	  </button>
+	  <#if (config.site_menu_brand)?? && config.site_menu_brand?has_content>
+    	<a class="navbar-brand" href="${webleger.build.host}/index.html">${config.site_menu_brand}</a>
+    </#if>
 	</div>
 	<div class="navbar-collapse collapse">
 	  <ul class="nav navbar-nav" role="menubar">
@@ -198,6 +202,7 @@
 	    -->
 	  </ul>
 	</div><#--/.nav-collapse -->
+	</div><!-- /.container-fluid -->
 	  </div>
 </#if>
 </#macro>

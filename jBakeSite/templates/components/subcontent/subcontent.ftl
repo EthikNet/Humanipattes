@@ -66,6 +66,7 @@ param : content : content to search for include content
 			<#local subContentBeforeTitleImage = (content.includeContent.display.beforeTitleImage)!"">
 			<#local specificClass = (content.includeContent.specificClass)!"">
 			<#local subContentmodaleCloseButton = (content.includeContent.display.closeButton)!"close">
+			<#local hasSubTemplate = (content.includeContent.display.subTemplate)!"">
 			
 			<#if logHelper??>
 				<@logHelper.debug "listDisplayType = " + listDisplayType + " subContentDisplayContentMode = " + subContentDisplayContentMode/>
@@ -76,7 +77,11 @@ param : content : content to search for include content
 				<@modal.buildModalContainer theModalId, subContentmodaleCloseButton />
 			</#if>
 			
-			<#if (listDisplayType == "table")>
+			<#if (hasSubTemplate)?? && hasSubTemplate?has_content>
+				<#local subTemplateInterpretation = "<@${hasSubTemplate} content subContents />"?interpret>
+				<@subTemplateInterpretation/>
+				<#return>
+			<#elseif (listDisplayType == "table")>
 				<table class="${listDisplayType}_list content_type_${subContentDisplayContentMode} ${specificClass}">
 					<thead>
 						<tr>
@@ -100,7 +105,6 @@ param : content : content to search for include content
 			</#if>
 			<#list subContents?sort_by("order") as subContent>
 				<#local uselessTempVar = commonInc.propagateContentChain(subContent) />
-				
 				<#local subContentCategory = (subContent.category)!"__none__">
 				<#local specificContentClass = (content.includeContent.display.specificClass)!"">
 				<#local displayTitle = true>

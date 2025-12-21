@@ -1,7 +1,7 @@
 title=Ils cherchent une famille
 date=2025-12-16
 type=org_openCiLife_block
-includeContent={"type":"org_openCiLife_post", "category":"animal", "specificClass":"fourPerRow cardAnimal", "display":{"type":"card", "content":"link"}}
+includeContent={"type":"org_openCiLife_post", "category":"AAdopter", "specificClass":"fourPerRow cardAnimal", "display":{"type":"card", "content":"link"}}
 category=homepage
 tags=
 status=published

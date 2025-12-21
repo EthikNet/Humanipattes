@@ -1,7 +1,7 @@
 title=Adopter un animal
 date=2025-12-16
 type=org_openCiLife_post
-includeContent={"type":"org_openCiLife_post", "category":"animal", "specificClass":"fourPerRow cardAnimal", "display":{"type":"card", "content":"link"}}
+includeContent={"type":"org_openCiLife_post", "category":"typeAnimal", "specificClass":"fourPerRow cardAnimal", "display":{"type":"card", "content":"link"}}
 category=global
 tags=
 displayDate=false

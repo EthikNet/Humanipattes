@@ -7,4 +7,4 @@ contentImage=/images/partenaires/logoIntermarche.svg
 status=published
 order=216
 ~~~~~~
-Notament celui de Magnac-laval, Bessine sur Gartempe
+Notament ceux de Magnac-laval et Bessine sur Gartempe
