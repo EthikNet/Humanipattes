@@ -8,7 +8,7 @@ displayDate=false
 displayTags=false
 status=published
 contentImage=images/adpoter_chien.jpg
-order=200
+order=250
 exerpt=Tous nos chiens sont identifiés, vaccinés et stérilisés.
 ~~~~~~
 **Notre mission de sauvetage des chiens implique de les sociabiliser au mieux et de les faire adopter dans les meilleures conditions. Nos familles d’accueil ont à cœur de rassurer, soigner, éduquer et aimer tous les animaux qui leur sont confiés, en attendant qu’ils trouvent leur famille pour la vie.**

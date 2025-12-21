@@ -6,7 +6,7 @@ category=AAdopter, chien
 tags=
 status=published
 contentImage=images/animeaux/Pirat.jpg
-order=203
+order=205
 exerpt=Pirate a vécu ses 4 premières années enfermés mais en quelques jours, il se faufilait sur le canapé avec ses amis chiens (et très vite, avec le chat!)
 sexe=Mâle de 26kg
 dateNaissance=estimé au 1er janvier 2020
@@ -17,7 +17,7 @@ tarif=Adoption à 180 euros (cause handicap)
 caractere=Timide,Gourmand,Calme et gentil
 autre=Stérilisé,Vermifugé et déparasité,Vacciné,Visible à Lussac-les-Eglises
 ~~~~~~
-Pirate a vécu ses 4 premières années enfermés dans un chenil avec 9 autres congénères. Dernier à en sortir, il nous a très largement surpris au fur et à mesure des semaines passant. En effet, il avait tout à découvrir et apprendre ! D’abord, il a appris à vivre en maison, ce qui n’a pas été une mince affaire car ce loulou était terrorisé d’y rentrer… Et finalement, en quelques jours, il se faufilait sur le canapé avec ses amis chiens (et très vite, avec le chat!). Il aura mis beaucoup plus de temps à faire confiance à l’humain, qui l’avait déçu voire malmené… 
+**Pirate a vécu ses 4 premières années enfermés dans un chenil avec 9 autres congénères. Dernier à en sortir, il nous a très largement surpris au fur et à mesure des semaines passant. En effet, il avait tout à découvrir et apprendre ! D’abord, il a appris à vivre en maison, ce qui n’a pas été une mince affaire car ce loulou était terrorisé d’y rentrer… Et finalement, en quelques jours, il se faufilait sur le canapé avec ses amis chiens (et très vite, avec le chat!). Il aura mis beaucoup plus de temps à faire confiance à l’humain, qui l’avait déçu voire malmené… **
 
 A présent, Pirate reçoit des câlins, de l’amour, il est entouré d’amis à deux pattes qui lui offrent la patience dont il a besoin et c’est comme ça que, petit à petit, il a compris que maintenant il était en sécurité… C’est un chien très tranquille et indépendant qui vit normalement et aime les promenades avec ses congénères. Il aime son confort (et le mérite amplement!)
 
