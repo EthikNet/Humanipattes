@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
+        <loc>https://ethiknet.github.io/Humanipattes/adopter/chien/Pirate.html</loc>
+        <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
         <loc>https://ethiknet.github.io/Humanipattes/partenaires/600_partenaires.html</loc>
         <lastmod>2025-12-19</lastmod>
     </url>
@@ -17,11 +21,19 @@
         <lastmod>2025-12-19</lastmod>
     </url>
     <url>
-        <loc>https://ethiknet.github.io/Humanipattes/adopter/203_Simca.html</loc>
+        <loc>https://ethiknet.github.io/Humanipattes/adopter/chien/250_adopter_chien.html</loc>
         <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-        <loc>https://ethiknet.github.io/Humanipattes/adopter/201_Boulette.html</loc>
+        <loc>https://ethiknet.github.io/Humanipattes/adopter/chat/Simca.html</loc>
+        <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+        <loc>https://ethiknet.github.io/Humanipattes/adopter/chat/Boulette.html</loc>
+        <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+        <loc>https://ethiknet.github.io/Humanipattes/adopter/chat/201_adopter_chat.html</loc>
         <lastmod>2025-12-16</lastmod>
     </url>
     <url>
@@ -46,43 +58,19 @@
     </url>
     <url>
         <loc>https://ethiknet.github.io/Humanipattes/footer/096_soutient.html</loc>
-        <lastmod>2025-12-19</lastmod>
+        <lastmod>2025-12-21</lastmod>
     </url>
     <url>
         <loc>https://ethiknet.github.io/Humanipattes/footer/094_contact.html</loc>
-        <lastmod>2025-12-19</lastmod>
+        <lastmod>2025-12-21</lastmod>
     </url>
     <url>
         <loc>https://ethiknet.github.io/Humanipattes/footer/092_naviguation.html</loc>
-        <lastmod>2025-12-19</lastmod>
+        <lastmod>2025-12-21</lastmod>
     </url>
     <url>
         <loc>https://ethiknet.github.io/Humanipattes/footer/090_accroche.html</loc>
-        <lastmod>2025-12-19</lastmod>
-    </url>
-    <url>
-        <loc>https://ethiknet.github.io/Humanipattes/partenaires/aide_magasins/list/216_Intermarche.html</loc>
-        <lastmod>2025-12-19</lastmod>
-    </url>
-    <url>
-        <loc>https://ethiknet.github.io/Humanipattes/association/legal/list/210_Informations_legales.html</loc>
-        <lastmod>2025-12-19</lastmod>
-    </url>
-    <url>
-        <loc>https://ethiknet.github.io/Humanipattes/partenaires/aide_magasins/list/214_bricomarch%C3%A9.html</loc>
-        <lastmod>2025-12-19</lastmod>
-    </url>
-    <url>
-        <loc>https://ethiknet.github.io/Humanipattes/association/legal/216_legal.html</loc>
-        <lastmod>2025-12-19</lastmod>
-    </url>
-    <url>
-        <loc>https://ethiknet.github.io/Humanipattes/partenaires/aide_magasins/list/212_game_vert.html</loc>
-        <lastmod>2025-12-19</lastmod>
-    </url>
-    <url>
-        <loc>https://ethiknet.github.io/Humanipattes/association/equipe/list/212_Lauraleen.html</loc>
-        <lastmod>2025-12-19</lastmod>
+        <lastmod>2025-12-21</lastmod>
     </url>
     <url>
         <loc>https://ethiknet.github.io/Humanipattes/partenaires/aide_magasins/list/210_Jardiland.html</loc>
@@ -141,23 +129,11 @@
         <lastmod>2025-12-19</lastmod>
     </url>
     <url>
-        <loc>https://ethiknet.github.io/Humanipattes/activitees/319_activite_objectif_2026.html</loc>
-        <lastmod>2025-12-19</lastmod>
-    </url>
-    <url>
         <loc>https://ethiknet.github.io/Humanipattes/partenaires/aide_passociations/list/214_le_coeur_sur_la_pattes.html</loc>
         <lastmod>2025-12-19</lastmod>
     </url>
     <url>
-        <loc>https://ethiknet.github.io/Humanipattes/activitees/318_activite_collecte.html</loc>
-        <lastmod>2025-12-19</lastmod>
-    </url>
-    <url>
         <loc>https://ethiknet.github.io/Humanipattes/partenaires/aide_passociations/list/212_Sales_cabots.html</loc>
-        <lastmod>2025-12-19</lastmod>
-    </url>
-    <url>
-        <loc>https://ethiknet.github.io/Humanipattes/activitees/316_activite_sensibilisation.html</loc>
         <lastmod>2025-12-19</lastmod>
     </url>
     <url>
@@ -169,7 +145,7 @@
         <lastmod>2025-12-19</lastmod>
     </url>
     <url>
-        <loc>https://ethiknet.github.io/Humanipattes/activitees/314_activite_sauvetage.html</loc>
+        <loc>https://ethiknet.github.io/Humanipattes/activitees/319_activite_objectif_2026.html</loc>
         <lastmod>2025-12-19</lastmod>
     </url>
     <url>
@@ -181,7 +157,7 @@
         <lastmod>2025-12-19</lastmod>
     </url>
     <url>
-        <loc>https://ethiknet.github.io/Humanipattes/activitees/312_activite_sterilisation.html</loc>
+        <loc>https://ethiknet.github.io/Humanipattes/activitees/318_activite_collecte.html</loc>
         <lastmod>2025-12-19</lastmod>
     </url>
     <url>
@@ -193,7 +169,7 @@
         <lastmod>2025-12-19</lastmod>
     </url>
     <url>
-        <loc>https://ethiknet.github.io/Humanipattes/activitees/310_title.html</loc>
+        <loc>https://ethiknet.github.io/Humanipattes/activitees/316_activite_sensibilisation.html</loc>
         <lastmod>2025-12-19</lastmod>
     </url>
     <url>
@@ -205,16 +181,40 @@
         <lastmod>2025-12-19</lastmod>
     </url>
     <url>
-        <loc>https://ethiknet.github.io/Humanipattes/home_page/impact/list/110_impact_adoption.html</loc>
-        <lastmod>2025-12-16</lastmod>
+        <loc>https://ethiknet.github.io/Humanipattes/activitees/314_activite_sauvetage.html</loc>
+        <lastmod>2025-12-19</lastmod>
     </url>
     <url>
-        <loc>https://ethiknet.github.io/Humanipattes/home_page/impact/112_impact.html</loc>
-        <lastmod>2025-12-16</lastmod>
+        <loc>https://ethiknet.github.io/Humanipattes/partenaires/aide_magasins/list/216_Intermarche.html</loc>
+        <lastmod>2025-12-19</lastmod>
     </url>
     <url>
-        <loc>https://ethiknet.github.io/Humanipattes/home_page/evenements/116_hp_evenements.html</loc>
-        <lastmod>2025-12-16</lastmod>
+        <loc>https://ethiknet.github.io/Humanipattes/association/legal/list/210_Informations_legales.html</loc>
+        <lastmod>2025-12-19</lastmod>
+    </url>
+    <url>
+        <loc>https://ethiknet.github.io/Humanipattes/activitees/312_activite_sterilisation.html</loc>
+        <lastmod>2025-12-19</lastmod>
+    </url>
+    <url>
+        <loc>https://ethiknet.github.io/Humanipattes/partenaires/aide_magasins/list/214_bricomarch%C3%A9.html</loc>
+        <lastmod>2025-12-19</lastmod>
+    </url>
+    <url>
+        <loc>https://ethiknet.github.io/Humanipattes/association/legal/216_legal.html</loc>
+        <lastmod>2025-12-19</lastmod>
+    </url>
+    <url>
+        <loc>https://ethiknet.github.io/Humanipattes/activitees/310_title.html</loc>
+        <lastmod>2025-12-19</lastmod>
+    </url>
+    <url>
+        <loc>https://ethiknet.github.io/Humanipattes/partenaires/aide_magasins/list/212_game_vert.html</loc>
+        <lastmod>2025-12-19</lastmod>
+    </url>
+    <url>
+        <loc>https://ethiknet.github.io/Humanipattes/association/equipe/list/212_Lauraleen.html</loc>
+        <lastmod>2025-12-19</lastmod>
     </url>
     <url>
         <loc>https://ethiknet.github.io/Humanipattes/home_page/aide/list/114_aide_benevole.html</loc>
@@ -250,6 +250,18 @@
     </url>
     <url>
         <loc>https://ethiknet.github.io/Humanipattes/home_page/impact/list/112_impact_sterilisation.html</loc>
+        <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+        <loc>https://ethiknet.github.io/Humanipattes/home_page/impact/list/110_impact_adoption.html</loc>
+        <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+        <loc>https://ethiknet.github.io/Humanipattes/home_page/impact/112_impact.html</loc>
+        <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+        <loc>https://ethiknet.github.io/Humanipattes/home_page/evenements/116_hp_evenements.html</loc>
         <lastmod>2025-12-16</lastmod>
     </url>
     <url>
