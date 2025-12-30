@@ -3,6 +3,7 @@ date=2025-12-16
 type=org_openCiLife_post
 includeContent={"type":"org_openCiLife_post", "category":"chat", "specificClass":"fourPerRow cardAnimal", "display":{"type":"card", "content":"link"}}
 category=AAdopter, chat
+subTemplate=humaniPattes.aAdopterSubTemplate
 tags=
 status=published
 contentImage=images/animeaux/boulette.jpg

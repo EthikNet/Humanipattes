@@ -16,7 +16,12 @@
 		</div>
 	</#if>
 	<#if (content.body)??>
-		${content.body}
+		<#if (content.subTemplate)??>
+			<#assign subTemplateInterpretation = "<@${content.subTemplate} content />"?interpret>
+			<@subTemplateInterpretation/>
+		<#else>
+			${content.body}
+		</#if>
 	</#if>
 	
 	<#if hookHelper?? && hookHelper.hasContributors("afterBody")>

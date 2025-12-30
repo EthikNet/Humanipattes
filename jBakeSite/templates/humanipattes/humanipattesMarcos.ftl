@@ -68,3 +68,58 @@
 		</#list>
 	</div>
 </#macro>
+
+<#macro aAdopterSubTemplate theContent>
+	<div class="aAdopterSubTemplate">
+		<div class="animalBio">
+			<div class="animalPhoto">
+				<#if (theContent.contentImage)??>
+					<@common.addImageIcon theContent.contentImage "animalMainImage"/>
+				</#if>
+			</div>
+			<div class="animalDescription">
+				<div class="animalTitle">
+					${theContent.title}
+				</div>
+				${theContent.body}
+			</div>
+		</div>
+		<div class="animalOtherInfos>
+			<div class="mainInfos">
+				<span class="title">En Résumé</span>
+				<ul>
+				<#if (theContent.sexe)??>
+					<li class="animalSexe">${theContent.sexe}</li>
+				</#if>
+				<#if (theContent.dateNaissance)??>
+					<li class="animalDateNaissance">${theContent.dateNaissance}</li>
+				</#if>
+				<#if (theContent.bonus)??>
+					<li class="animalBonus">${theContent.bonus}</li>
+				</#if>
+				<#if (theContent.tarif)??>
+					<li class="animalTarif">${theContent.tarif}</li>
+				</#if>
+				</ul>
+			</div>
+			<div class="animalCaractere">
+				<span class="title">Son caractère</span>
+				<#if (theContent.caractere)??>
+					<ul>
+					<li class="animalcaractere">${theContent.caractere}</li>
+					</ul>
+				</#if>
+			</div>
+			<div class="animalNow">
+				<span class="title">Actuellement</span>
+				<#if (theContent.autre)??>
+					<ul>
+					<li class="animalAutre">${theContent.autre}</li>
+					</ul>
+				</#if>
+			</div>
+		</div>
+		<div class="animalOtherPhotos">
+		</div>
+	</div>
+</#macro>
