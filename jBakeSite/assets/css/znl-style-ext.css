@@ -354,6 +354,16 @@
 	height:auto;
 }
 
+.aAdopterSubTemplate .animalBio {
+	display: flex;
+	flex-direction: column;
+}
+
+.aAdopterSubTemplate .animalOtherInfos {
+	display: flex;
+	flex-direction: column;
+}
+
 #footer_blocks .block {
 	text-align:left;
 }
@@ -401,4 +411,29 @@
 	.activitees .objectif2026 ul {
 		width:60%;
 	}
+	.aAdopterSubTemplate .animalBio {
+		flex-direction: row;
+	}
+	.aAdopterSubTemplate .animalBio .animalPhoto {
+		width: 50%;
+		text-align: center;
+	}
+	.aAdopterSubTemplate .animalBio .animalDescription {
+		width: 50%;
+	}
+	.aAdopterSubTemplate .animalOtherInfos {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.aAdopterSubTemplate .animalOtherInfos .mainInfos {
+		width:30%;
+	}
+	.aAdopterSubTemplate .animalOtherInfos .animalCaractere {
+		width:30%;
+	}
+	.aAdopterSubTemplate .animalOtherInfos .animalNow {
+		width:30%;
+	}
+	
 }

@@ -7,6 +7,7 @@ tags=
 status=published
 contentImage=images/animeaux/Simca.jpg
 order=205
+displayTags=false
 exerpt=Simca fait partie des chats libres que nous souhaitons faire adopter.
 sexe=Femelle
 dateNaissance=estimée au 1er août 2022

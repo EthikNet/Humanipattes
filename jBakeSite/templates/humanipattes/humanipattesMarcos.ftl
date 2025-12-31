@@ -78,15 +78,15 @@
 				</#if>
 			</div>
 			<div class="animalDescription">
-				<div class="animalTitle">
+				<h2 class="animalTitle">
 					${theContent.title}
-				</div>
+				</h2>
 				${theContent.body}
 			</div>
 		</div>
-		<div class="animalOtherInfos>
+		<div class="animalOtherInfos">
 			<div class="mainInfos">
-				<span class="title">En Résumé</span>
+				<h3 class="title">En Résumé</h3>
 				<ul>
 				<#if (theContent.sexe)??>
 					<li class="animalSexe">${theContent.sexe}</li>
@@ -103,7 +103,7 @@
 				</ul>
 			</div>
 			<div class="animalCaractere">
-				<span class="title">Son caractère</span>
+				<h3 class="title">Son caractère</h3>
 				<#if (theContent.caractere)??>
 					<ul>
 					<li class="animalcaractere">${theContent.caractere}</li>
@@ -111,7 +111,7 @@
 				</#if>
 			</div>
 			<div class="animalNow">
-				<span class="title">Actuellement</span>
+				<h3 class="title">Actuellement</h3>
 				<#if (theContent.autre)??>
 					<ul>
 					<li class="animalAutre">${theContent.autre}</li>

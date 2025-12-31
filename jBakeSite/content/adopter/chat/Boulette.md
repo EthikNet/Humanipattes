@@ -8,6 +8,7 @@ tags=
 status=published
 contentImage=images/animeaux/boulette.jpg
 order=203
+displayTags=false
 exerpt=Découverte avec 18 autres congénères Boulette fait partie des tout premiers à nous avoir accordé sa confiance ! 
 sexe=Mâle
 dateNaissance=estimé au 1er août 2022
