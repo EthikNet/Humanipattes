@@ -84,7 +84,7 @@
 				${theContent.body}
 			</div>
 		</div>
-		<div class="animalOtherInfos">
+		<div class="animalOtherInfos primary">
 			<div class="mainInfos">
 				<h3 class="title">En Résumé</h3>
 				<ul>
@@ -95,7 +95,13 @@
 					<li class="animalDateNaissance">${theContent.dateNaissance}</li>
 				</#if>
 				<#if (theContent.bonus)??>
-					<li class="animalBonus">${theContent.bonus}</li>
+					<@splitAsLi theContent.bonus "," "animalBonus" />
+				</#if>
+				<#if (theContent.aEviter)??>
+					<@splitAsLi theContent.aEviter "," "animalAEviter" />
+				</#if>
+				<#if (theContent.requis)??>
+					<@splitAsLi theContent.requis "," "animalRequis" />
 				</#if>
 				<#if (theContent.tarif)??>
 					<li class="animalTarif">${theContent.tarif}</li>
@@ -106,20 +112,48 @@
 				<h3 class="title">Son caractère</h3>
 				<#if (theContent.caractere)??>
 					<ul>
-					<li class="animalcaractere">${theContent.caractere}</li>
+						<@splitAsLi theContent.caractere />
 					</ul>
 				</#if>
 			</div>
 			<div class="animalNow">
 				<h3 class="title">Actuellement</h3>
+				<ul>
 				<#if (theContent.autre)??>
-					<ul>
-					<li class="animalAutre">${theContent.autre}</li>
-					</ul>
+					<@splitAsLi theContent.autre />
 				</#if>
+				<#if (theContent.visible)??>
+					<li class="animalVisible">${theContent.visible}</li>
+				</#if>
+				</ul>
 			</div>
 		</div>
 		<div class="animalOtherPhotos">
 		</div>
 	</div>
+	
+	<div class="animalPhotos">
+		<#if (theContent.imageList)??>
+			<#if (theContent.imageList.data)??>
+				<#list theContent.imageList.data as fileInfo>
+					<img src="${common.buildRootPathAwareURL(fileInfo.file)}"
+					<#if (fileInfo.alt)??> alt="${fileInfo.alt}"</#if>
+					<#if (fileInfo.width)??> width="${fileInfo.width}"</#if>
+					<#if (fileInfo.height)??> height="${fileInfo.height}"</#if>/>
+				</#list>
+			</#if>
+		</#if>
+	</div>
+</#macro>
+
+
+<#macro splitAsLi(content, separator=",", specificClass="")>
+	<#local splitedItems = content?split(separator)>
+	<#list splitedItems as item>
+		<#local classAttr = "">
+		<#if specificClass??>
+			<#local classAttr="class=\""+specificClass+"\"">
+		</#if>
+		<li ${classAttr}>${item}</li>
+	</#list>
 </#macro>

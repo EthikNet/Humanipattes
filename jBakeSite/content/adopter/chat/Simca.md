@@ -1,21 +1,22 @@
 title=Simca
 date=2025-12-16
 type=org_openCiLife_post
-includeContent={"type":"org_openCiLife_post", "category":"chat", "specificClass":"fourPerRow cardAnimal", "display":{"type":"card", "content":"link"}}
+includeContent={"type":"org_openCiLife_post", "category":"chat", "specificClass":"fourPerRow cardAnimal", "title":"Nos autres chats à adopter", "displaySelf":"none", "noContentText":"Pas d'autres chats à adopter", "limit":8, "showMore":{"label":"voir tous les chats à adopter", "to":"${webleger.build.host}/adopter/chat/201_adopter_chat.html", "specificClass":"btn btn-primary no_state"}, "display":{"type":"card", "content":"link"}}
 category=AAdopter, chat
-tags=
+subTemplate=humaniPattes.aAdopterSubTemplate
 status=published
 contentImage=images/animeaux/Simca.jpg
+imageList={"data":[{"file":"images/animeaux/Simca_nature.jpg", "alt":"Simca dans la nature", "width":"550px"}, {"file":"images/animeaux/Simca_nature2.jpg", "alt":"Simca encore dans la nature","width":"550px"}]}
 order=205
-displayTags=false
 exerpt=Simca fait partie des chats libres que nous souhaitons faire adopter.
 sexe=Femelle
 dateNaissance=estimée au 1er août 2022
-AEviter=Enfant en bas âge à éviter
+aEviter=Enfant en bas âge à éviter
 bonus=maison avec extérieur
 tarif=160 euros
 caractere=Douce,Observatrice,Câline
-autre=Stérilisée,Vermifugée et déparasitée,Vaccinée,Visible à St Hilaire la Treille
+autre=Stérilisée,Vermifugée et déparasitée,Vaccinée
+visible=Visible à St Hilaire la Treille
 ~~~~~~
 Simca fait partie des chats libres que nous souhaitons faire adopter.
 

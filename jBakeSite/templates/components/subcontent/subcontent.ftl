@@ -34,6 +34,9 @@ param : content : content to search for include content
 		<#local allSubContents = db.getPublishedContent(content.includeContent.type)>
 		<#local displaySelf = (content.includeContent.displaySelf)!"disabled">
 		<#local includeContentFilter = content.includeContent.category!"all">
+		<#local noCnontentText = content.includeContent.noContentText!"pas de contenus (pour le moment).">
+		<#local maxItemToDisplay = content.includeContent.limit!-1>
+		
 		<#local subContents = allSubContents>
 		
 		<#--  filter by categories -->
@@ -56,7 +59,8 @@ param : content : content to search for include content
 			</#if>
 		</#if>
 		
-		<div <@generateAnchor content/>>
+		<#local specificClass = (content.includeContent.specificClass)!"">
+		<div <@generateAnchor content/><#if specificClass??> class="${specificClass}"</#if>>
 		<#if (subContents?size > 0)>
 			<#if (content.includeContent.title)??>
 				<div class="title">${content.includeContent.title}</div>
@@ -64,7 +68,7 @@ param : content : content to search for include content
 			<#local listDisplayType = (content.includeContent.display.type)!"bullet">
 			<#local subContentDisplayContentMode = (content.includeContent.display.content)!"link">
 			<#local subContentBeforeTitleImage = (content.includeContent.display.beforeTitleImage)!"">
-			<#local specificClass = (content.includeContent.specificClass)!"">
+			
 			<#local subContentmodaleCloseButton = (content.includeContent.display.closeButton)!"close">
 			<#local hasSubTemplate = (content.includeContent.display.subTemplate)!"">
 			
@@ -82,7 +86,7 @@ param : content : content to search for include content
 				<@subTemplateInterpretation/>
 				<#return>
 			<#elseif (listDisplayType == "table")>
-				<table class="${listDisplayType}_list content_type_${subContentDisplayContentMode} ${specificClass}">
+				<table class="${listDisplayType}_list content_type_${subContentDisplayContentMode}">
 					<thead>
 						<tr>
 							<#if (content.includeContent.display.columns)??>
@@ -101,9 +105,12 @@ param : content : content to search for include content
 					</thead>
 					<tbody>
 			<#else>
-				<div class="${listDisplayType}_list ${specificClass}">
+				<div class="${listDisplayType}_list">
 			</#if>
 			<#list subContents?sort_by("order") as subContent>
+				<#if (maxItemToDisplay!=-1) && (subContent?counter >= maxItemToDisplay) >
+					<#break>
+				</#if>
 				<#local uselessTempVar = commonInc.propagateContentChain(subContent) />
 				<#local subContentCategory = (subContent.category)!"__none__">
 				<#local specificContentClass = (content.includeContent.display.specificClass)!"">
@@ -341,7 +348,7 @@ param : content : content to search for include content
 					<#if hookHelper??>
 						<@hookHelper.hook "afterItemSubContent" subContent/>
 					</#if>
-				</#if> <#-- end onf contentDuisplayType "switch" -->
+				</#if> <#-- end onf contentDisplayType "switch" -->
 			</#list>
 			<#if (listDisplayType == "table")>
 					</tbody>
@@ -349,8 +356,13 @@ param : content : content to search for include content
 			<#else>
 				</div>
 			</#if>
+			<#if (content.includeContent.showMore)??>
+				<a class="showMore ${content.includeContent.showMore.specificClass}" href="${content.includeContent.showMore.to}">
+					${content.includeContent.showMore.label}
+				</a>
+			</#if>
 		<#else>
-			pas de contenus (pour le moment).
+			<span class="noContent">${noCnontentText}</span>			
 		</#if>
 		</div>
 		<#if hookHelper??>

@@ -108,6 +108,21 @@
     border-radius: 20px;
     background-color:${webleger.site.style.background.color};
 }
+
+#mainContent .cardAnimal {
+	border-top: 2px solid ${webleger.site.style.secondary.background.color};
+	margin-top: 10px;
+	border-radius: 20px;
+	border-bottom: 2px solid ${webleger.site.style.secondary.background.color};
+	margin-bottom: 10px;
+}
+
+#mainContent .cardAnimal .title {
+	font-size: x-large;
+	font-weight: bold;
+	margin: 20px 0 20px 50px;
+}
+
 #mainContent .cardAnimal .card .card_image {
 	margin: 0 auto;
 	display: block;
@@ -362,7 +377,43 @@
 .aAdopterSubTemplate .animalOtherInfos {
 	display: flex;
 	flex-direction: column;
+	border-radius:20px;
 }
+
+.aAdopterSubTemplate .animalOtherInfos .title {
+	text-align:center;
+}
+.aAdopterSubTemplate .animalOtherInfos ul li {
+	background-image: url(${webleger.build.host}/images/catTail.svg);
+	padding: 0px 0px 5px 30px;
+	list-style: none;
+	margin: 0;
+	vertical-align: middle;
+	background-repeat: no-repeat;
+	background-position: 0 3px;
+}
+.aAdopterSubTemplate .animalOtherInfos .mainInfos .animalSexe {
+	background-image: url(${webleger.build.host}/images/sexe.svg);
+}
+.aAdopterSubTemplate .animalOtherInfos .mainInfos .animalDateNaissance {
+	background-image: url(${webleger.build.host}/images/dateNaissance.svg);
+}
+.aAdopterSubTemplate .animalOtherInfos .mainInfos .animalBonus {
+	background-image: url(${webleger.build.host}/images/bonus.svg);
+}
+.aAdopterSubTemplate .animalOtherInfos .mainInfos .animalTarif {
+	background-image: url(${webleger.build.host}/images/euro.svg);
+}
+.aAdopterSubTemplate .animalOtherInfos .mainInfos .animalAEviter {
+	background-image: url(${webleger.build.host}/images/interdit.svg);
+}
+.aAdopterSubTemplate .animalOtherInfos .mainInfos .animalRequis {
+	background-image: url(${webleger.build.host}/images/requis.svg);
+}
+.aAdopterSubTemplate .animalOtherInfos .animalNow .animalVisible {
+	background-image: url(${webleger.build.host}/images/maison.svg);
+}
+
 
 #footer_blocks .block {
 	text-align:left;

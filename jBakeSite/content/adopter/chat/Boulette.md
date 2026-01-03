@@ -1,23 +1,23 @@
 title=Boulette
 date=2025-12-16
 type=org_openCiLife_post
-includeContent={"type":"org_openCiLife_post", "category":"chat", "specificClass":"fourPerRow cardAnimal", "display":{"type":"card", "content":"link"}}
+includeContent={"type":"org_openCiLife_post", "category":"chat", "specificClass":"fourPerRow cardAnimal", "title":"Nos autres chats à adopter", "displaySelf":"none", "noContentText":"Pas d'autres chats à adopter", "limit":8, "showMore":{"label":"voir tous les chats à adopter", "to":"${webleger.build.host}/adopter/chat/201_adopter_chat.html", "specificClass":"btn btn-primary no_state"}, "display":{"type":"card", "content":"link"}}
 category=AAdopter, chat
 subTemplate=humaniPattes.aAdopterSubTemplate
-tags=
 status=published
 contentImage=images/animeaux/boulette.jpg
+imageList={"data":[{"file":"images/animeaux/boulette_sur_couette.jpg", "alt":"Boulette sur une couette", "width":"550px"}, {"file":"images/animeaux/boulette_dans_nature.jpg", "alt":"Boulette dans la nature","width":"550px"}, {"file":"images/animeaux/boulette_devant_fenetre.jpg", "alt":"Boulette devant une fenetre","width":"1100px"}]}
 order=203
-displayTags=false
 exerpt=Découverte avec 18 autres congénères Boulette fait partie des tout premiers à nous avoir accordé sa confiance ! 
 sexe=Mâle
 dateNaissance=estimé au 1er août 2022
 bonus=congénères présents,maison avec extérieur
 tarif=140 euros
 caractere=Doux,Gourmand,Câlin
-autre=Stérilisé,Vermifugé et déparasité,Vacciné,Visible à St Hilaire la Treille
+autre=Stérilisé,Vermifugé et déparasité,Vacciné
+visible=Visible à St Hilaire la Treille
 ~~~~~~
-Boulette fait partie des chats libres que nous souhaitons faire adopter. 
+Boulette fait partie des chats libres que nous souhaitons faire adopter.
 
 Découvert avec 18 autres congénères sur une immense propriété laissée plus ou moins à l’abandon, nous avons choisi, avec nos faibles moyens, de les tous les mettre en règle. Une fois stérilisés et identifiés, nous avons installé un point de nourrissage sur leur lieu de vie, afin de les aider à se remplumer. 
 

@@ -3,11 +3,9 @@ date=2025-12-16
 type=org_openCiLife_post
 includeContent={"type":"org_openCiLife_post", "category":"chien", "specificClass":"fourPerRow cardAnimal", "display":{"type":"card", "content":"link"}}
 category=typeAnimal
-tags=
 displayDate=false
-displayTags=false
 status=published
-contentImage=images/adpoter_chien.jpg
+contentImage=images/adopter_chien.svg
 order=250
 exerpt=Tous nos chiens sont identifiés, vaccinés et stérilisés.
 ~~~~~~
