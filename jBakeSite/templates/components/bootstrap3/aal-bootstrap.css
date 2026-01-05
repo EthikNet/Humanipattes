@@ -7491,11 +7491,6 @@ button.close {
 	color:${webleger.site.style.secondary.disabled.color};
 }
 
-.secondary .btn:hover,
-.secondary .btn:focus {
-	color: ${webleger.site.style.secondary.color}
-}
-
 .secondary .btn-default {
 	color: ${webleger.site.style.secondary.color};
 	background-color: ${webleger.site.style.secondary.background.color};
