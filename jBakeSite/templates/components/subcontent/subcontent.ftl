@@ -357,9 +357,11 @@ param : content : content to search for include content
 				</div>
 			</#if>
 			<#if (content.includeContent.showMore)??>
+				<div class="showMoreContainer">
 				<a class="showMore<#if (content.includeContent.showMore.specificClass)??> ${content.includeContent.showMore.specificClass}</#if>" href="${content.includeContent.showMore.to}">
 					${content.includeContent.showMore.label}
 				</a>
+				</div>
 			</#if>
 		<#else>
 			<span class="noContent">${noCnontentText}</span>			
