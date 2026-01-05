@@ -1,0 +1,11 @@
+<svg width="24" height="24" viewBox="0 0 64 64"
+     xmlns="http://www.w3.org/2000/svg"
+     fill="none"
+     stroke="hsl(40,33%,96%)"
+     stroke-width="4"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+  <path d="M8 40
+           C28 40, 44 40, 52 38
+           C56 36, 56 30, 48 28" />
+</svg>
