@@ -1,8 +1,8 @@
 title=Boulette
 date=2025-12-16
 type=org_openCiLife_post
-includeContent={"type":"org_openCiLife_post", "category":"chat", "specificClass":"fourPerRow cardAnimal", "title":"Nos autres chats à adopter", "displaySelf":"none", "noContentText":"Pas d'autres chats à adopter", "limit":8, "showMore":{"label":"voir tous les chats à adopter", "to":"${webleger.build.host}/adopter/chat/201_adopter_chat.html", "specificClass":"btn btn-primary no_state"}, "display":{"type":"card", "content":"link"}}
-category=AAdopter, chat
+includeContent={"type":"org_openCiLife_post", "category":"chat", "specificClass":"fourPerRow cardAnimal moreAdopter", "title":"Nos autres chats à adopter", "displaySelf":"none", "noContentText":"Pas d'autres chats à adopter", "limit":8, "showMore":{"label":"voir tous les chats à adopter", "to":"${webleger.build.host}/animeaux/chat/201_adopter_chat.html", "specificClass":"btn btn-primary no_state"}, "display":{"type":"card", "content":"link"}}
+category=AAdopter_chat
 subTemplate=humaniPattes.aAdopterSubTemplate
 status=published
 contentImage=images/animeaux/boulette.jpg

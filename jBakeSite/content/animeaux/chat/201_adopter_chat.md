@@ -1,7 +1,7 @@
 title=Adopter un chat
 date=2025-12-16
 type=org_openCiLife_post
-includeContent={"type":"org_openCiLife_post", "category":"chat", "specificClass":"fourPerRow cardAnimal", "display":{"type":"card", "content":"link"}}
+includeContent={"type":"org_openCiLife_post", "category":"AAdopter_chat", "specificClass":"fourPerRow cardAnimal", "display":{"type":"card", "content":"link"}}
 category=typeAnimal
 displayDate=false
 status=published

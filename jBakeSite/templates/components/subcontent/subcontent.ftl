@@ -34,7 +34,7 @@ param : content : content to search for include content
 		<#local allSubContents = db.getPublishedContent(content.includeContent.type)>
 		<#local displaySelf = (content.includeContent.displaySelf)!"disabled">
 		<#local includeContentFilter = content.includeContent.category!"all">
-		<#local noCnontentText = content.includeContent.noContentText!"pas de contenus (pour le moment).">
+		<#local noCnontentText = content.includeContent.noContentText!"">
 		<#local maxItemToDisplay = content.includeContent.limit!-1>
 		
 		<#local subContents = allSubContents>
@@ -108,7 +108,7 @@ param : content : content to search for include content
 				<div class="${listDisplayType}_list">
 			</#if>
 			<#list subContents?sort_by("order") as subContent>
-				<#if (maxItemToDisplay!=-1) && (subContent?counter >= maxItemToDisplay) >
+				<#if (maxItemToDisplay!=-1) && (subContent?counter > maxItemToDisplay) >
 					<#break>
 				</#if>
 				<#local uselessTempVar = commonInc.propagateContentChain(subContent) />
@@ -357,7 +357,7 @@ param : content : content to search for include content
 				</div>
 			</#if>
 			<#if (content.includeContent.showMore)??>
-				<a class="showMore ${content.includeContent.showMore.specificClass}" href="${content.includeContent.showMore.to}">
+				<a class="showMore<#if (content.includeContent.showMore.specificClass)??> ${content.includeContent.showMore.specificClass}</#if>" href="${content.includeContent.showMore.to}">
 					${content.includeContent.showMore.label}
 				</a>
 			</#if>

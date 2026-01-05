@@ -1,4 +1,4 @@
-title=Adopter un animal
+title=Nos animaux
 date=2025-12-16
 type=org_openCiLife_post
 includeContent={"type":"org_openCiLife_post", "category":"typeAnimal", "specificClass":"fourPerRow cardAnimal", "display":{"type":"card", "content":"link"}}

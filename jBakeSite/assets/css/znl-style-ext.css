@@ -109,7 +109,7 @@
     background-color:${webleger.site.style.background.color};
 }
 
-#mainContent .cardAnimal {
+#mainContent .moreAdopter {
 	border-top: 2px solid ${webleger.site.style.secondary.background.color};
 	margin-top: 10px;
 	border-radius: 20px;

@@ -1,8 +1,8 @@
 title=Pirate
 date=2025-12-21
 type=org_openCiLife_post
-includeContent={"type":"org_openCiLife_post", "category":"chien", "specificClass":"fourPerRow cardAnimal", "title":"Nos autres chats à adopter", "displaySelf":"none", "noContentText":"Pas d'autres chiens à adopter", "limit":8, "showMore":{"label":"voir tous les chiens à adopter", "to":"${webleger.build.host}/adopter/chien/250_adopter_chien.html", "specificClass":"btn btn-primary no_state"}, "display":{"type":"card", "content":"link"}}
-category=AAdopter, chien
+includeContent={"type":"org_openCiLife_post", "category":"chien", "specificClass":"fourPerRow cardAnimal moreAdopter", "title":"Nos autres chats à adopter", "displaySelf":"none", "noContentText":"Pas d'autres chiens à adopter", "limit":8, "showMore":{"label":"voir tous les chiens à adopter", "to":"${webleger.build.host}/animeaux/chien/250_adopter_chien.html", "specificClass":"btn btn-primary no_state"}, "display":{"type":"card", "content":"link"}}
+category=AAdopter_chien
 subTemplate=humaniPattes.aAdopterSubTemplate
 status=published
 contentImage=images/animeaux/Pirate.jpg

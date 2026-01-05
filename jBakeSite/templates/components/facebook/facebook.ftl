@@ -1,36 +1,33 @@
 <#function getComponnentInfo>
-	<#return {"componnentVersion":1, "name":"facebook", "description":"To integrate FaceBook in website", "recommandedNamespace":"facebook", "version":"0.1.0", "require":[{"value":"propertiesHelper", "type":"lib"}, {"value":"component.fairlytics.key", "type":"config"}]}>
+	<#return {"componnentVersion":1, "name":"facebook", "description":"To integrate FaceBook in website", "recommandedNamespace":"facebook", "version":"0.2.0", "require":[{"value":"propertiesHelper", "type":"lib"}, {"value":"component.fairlytics.key", "type":"config"}]}>
 </#function>
 
 <#function init>
 	<#return "" />
 </#function>
 
-<#-- build a form
-param : content : content to search for form data
--->
-<#macro addFaceBookScript content>
-<#-- sdk.js -->
-	<#local scriptName="debug.js">
-	<#if (content.useFacebook)?? && content.useFacebook  == "true">
-		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk/${scriptName}#xfbml=1&version=v24.0&appId=${webleger.component.meta.dev.key}"></script>
-	</#if>
+<#macro buildNews content>
+	<@buildfaceBook "timeline" "${webleger.component.meta.facebook.container.url}"/>
 </#macro>
 
-<#macro buildNews content>
+<#macro buildEvent content>
+	<@buildfaceBook "events" "${webleger.component.meta.facebook.container.url}/events" />
+</#macro>
+
+<#macro buildfaceBook tabs href>
 	<div class="faceBookContainer">
     	<div class="fb-page" 
-    		data-href="${webleger.component.meta.facebook.container.url}" 
-    		data-tabs="timeline" 
-    		data-width="${webleger.component.meta.facebook.container.width.mobile}" 
-    		data-height="${webleger.component.meta.facebook.container.height.mobile}" 
-    		data-small-header="true" 
-    		data-adapt-container-width="true" 
+    		data-href="${href}" 
+    		data-tabs="${tabs}" 
+    		data-width="${webleger.component.meta.facebook.container.width.desktop}" 
+    		data-height="${webleger.component.meta.facebook.container.height.desktop}" 
+    		data-small-header="false" 
+    		data-adapt-container-width="false" 
     		data-hide-cover="false" 
     		data-show-facepile="true">
-    			<blockquote cite="https://www.facebook.com/HumaniPattes/" 
+    			<blockquote cite="${webleger.component.meta.facebook.container.url}" 
     				class="fb-xfbml-parse-ignore">
-    					<a href="https://www.facebook.com/HumaniPattes/">${webleger.component.meta.facebook.container.name}</a>
+    					<a href="${webleger.component.meta.facebook.container.url}">${webleger.component.meta.facebook.container.name}</a>
     			</blockquote>
     	</div>
 	</div>

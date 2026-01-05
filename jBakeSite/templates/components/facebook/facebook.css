@@ -1,13 +1,24 @@
 .faceBookContainer {
-	height:${webleger.component.meta.facebook.container.height.mobile};
-	width:${webleger.component.meta.facebook.container.width.mobile};
+	height:${webleger.component.meta.facebook.container.height.mobile}px;
+	width:${webleger.component.meta.facebook.container.width.mobile}px;
 	margin:0 auto;
+}
+
+div.faceBookContainer > div > span, 
+	div.faceBookContainer > div > span > iframe, 
+	div.faceBookContainer > div > span {
+	height:${webleger.component.meta.facebook.container.height.mobile}px !important;
 }
 
 @media screen and (min-width: 640px) {
 	.faceBookContainer {
-	height:${webleger.component.meta.facebook.container.height.desktop};
-	width:${webleger.component.meta.facebook.container.width.desktop};
+		height:${webleger.component.meta.facebook.container.height.desktop}px;
+		width:${webleger.component.meta.facebook.container.width.desktop}px;
+	}
+	div.faceBookContainer > div > span, 
+		div.faceBookContainer > div > span > iframe, 
+		div.faceBookContainer > div > span, div.faceBookContainer > div > span > iframe > html > body > div > div > div > div > div  {
+		height:${webleger.component.meta.facebook.container.height.desktop}px !important;
+	}
 }
 	
-}
