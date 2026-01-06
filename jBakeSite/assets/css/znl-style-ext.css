@@ -57,6 +57,10 @@
 
 .lp_title {
 	padding:50px;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .lp_title .blockTitle {
 	text-align: center;
@@ -66,8 +70,22 @@
 	text-align: center;
 }
 .lp_title .blockContent h2 {
+	font-size: 300%;
+	margin-bottom:40px;
+	display: inline-block;
+    background-color: hsl(212, 32%, 26%, 0.5);
+}
+.lp_title .blockContent h3 {
 	font-size: 200%;
-	padding-bottom:20px;
+	margin-bottom:20px;
+	padding:10px;
+	background-color: hsl(212, 32%, 26%, 0.5);
+}
+.lp_title .blockContent p {
+	margin-bottom:20px;
+	padding:5px;
+	background-color: hsl(212, 32%, 26%, 0.5);
+	letter-spacing: 1px;
 }
 
 .lp_impact .card {
