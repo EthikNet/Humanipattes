@@ -8,4 +8,4 @@ status=published
 order=200
 exerpt=Offrez une seconde chance à nos protégés. Tous nos animaux sont identifiés, vaccinés et stérilisés.
 ~~~~~~
-Offrez une seconde chance à nos protégés. Tous nos animaux sont identifiés, vaccinés et stérilisés.
+Cet onglet présente, à travers ces différentes catégories, tous les animaux pris en charge par Humani’Pattes, hors chats libres stérilisés, identifiés et nourris si besoin. Lorsque les animaux présentés « à l’infirmerie » sont soignés, ils sont mis à l’adoption. 
