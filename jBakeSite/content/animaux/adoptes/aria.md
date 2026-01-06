@@ -3,7 +3,7 @@ date=2026-01-05
 type=org_openCiLife_post
 category=Adoptes
 status=published
-contentImage=images/animeaux/aria.jpg
+contentImage=images/animaux/aria.jpg
 order=291
 ~~~~~~
 	

@@ -1,12 +1,12 @@
 title=Simca
 date=2025-12-16
 type=org_openCiLife_post
-includeContent={"type":"org_openCiLife_post", "category":"AAdopter_chat", "specificClass":"fourPerRow cardAnimal moreAdopter", "title":"Nos autres chats à adopter", "displaySelf":"none", "noContentText":"Pas d'autres chats à adopter", "limit":8, "showMore":{"label":"voir tous les chats à adopter", "to":"${webleger.build.host}/animeaux/chat/201_adopter_chat.html", "specificClass":"btn btn-primary no_state"}, "display":{"type":"card", "content":"link"}}
+includeContent={"type":"org_openCiLife_post", "category":"AAdopter_chat", "specificClass":"fourPerRow cardAnimal moreAdopter", "title":"Nos autres chats à adopter", "displaySelf":"none", "noContentText":"Pas d'autres chats à adopter", "limit":8, "showMore":{"label":"voir tous les chats à adopter", "to":"${webleger.build.host}/animaux/chat/201_adopter_chat.html", "specificClass":"btn btn-primary no_state"}, "display":{"type":"card", "content":"link"}}
 category=AAdopter_chat
 subTemplate=humaniPattes.aAdopterSubTemplate
 status=published
-contentImage=images/animeaux/Simca.jpg
-imageList={"data":[{"file":"images/animeaux/Simca_nature.jpg", "alt":"Simca dans la nature", "width":"550px"}, {"file":"images/animeaux/Simca_nature2.jpg", "alt":"Simca encore dans la nature","width":"550px"}]}
+contentImage=images/animaux/Simca.jpg
+imageList={"data":[{"file":"images/animaux/Simca_nature.jpg", "alt":"Simca dans la nature", "width":"550px"}, {"file":"images/animaux/Simca_nature2.jpg", "alt":"Simca encore dans la nature","width":"550px"}]}
 order=205
 exerpt=Simca fait partie des chats libres que nous souhaitons faire adopter.
 sexe=Femelle

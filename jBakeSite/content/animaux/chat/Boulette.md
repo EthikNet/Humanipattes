@@ -1,12 +1,12 @@
 title=Boulette
 date=2025-12-16
 type=org_openCiLife_post
-includeContent={"type":"org_openCiLife_post", "category":"AAdopter_chat", "specificClass":"fourPerRow cardAnimal moreAdopter", "title":"Nos autres chats à adopter", "displaySelf":"none", "noContentText":"Pas d'autres chats à adopter", "limit":8, "showMore":{"label":"voir tous les chats à adopter", "to":"${webleger.build.host}/animeaux/chat/201_adopter_chat.html", "specificClass":"btn btn-primary no_state"}, "display":{"type":"card", "content":"link"}}
+includeContent={"type":"org_openCiLife_post", "category":"AAdopter_chat", "specificClass":"fourPerRow cardAnimal moreAdopter", "title":"Nos autres chats à adopter", "displaySelf":"none", "noContentText":"Pas d'autres chats à adopter", "limit":8, "showMore":{"label":"voir tous les chats à adopter", "to":"${webleger.build.host}/animaux/chat/201_adopter_chat.html", "specificClass":"btn btn-primary no_state"}, "display":{"type":"card", "content":"link"}}
 category=AAdopter_chat
 subTemplate=humaniPattes.aAdopterSubTemplate
 status=published
-contentImage=images/animeaux/boulette.jpg
-imageList={"data":[{"file":"images/animeaux/boulette_sur_couette.jpg", "alt":"Boulette sur une couette", "width":"550px"}, {"file":"images/animeaux/boulette_dans_nature.jpg", "alt":"Boulette dans la nature","width":"550px"}, {"file":"images/animeaux/boulette_devant_fenetre.jpg", "alt":"Boulette devant une fenetre","width":"1100px"}]}
+contentImage=images/animaux/boulette.jpg
+imageList={"data":[{"file":"images/animaux/boulette_sur_couette.jpg", "alt":"Boulette sur une couette", "width":"550px"}, {"file":"images/animaux/boulette_dans_nature.jpg", "alt":"Boulette dans la nature","width":"550px"}, {"file":"images/animaux/boulette_devant_fenetre.jpg", "alt":"Boulette devant une fenetre","width":"1100px"}]}
 order=203
 exerpt=Découverte avec 18 autres congénères Boulette fait partie des tout premiers à nous avoir accordé sa confiance ! 
 sexe=Mâle

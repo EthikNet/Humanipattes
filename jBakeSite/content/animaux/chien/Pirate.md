@@ -1,12 +1,12 @@
 title=Pirate
 date=2025-12-21
 type=org_openCiLife_post
-includeContent={"type":"org_openCiLife_post", "category":"chien", "specificClass":"fourPerRow cardAnimal moreAdopter", "title":"Nos autres chats à adopter", "displaySelf":"none", "noContentText":"Pas d'autres chiens à adopter", "limit":8, "showMore":{"label":"voir tous les chiens à adopter", "to":"${webleger.build.host}/animeaux/chien/250_adopter_chien.html", "specificClass":"btn btn-primary no_state"}, "display":{"type":"card", "content":"link"}}
+includeContent={"type":"org_openCiLife_post", "category":"chien", "specificClass":"fourPerRow cardAnimal moreAdopter", "title":"Nos autres chats à adopter", "displaySelf":"none", "noContentText":"Pas d'autres chiens à adopter", "limit":8, "showMore":{"label":"voir tous les chiens à adopter", "to":"${webleger.build.host}/animaux/chien/250_adopter_chien.html", "specificClass":"btn btn-primary no_state"}, "display":{"type":"card", "content":"link"}}
 category=AAdopter_chien
 subTemplate=humaniPattes.aAdopterSubTemplate
 status=published
-contentImage=images/animeaux/Pirate.jpg
-imageList={"data":[{"file":"images/animeaux/Pirate_couche_sur_lit.jpg", "alt":"Pirate sur un lit", "width":"1100px"}, {"file":"images/animeaux/Pirate_assis.jpg", "alt":"Pirate Assis","width":"550px"}, {"file":"images/animeaux/Pirate_avec_un_copain.jpg", "alt":"Pirate avec un copain","width":"550px"}, {"file":"images/animeaux/Pirate_couche_de_face.jpg", "alt":"Pirate couché de face","width":"1100px"}]}
+contentImage=images/animaux/Pirate.jpg
+imageList={"data":[{"file":"images/animaux/Pirate_couche_sur_lit.jpg", "alt":"Pirate sur un lit", "width":"1100px"}, {"file":"images/animaux/Pirate_assis.jpg", "alt":"Pirate Assis","width":"550px"}, {"file":"images/animaux/Pirate_avec_un_copain.jpg", "alt":"Pirate avec un copain","width":"550px"}, {"file":"images/animaux/Pirate_couche_de_face.jpg", "alt":"Pirate couché de face","width":"1100px"}]}
 order=251
 exerpt=Pirate a vécu ses 4 premières années enfermés mais en quelques jours, il se faufilait sur le canapé avec ses amis chiens (et très vite, avec le chat!)
 sexe=Mâle de 26kg

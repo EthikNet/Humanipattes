@@ -3,7 +3,7 @@ date=2026-01-05
 type=org_openCiLife_post
 category=Adoptes
 status=published
-contentImage=images/animeaux/voodoo.jpg
+contentImage=images/animaux/voodoo.jpg
 order=291
 ~~~~~~
 	

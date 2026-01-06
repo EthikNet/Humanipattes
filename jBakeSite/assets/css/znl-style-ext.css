@@ -109,6 +109,16 @@
     background-color:${webleger.site.style.background.color};
 }
 
+#mainContent .pageContent a:not(:no_state) {
+	color:${webleger.site.style.primary.background.color};
+	text-decoration: underline;
+}
+#mainContent .pageContent a:hover:not(:no_state) {
+	color:${webleger.site.style.secondary.background.color};
+	text-decoration: none;
+}
+
+
 #mainContent .moreAdopter {
 	border-top: 2px solid ${webleger.site.style.secondary.background.color};
 	margin-top: 10px;
@@ -130,7 +140,7 @@
 	border-top-right-radius:12px;
 	max-width: initial;
 	height:auto;
-	width: 100%;
+	max-width: 100%;
 }
 .cardAnimal  .card .card_title {
 	 padding: 10px 0;
@@ -461,6 +471,9 @@
 	}
 	.activitees .objectif2026 ul {
 		width:60%;
+	}
+	#mainContent .cardAnimal .card .card_image {
+		width: 100%;
 	}
 	.aAdopterSubTemplate .animalBio {
 		flex-direction: row;
