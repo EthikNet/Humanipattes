@@ -5,7 +5,7 @@ includeContent={"type":"org_openCiLife_post", "category":"AAdopter_chat", "speci
 category=typeAnimal
 displayDate=false
 status=published
-contentImage=images/adopter_chat.svg
+contentImage=images/adopter_chat.jpg
 order=200
 exerpt=Tous nos chats sont identifiés, vaccinés et stérilisés.
 ~~~~~~

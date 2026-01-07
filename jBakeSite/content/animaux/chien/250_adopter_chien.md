@@ -5,7 +5,7 @@ includeContent={"type":"org_openCiLife_post", "category":"AAdopter_chien", "spec
 category=typeAnimal
 displayDate=false
 status=published
-contentImage=images/adopter_chien.svg
+contentImage=images/adopter_chien.jpg
 order=250
 exerpt=Tous nos chiens sont identifiés, vaccinés et stérilisés.
 ~~~~~~
