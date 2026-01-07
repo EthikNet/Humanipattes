@@ -1,5 +1,5 @@
 <#function getComponnentInfo>
-	<#return {"componnentVersion":1, "name":"menu", "description":"Build dynamic menus bases on content", "recommandedNamespace":"menu", "version":"0.1.0", "require":[{"value":"sequenceHelper", "type":"lib"}, {"value":"bootstrap3", "type":"lib"}], "uses":[{"value":"langHelper", "type":"lib"},{"value":"logHelper", "type":"lib"}, {"value":"site.debug.enabled", "type":"config"}, {"value":"menu", "type":"contentHeader"}, {"value":"displayMenu", "type":"contentHeader"}]}>
+	<#return {"componnentVersion":1, "name":"menu", "description":"Build dynamic menus bases on content", "recommandedNamespace":"menu", "version":"0.2.0", "require":[{"value":"sequenceHelper", "type":"lib", "value":"common", "type":"lib"}, {"value":"bootstrap3", "type":"lib"}], "uses":[{"value":"langHelper", "type":"lib"},{"value":"logHelper", "type":"lib"}, {"value":"site.debug.enabled", "type":"config"}, {"value":"menu", "type":"contentHeader"}, {"value":"displayMenu", "type":"contentHeader"}]}>
 </#function>
 
 <#function init>
@@ -121,8 +121,13 @@
 	    <span class="icon-bar"></span>
 	    <span class="icon-bar"></span>
 	  </button>
-	  <#if (config.site_menu_brand)?? && config.site_menu_brand?has_content>
-    	<a class="navbar-brand" href="${webleger.build.host}/index.html">${config.site_menu_brand}</a>
+	  <#if (config.site_menu_brand_src)?? && config.site_menu_brand_src?has_content>
+    	<a class="navbar-brand" href="${webleger.build.host}/index.html">
+    	<img
+    		<#if (config.site_menu_brand_specificClass)?? && config.site_menu_brand_specificClass?has_content> class="${config.site_menu_brand_specificClass}"</#if> 
+    		<#if (config.site_menu_brand_alt)?? && config.site_menu_brand_alt?has_content> alt="${config.site_menu_brand_alt}"</#if> 
+    		src="${common.buildRootPathAwareURL(config.site_menu_brand_src)}"/>
+    	</a>
     </#if>
 	</div>
 	<div class="navbar-collapse collapse">
