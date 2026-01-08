@@ -97,6 +97,9 @@
 				<#if (theContent.bonus)??>
 					<@splitAsLi theContent.bonus "," "animalBonus" />
 				</#if>
+				<#if (theContent.vigilance)??>
+					<@splitAsLi theContent.vigilance "," "animalVigilance" />
+				</#if>
 				<#if (theContent.aEviter)??>
 					<@splitAsLi theContent.aEviter "," "animalAEviter" />
 				</#if>

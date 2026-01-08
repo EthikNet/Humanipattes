@@ -429,6 +429,9 @@
 .aAdopterSubTemplate .animalOtherInfos .mainInfos .animalBonus {
 	background-image: url(${webleger.build.host}/images/bonus.svg);
 }
+.aAdopterSubTemplate .animalOtherInfos .mainInfos .animalVigilance {
+	background-image: url(${webleger.build.host}/images/vigilance.svg);
+}
 .aAdopterSubTemplate .animalOtherInfos .mainInfos .animalTarif {
 	background-image: url(${webleger.build.host}/images/euro.svg);
 }
