@@ -9,9 +9,9 @@ order=212
 ~~~~~~
 Notre association a débuté par une belle opportunité offerte par l’association [1001 Âmes Animales](https://www.1001amesanimales.fr/) de créer une antenne secondaire afin d’être guidée dans cette nouvelle aventure. Ainsi, notre antenne a participé à sauver une trentaine de chats et chatons sur ces dix mois d’existence et a permis de stériliser et d’identifier presque une quarantaine de chats errants, devenus libres de fait.
 
-Après une petite année de travail en collaboration, nous avons pris notre envol. Humani’Pattes est née.
+Après une petite année de travail en collaboration, nous avons pris notre envol. **Humani’Pattes est née**.
 
-Humani’Pattes est née d’une profonde volonté de faire grandir l’humanité envers nos amis à quatre pattes.
+Humani’Pattes est née d’une profonde volonté de **faire grandir l’humanité envers nos amis à quatre pattes**.
 
 Voici nos missions principales :
 
