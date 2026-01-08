@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
+        <loc>https://ethiknet.github.io/Humanipattes/animaux/chat/touffy.html</loc>
+        <lastmod>2026-01-08</lastmod>
+    </url>
+    <url>
+        <loc>https://ethiknet.github.io/Humanipattes/animaux/chat/nina.html</loc>
+        <lastmod>2026-01-08</lastmod>
+    </url>
+    <url>
+        <loc>https://ethiknet.github.io/Humanipattes/animaux/chat/api.html</loc>
+        <lastmod>2026-01-08</lastmod>
+    </url>
+    <url>
+        <loc>https://ethiknet.github.io/Humanipattes/animaux/chat/amos.html</loc>
+        <lastmod>2026-01-08</lastmod>
+    </url>
+    <url>
         <loc>https://ethiknet.github.io/Humanipattes/animaux/adoptes/atlas.html</loc>
         <lastmod>2026-01-05</lastmod>
     </url>
@@ -93,15 +109,15 @@
         <lastmod>2025-12-21</lastmod>
     </url>
     <url>
+        <loc>https://ethiknet.github.io/Humanipattes/nous_aider/500_nous_aider.html</loc>
+        <lastmod>2025-12-19</lastmod>
+    </url>
+    <url>
         <loc>https://ethiknet.github.io/Humanipattes/partenaires/600_partenaires.html</loc>
         <lastmod>2025-12-19</lastmod>
     </url>
     <url>
         <loc>https://ethiknet.github.io/Humanipattes/association/200_l_association.html</loc>
-        <lastmod>2025-12-19</lastmod>
-    </url>
-    <url>
-        <loc>https://ethiknet.github.io/Humanipattes/nous_aider/500_nous_aider.html</loc>
         <lastmod>2025-12-19</lastmod>
     </url>
     <url>
@@ -146,39 +162,19 @@
     </url>
     <url>
         <loc>https://ethiknet.github.io/Humanipattes/footer/096_soutient.html</loc>
-        <lastmod>2026-01-07</lastmod>
+        <lastmod>2026-01-08</lastmod>
     </url>
     <url>
         <loc>https://ethiknet.github.io/Humanipattes/footer/094_contact.html</loc>
-        <lastmod>2026-01-07</lastmod>
+        <lastmod>2026-01-08</lastmod>
     </url>
     <url>
         <loc>https://ethiknet.github.io/Humanipattes/footer/092_naviguation.html</loc>
-        <lastmod>2026-01-07</lastmod>
+        <lastmod>2026-01-08</lastmod>
     </url>
     <url>
         <loc>https://ethiknet.github.io/Humanipattes/footer/090_accroche.html</loc>
-        <lastmod>2026-01-07</lastmod>
-    </url>
-    <url>
-        <loc>https://ethiknet.github.io/Humanipattes/association/212_histoire.html</loc>
-        <lastmod>2025-12-19</lastmod>
-    </url>
-    <url>
-        <loc>https://ethiknet.github.io/Humanipattes/nous_aider/aide_particulier_list/list/214_aide_don.html</loc>
-        <lastmod>2025-12-19</lastmod>
-    </url>
-    <url>
-        <loc>https://ethiknet.github.io/Humanipattes/association/210_title.html</loc>
-        <lastmod>2025-12-19</lastmod>
-    </url>
-    <url>
-        <loc>https://ethiknet.github.io/Humanipattes/nous_aider/aide_particulier_list/list/212_aide_benevole.html</loc>
-        <lastmod>2025-12-19</lastmod>
-    </url>
-    <url>
-        <loc>https://ethiknet.github.io/Humanipattes/nous_aider/aide_particulier_list/list/210_aide_famille.html</loc>
-        <lastmod>2025-12-19</lastmod>
+        <lastmod>2026-01-08</lastmod>
     </url>
     <url>
         <loc>https://ethiknet.github.io/Humanipattes/nous_aider/aide_particulier_list/512_list_aide.html</loc>
@@ -237,19 +233,11 @@
         <lastmod>2025-12-19</lastmod>
     </url>
     <url>
-        <loc>https://ethiknet.github.io/Humanipattes/activitees/319_activite_objectif_2026.html</loc>
-        <lastmod>2025-12-19</lastmod>
-    </url>
-    <url>
         <loc>https://ethiknet.github.io/Humanipattes/partenaires/aide_magasins/616_list_partenaire_magasins.html</loc>
         <lastmod>2025-12-19</lastmod>
     </url>
     <url>
         <loc>https://ethiknet.github.io/Humanipattes/association/legal/list/212_adresse.html</loc>
-        <lastmod>2025-12-19</lastmod>
-    </url>
-    <url>
-        <loc>https://ethiknet.github.io/Humanipattes/activitees/318_activite_collecte.html</loc>
         <lastmod>2025-12-19</lastmod>
     </url>
     <url>
@@ -261,19 +249,11 @@
         <lastmod>2025-12-19</lastmod>
     </url>
     <url>
-        <loc>https://ethiknet.github.io/Humanipattes/activitees/316_activite_sensibilisation.html</loc>
-        <lastmod>2025-12-19</lastmod>
-    </url>
-    <url>
         <loc>https://ethiknet.github.io/Humanipattes/partenaires/aide_associations/list/212_Sales_cabots.html</loc>
         <lastmod>2025-12-19</lastmod>
     </url>
     <url>
         <loc>https://ethiknet.github.io/Humanipattes/association/legal/216_legal.html</loc>
-        <lastmod>2025-12-19</lastmod>
-    </url>
-    <url>
-        <loc>https://ethiknet.github.io/Humanipattes/activitees/314_activite_sauvetage.html</loc>
         <lastmod>2025-12-19</lastmod>
     </url>
     <url>
@@ -285,7 +265,7 @@
         <lastmod>2025-12-19</lastmod>
     </url>
     <url>
-        <loc>https://ethiknet.github.io/Humanipattes/activitees/312_activite_sterilisation.html</loc>
+        <loc>https://ethiknet.github.io/Humanipattes/activitees/319_activite_objectif_2026.html</loc>
         <lastmod>2025-12-19</lastmod>
     </url>
     <url>
@@ -297,7 +277,7 @@
         <lastmod>2025-12-19</lastmod>
     </url>
     <url>
-        <loc>https://ethiknet.github.io/Humanipattes/activitees/310_title.html</loc>
+        <loc>https://ethiknet.github.io/Humanipattes/activitees/318_activite_collecte.html</loc>
         <lastmod>2025-12-19</lastmod>
     </url>
     <url>
@@ -309,16 +289,40 @@
         <lastmod>2025-12-19</lastmod>
     </url>
     <url>
-        <loc>https://ethiknet.github.io/Humanipattes/home_page/aide/120_hp_aide.html</loc>
-        <lastmod>2025-12-16</lastmod>
+        <loc>https://ethiknet.github.io/Humanipattes/activitees/316_activite_sensibilisation.html</loc>
+        <lastmod>2025-12-19</lastmod>
     </url>
     <url>
-        <loc>https://ethiknet.github.io/Humanipattes/home_page/adopter/114_hp_adopter.html</loc>
-        <lastmod>2025-12-16</lastmod>
+        <loc>https://ethiknet.github.io/Humanipattes/association/212_histoire.html</loc>
+        <lastmod>2025-12-19</lastmod>
     </url>
     <url>
-        <loc>https://ethiknet.github.io/Humanipattes/home_page/actualite/118_hp_actualite.html</loc>
-        <lastmod>2025-12-16</lastmod>
+        <loc>https://ethiknet.github.io/Humanipattes/activitees/314_activite_sauvetage.html</loc>
+        <lastmod>2025-12-19</lastmod>
+    </url>
+    <url>
+        <loc>https://ethiknet.github.io/Humanipattes/nous_aider/aide_particulier_list/list/214_aide_don.html</loc>
+        <lastmod>2025-12-19</lastmod>
+    </url>
+    <url>
+        <loc>https://ethiknet.github.io/Humanipattes/association/210_title.html</loc>
+        <lastmod>2025-12-19</lastmod>
+    </url>
+    <url>
+        <loc>https://ethiknet.github.io/Humanipattes/activitees/312_activite_sterilisation.html</loc>
+        <lastmod>2025-12-19</lastmod>
+    </url>
+    <url>
+        <loc>https://ethiknet.github.io/Humanipattes/nous_aider/aide_particulier_list/list/212_aide_benevole.html</loc>
+        <lastmod>2025-12-19</lastmod>
+    </url>
+    <url>
+        <loc>https://ethiknet.github.io/Humanipattes/activitees/310_title.html</loc>
+        <lastmod>2025-12-19</lastmod>
+    </url>
+    <url>
+        <loc>https://ethiknet.github.io/Humanipattes/nous_aider/aide_particulier_list/list/210_aide_famille.html</loc>
+        <lastmod>2025-12-19</lastmod>
     </url>
     <url>
         <loc>https://ethiknet.github.io/Humanipattes/home_page/impact/list/116_impact_annimeaux_aide.html</loc>
@@ -354,6 +358,18 @@
     </url>
     <url>
         <loc>https://ethiknet.github.io/Humanipattes/home_page/aide/list/110_aide_don.html</loc>
+        <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+        <loc>https://ethiknet.github.io/Humanipattes/home_page/aide/120_hp_aide.html</loc>
+        <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+        <loc>https://ethiknet.github.io/Humanipattes/home_page/adopter/114_hp_adopter.html</loc>
+        <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+        <loc>https://ethiknet.github.io/Humanipattes/home_page/actualite/118_hp_actualite.html</loc>
         <lastmod>2025-12-16</lastmod>
     </url>
     <url>
