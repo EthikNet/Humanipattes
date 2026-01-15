@@ -5,7 +5,7 @@ category=nousAider
 includeContent={"type":"org_openCiLife_block", "category":"aideItemCollectifs", "specificClass":"threePerRow", "display":{"type":"card", "content":"visible"}}
 tags=
 status=published
-specificClass=particuliers
+specificClass=collectif
 order=514
 ~~~~~~
 	

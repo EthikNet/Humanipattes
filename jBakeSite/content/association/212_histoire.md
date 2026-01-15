@@ -18,7 +18,6 @@ Voici nos missions principales :
 - Stériliser le maximum de nos amis félins pour une meilleure cohabitation avec l’être humain, dans une dynamique de diminution de la prolifération des chats.
 - Sauver et faire adopter autant de chats et chiens que nous pourrions en accueillir grâce à nos familles d’accueil dévouées.
 - Travailler conjointement avec les services de l’ordre pour offrir une nouvelle vie à des animaux maltraités, négligés par leur propriétaire.
-- Intenter des actions en justice, en tant que partie civile, à l’encontre de propriétaires maltraitants.
 - Eduquer et faire de la prévention auprès de la population rurale.
 
 *Bienvenue à tous dans cette nouvelle aventure que nous souhaitons longue et heureuse ! N’hésitez pas un instant à nous contacter si vous avez       envie de participer ou de ne serait-ce que vous renseigner sur l’association et ses objectifs ! Un grand merci à tous nos bénévoles incroyables, à l’équipe que nous avons formée lors de ces 10 mois et qui perdurera encore bien longtemps.*

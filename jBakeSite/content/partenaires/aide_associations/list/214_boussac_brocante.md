@@ -1,12 +1,12 @@
-title=Le cœur sur la pattes
+title=boussac brocante
 date=2025-12-19
 type=org_openCiLife_block
 category=partenaireAsso
 tags=
-contentImage=/images/partenaires/logo-lecoeursurlapatte.png
+contentImage=/images/partenaires/logo_boussac.png
 status=published
 order=214
 ~~~~~~
-Association de protection animale en Vendée.
+qui grâces à leur gala annuel et leur ventes nous font des dons.
 
-[https://lecoeursurlapatte85.fr/](https://lecoeursurlapatte85.fr/)
+[https://boussacbrocante.fr/](https://boussacbrocante.fr/)

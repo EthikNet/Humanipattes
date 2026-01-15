@@ -7,5 +7,5 @@ contentImage=<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" view
 status=published
 order=212
 ~~~~~~
-**Bénévole active**
+**Vice présidente**
 Bras droit d'Agnès, Lauraleen participe aux collectes, aux événements et au suivi des animaux en famille d'accueil.
