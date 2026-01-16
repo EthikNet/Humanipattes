@@ -201,6 +201,9 @@ img {
 .contentHidden {
 	display:none !important;
 }
+.moreInfoHidden {
+	display:none !important;
+}
 
 .self_disabled {
 	background-color: ${webleger.site.style.disabled.background.color};

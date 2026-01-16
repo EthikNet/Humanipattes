@@ -70,6 +70,9 @@ param : content : content to search for include content
 			<#local subContentBeforeTitleImage = (content.includeContent.display.beforeTitleImage)!"">
 			
 			<#local subContentmodaleCloseButton = (content.includeContent.display.closeButton)!"close">
+			<#local subContentMoreInfoLinkLabel = (content.includeContent.display.moreInfoLinkLabel)!"">
+			<#local subContentDisplayTags = (content.includeContent.display.displayTags)!false>
+			
 			<#local hasSubTemplate = (content.includeContent.display.subTemplate)!"">
 			
 			<#if logHelper??>
@@ -78,7 +81,7 @@ param : content : content to search for include content
 			
 			<#local theModalId = "basicModal">
 			<#if (subContentDisplayContentMode == "modal")>
-				<@modal.buildModalContainer theModalId, subContentmodaleCloseButton />
+				<@modal.buildModalContainer theModalId, subContentmodaleCloseButton, subContentMoreInfoLinkLabel/>
 			</#if>
 			
 			<#if (hasSubTemplate)?? && hasSubTemplate?has_content>
@@ -208,7 +211,7 @@ param : content : content to search for include content
 						</#if>
 						<#if (subContentDisplayContentMode == "modal")>
 						<td>
-							<@modal.extractContentForModal subContent, "button", listDisplayType, "voir plus" />
+							<@modal.extractContentForModal subContent, "button", listDisplayType, "voir plus", subContentDisplayTags />
 						</td>
 						</#if>
 						<#if subContentDisplayContentMode == "visible">
@@ -229,10 +232,8 @@ param : content : content to search for include content
 							<@hookHelper.hook "beginItemSubContent" subContent/>
 						</#if>
 						<div class="step_icon">
-							<#if (subContent.contentImage??)>
-								<#if (subContent.contentImage)??>
-									<@common.addImageIcon subContent.contentImage listDisplayType+"_image"/>
-								</#if>
+							<#if (subContent.contentImage)??>
+								<@common.addImageIcon subContent.contentImage listDisplayType+"_image"/>
 							</#if>
 							<div class="vertical_line"></div>
 						</div>
@@ -242,6 +243,13 @@ param : content : content to search for include content
 									${subContent.exerpt!""}
 								</div>
 							</#if>
+							
+							<#if subContentDisplayTags>						
+								<span class="${listDisplayType}_tags"><#rt>
+								<@ecoWeb.displayTags subContent ""/>
+								</span>
+							</#if>
+							
 							<#if displayTitle>						
 								<h3 class="${listDisplayType}_title"><#rt>
 								<#if (subContentBeforeTitleImage?has_content)>
@@ -283,7 +291,7 @@ param : content : content to search for include content
 							<#break>
 							<#case "card">
 								<#if (subContentDisplayContentMode == "modalLink")>
-									<@modal.extractContentForModal subContent, "link", listDisplayType, "", []/>
+									<@modal.extractContentForModal subContent, "link", listDisplayType, "", [], subContentDisplayTags/>
 								<#elseif (subContentDisplayContentMode == "link")>
 									<a href="${common.buildRootPathAwareURL(subContent.uri)}">
 								</#if>
@@ -295,6 +303,11 @@ param : content : content to search for include content
 									<@common.addImageIcon subContent.contentImage listDisplayType+"_image"/>
 								</#if>
 							</#if>
+						</#if>
+						<#if subContentDisplayTags>						
+							<span class="${listDisplayType}_tags"><#rt>
+							<@ecoWeb.displayTags subContent ""/>
+							</span>
 						</#if>
 						<#if displayTitle>						
 							<h3 class="${listDisplayType}_title"><#rt>
@@ -328,7 +341,7 @@ param : content : content to search for include content
 						</#if>
 						
 						<#if (subContentDisplayContentMode == "modal")>
-							<@modal.extractContentForModal subContent, "button", listDisplayType, "voir plus" />
+							<@modal.extractContentForModal subContent, "button", listDisplayType, "voir plus", subContentDisplayTags />
 						</#if>
 						<#if (subContentDisplayContentMode == "visible" || subContentDisplayContentMode == "modalLink")>
 							<div class="${listDisplayType}_content<#if subContentDisplayContentMode == "modalLink"> contentHidden</#if>">

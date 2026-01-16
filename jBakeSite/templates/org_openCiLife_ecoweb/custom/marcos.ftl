@@ -15,9 +15,11 @@
 	</#if>
 </#macro>
 
-<#macro displayTags content>
+<#macro displayTags content, label="Tags">
 	<#if (content.tags)?? && (content.tags?size > 0) >
-		<span>Tags : </span>
+		<#if (label)?? && (label?has_content)>
+			<span>Tags : </span>
+		</#if>
 		<ul class="content_tags">
 		<#list content.tags as tag>
 			<li>${tag}</li>
