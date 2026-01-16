@@ -436,7 +436,7 @@
 	justify-content: flex-end;
 	gap: 12px;
 }
-.infos .card_tags li {
+.infos .content_tags li {
 	list-style-type: none;
 	background-color: hsl(158, 27%, 39%);
 	color: hsl(40, 33%, 96%);

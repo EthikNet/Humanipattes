@@ -57,7 +57,7 @@ $('#basicModal').on('show.bs.modal', function (event) {
 		 }
 	}
     
-    modal.find('.modal-tags').text(tags);
+    modal.find('.modal-tags').empty().append(tags);
 
     modal.attr('aria-inert', false);
  })
