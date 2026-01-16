@@ -1,4 +1,4 @@
-title=Enfermez votre chats
+title=Enfermez votre chat
 date=2026-01-15
 type=org_openCiLife_block
 category=infos

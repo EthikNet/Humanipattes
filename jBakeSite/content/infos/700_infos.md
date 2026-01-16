@@ -11,4 +11,4 @@ pageSpecificClass=infos
 exerpt=Des informations utiles !
 order=700
 ~~~~~~
-Ici seront publiés des posts aussi courts et précis que possible sur la gestion d’un animal de compagnie – chien ou chat : alimentation, hébergement, sociabilisation, balade… Des précisions sur les lois en vigueur et leurs évolutions ainsi que sur les avancées de l’association seront ajoutés.	
+		
