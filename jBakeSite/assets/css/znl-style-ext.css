@@ -446,6 +446,14 @@
 	margin-top: 5px;
 }
 
+.contact_adopter a {
+	padding: 10px;
+	font-size: large;
+	font-weight: bold;
+	letter-spacing: 0.2rem;
+	margin: 20px 0;
+}
+
 .aAdopterSubTemplate .animalBio {
 	display: flex;
 	flex-direction: column;
@@ -493,7 +501,11 @@
 .aAdopterSubTemplate .animalOtherInfos .animalNow .animalVisible {
 	background-image: url(${webleger.build.host}/images/maison.svg);
 }
-
+.aAdopterSubTemplate .animalAdopter .btn {
+	font-size: large;
+	padding: 15px;
+	margin-bottom: 20px;
+}
 
 #footer_blocks .block {
 	text-align:left;

@@ -131,21 +131,24 @@
 				</ul>
 			</div>
 		</div>
-		<div class="animalOtherPhotos">
-		</div>
-	</div>
-	
-	<div class="animalPhotos">
-		<#if (theContent.imageList)??>
-			<#if (theContent.imageList.data)??>
-				<#list theContent.imageList.data as fileInfo>
-					<img src="${common.buildRootPathAwareURL(fileInfo.file)}"
-					<#if (fileInfo.alt)??> alt="${fileInfo.alt}"</#if>
-					<#if (fileInfo.width)??> width="${fileInfo.width}"</#if>
-					<#if (fileInfo.height)??> height="${fileInfo.height}"</#if>/>
-				</#list>
+		<div class="animalPhotos">
+			<#if (theContent.imageList)??>
+				<#if (theContent.imageList.data)??>
+					<#list theContent.imageList.data as fileInfo>
+						<img src="${common.buildRootPathAwareURL(fileInfo.file)}"
+						<#if (fileInfo.alt)??> alt="${fileInfo.alt}"</#if>
+						<#if (fileInfo.width)??> width="${fileInfo.width}"</#if>
+						<#if (fileInfo.height)??> height="${fileInfo.height}"</#if>/>
+					</#list>
+				</#if>
 			</#if>
-		</#if>
+		</div>
+		<div class="actions_list action_centered animalAdopter">
+			<a 
+			href="${webleger.build.host}/animaux/250_infos_adoption.html" 
+			class="action_button btn btn-primary no_state">Vous souhaitez l'adopter ?
+			</a>
+		</div>
 	</div>
 </#macro>
 
