@@ -419,6 +419,33 @@
 	height:auto;
 }
 
+.infos .card {
+	display: flex;
+	flex-flow: column;
+}
+
+.infos .card_image {
+	width: auto;
+	height:initial;
+	max-height: 150px;
+	margin: 0 auto !important;
+	padding-top: 10px;
+}
+.infos .content_tags {
+	display: flex;
+	justify-content: flex-end;
+	gap: 12px;
+}
+.infos .card_tags li {
+	list-style-type: none;
+	background-color: hsl(158, 27%, 39%);
+	color: hsl(40, 33%, 96%);
+	border: 1px solid hsl(158, 27%, 39%);
+	border-radius: 12px;
+	padding: 3px;
+	margin-top: 5px;
+}
+
 .aAdopterSubTemplate .animalBio {
 	display: flex;
 	flex-direction: column;

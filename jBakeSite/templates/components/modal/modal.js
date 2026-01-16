@@ -1,5 +1,5 @@
 $('#basicModal').on('show.bs.modal', function (event) {
-    console.log ('we are showing a modal');
+    console.log ('modal : we are showing a modal');
     
     var triggerElement = $(event.relatedTarget) // Button that triggered the modal
     //var recipient = triggerElement.data('whatever') // Extract info from data-* attributes
@@ -42,13 +42,18 @@ $('#basicModal').on('show.bs.modal', function (event) {
     if (bodyImage.exists()){
     	modal.find('.modal-image').append('<img src="' + bodyImage.attr('src') + '" class="modal-image" />');
     }
+    var modalMoreInfoLink =  modal.find('#modalMoreInfoLink');
+    var hideLinkClass = "moreInfoHidden";
     if (null != moreInfoLink && moreInfoLink.length != 0){
-	    modal.find('#modalMoreInfoLink').attr("href", moreInfoLink);
-	    modal.find('#modalMoreInfoLink').removeClass("moreInfoHidden)");
+		console.log ("modal : more info link changing URL link add display button");
+	    modalMoreInfoLink.attr("href", moreInfoLink);
+	    modalMoreInfoLink.removeClass(hideLinkClass);
     }else{
-		modal.find('#modalMoreInfoLink').attr("href", "#");
-		if(!modal.find('#modalMoreInfoLink').hasClass("moreInfoHidden")){
-		     modal.find('#modalMoreInfoLink').addClass("moreInfoHidden)");
+		console.log ("modal : more info link : reset");
+		modalMoreInfoLink.attr("href", "#");
+		if(!modalMoreInfoLink.hasClass(hideLinkClass)){
+			console.log ("modal : more info link : hide button");
+			modalMoreInfoLink.addClass(hideLinkClass);
 		 }
 	}
     
