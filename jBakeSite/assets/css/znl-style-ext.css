@@ -169,6 +169,7 @@
 
 .lp_event {
 	background-color:${webleger.site.style.discret.background.color};
+	color: ${webleger.site.style.titles.color};
 }
 
 .homePage .help .card, .homePage .help .card h3 {
@@ -224,6 +225,7 @@
 
 .association  .histoire {
 	background-color:${webleger.site.style.discret.background.color};
+	color: black;
 }
 .association .valeurs {
 	background-color:${webleger.site.style.highlight.background.color};
@@ -248,6 +250,7 @@
 
 .association .equipe{
 	background-color:${webleger.site.style.discret.background.color};
+	color: black;
 }
 .association .equipe  .card {
 	text-align:center;
@@ -333,6 +336,7 @@
 	border-radius:15px;
 	margin-bottom:15px;
 	border:2px solid ${webleger.site.style.discret.background.color};
+	color: black;
 	
 }
 .activitees .objectif2026 ul li {
