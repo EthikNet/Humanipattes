@@ -7,6 +7,7 @@ contentImage=<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" view
 action={"disposition":"center", "specificClass":"aide_cta", "data":[{"type":"button", "label":"Candidater", "specificClass":"btn-default no_state", "operation":{"type":"link", "to":"mailto:humanipattes@gmail.com"}}]}
 hooks={"data":[{"position":"endItemSubContent", "action":"action.build", "renderOnce":true, "order":30}]}
 status=published
+anchorId=famille_accueil
 order=210
 ~~~~~~
 Accueillez temporairement un animal. Nourriture et soins vétérinaires pris en charge par l'association.

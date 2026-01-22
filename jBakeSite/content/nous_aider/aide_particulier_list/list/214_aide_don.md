@@ -7,6 +7,7 @@ contentImage=<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" view
 action={"disposition":"center", "specificClass":"aide_cta", "data":[{"type":"button", "label":"Donner", "specificClass":"no_state btn-primary", "operation":{"type":"link", "to":"https://www.helloasso.com/associations/association-humani-pattes"}}]}
 hooks={"data":[{"position":"endItemSubContent", "action":"action.build", "renderOnce":true, "order":30}]}
 status=published
+anchorId=faire_un_don
 order=214
 ~~~~~~
 Soutenez financièrement nos actions de sauvetage et stérilisation.
