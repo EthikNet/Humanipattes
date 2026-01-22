@@ -1,4 +1,4 @@
-title=Faire en argent
+title=Don en argent
 date=2025-12-19
 type=org_openCiLife_block
 category=aideItem
