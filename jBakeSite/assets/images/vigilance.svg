@@ -1,7 +1,7 @@
 <svg width="24" height="24" viewBox="0 0 128 128"
      xmlns="http://www.w3.org/2000/svg"
      fill="none"
-     stroke="hsl(40,33%,96%)"
+     stroke="${webleger.site.style.primary.color}"
      stroke-width="4"
      stroke-linecap="round"
      stroke-linejoin="round">
