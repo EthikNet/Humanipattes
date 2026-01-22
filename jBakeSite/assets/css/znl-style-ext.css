@@ -55,6 +55,10 @@
     padding: 0;
 }
 
+.credit a {
+	color:${webleger.site.style.secondary.background.color};
+}
+
 .lp_title {
 	padding:50px;
 	height: 600px;
