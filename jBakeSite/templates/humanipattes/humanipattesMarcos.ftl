@@ -47,7 +47,7 @@
 				
 				<#if (subContent.contentImage??)>
 					<#if (subContent.contentImage)??>
-						<@common.addImageIcon subContent.contentImage "partenairesCard_image"/>
+						<@common.addImageIcon subContent.contentImage "partenairesCard_image" subContent.title/>
 					</#if>
 				</#if>
 				<#if (subContent.exerpt??)>
@@ -74,7 +74,7 @@
 		<div class="animalBio">
 			<div class="animalPhoto">
 				<#if (theContent.contentImage)??>
-					<@common.addImageIcon theContent.contentImage "animalMainImage"/>
+					<@common.addImageIcon theContent.contentImage "animalMainImage" theContent.title/>
 				</#if>
 			</div>
 			<div class="animalDescription">

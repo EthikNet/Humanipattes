@@ -78,14 +78,14 @@ return : text with URL transformed
 	<#return isSvg>
 </#function>
 
-<#macro addImageIcon image cssClass="">
+<#macro addImageIcon image cssClass="" alternativeText="">
 	<#if (image)??>
 		<#if common.isSvg(image)>
-			<span <#if cssClass?has_content>class="${cssClass}"</#if>>
+			<span <#if cssClass?has_content>class="${cssClass}"</#if><#if alternativeText?has_content> alt="${alternativeText}"</#if>>
 				${image}
 			</span>
 		<#else>
-			<img src="${common.buildRootPathAwareURL(image)}" <#if cssClass?has_content>class="${cssClass}"</#if>/>
+			<img src="${common.buildRootPathAwareURL(image)}"<#if cssClass?has_content> class="${cssClass}"</#if><#if alternativeText?has_content> alt="${alternativeText}"</#if>/>
 		</#if>
 	</#if>
 </#macro>

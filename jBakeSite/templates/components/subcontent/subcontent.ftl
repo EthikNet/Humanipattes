@@ -198,7 +198,7 @@ param : content : content to search for include content
 												${contentAtttrValue?string('dd/MM/yyyy à HH:mm')}
 											<#elseif contentAtttrName=="contentImage">
 												<#if (subContent.contentImage)??>
-													<@common.addImageIcon subContent.contentImage />
+													<@common.addImageIcon subContent.contentImage "" subContent.title/>
 												</#if>
 											<#else>
 												${contentAtttrValue}
@@ -233,7 +233,7 @@ param : content : content to search for include content
 						</#if>
 						<div class="step_icon">
 							<#if (subContent.contentImage)??>
-								<@common.addImageIcon subContent.contentImage listDisplayType+"_image"/>
+								<@common.addImageIcon subContent.contentImage listDisplayType+"_image" subContent.title/>
 							</#if>
 							<div class="vertical_line"></div>
 						</div>
@@ -300,7 +300,7 @@ param : content : content to search for include content
 						<#if listDisplayType == "card">
 							<#if (subContent.contentImage??)>
 								<#if (subContent.contentImage)??>
-									<@common.addImageIcon subContent.contentImage listDisplayType+"_image"/>
+									<@common.addImageIcon subContent.contentImage listDisplayType+"_image" subContent.title/>
 								</#if>
 							</#if>
 						</#if>
@@ -325,7 +325,7 @@ param : content : content to search for include content
 						<#if listDisplayType != "card">
 							<#if (subContent.contentImage??)>
 								<#if (subContent.contentImage)??>
-								<@common.addImageIcon subContent.contentImage listDisplayType+"_image"/>
+								<@common.addImageIcon subContent.contentImage listDisplayType+"_image" subContent.title/>
 								</#if>
 							</#if>
 						</#if>

@@ -67,10 +67,10 @@
 		</#if>
 		<${titleTag} class="blockTitle"><#escape x as x?xml>
 		<#if (block.beforeTitleImage?has_content)>
-			<@common.addImageIcon block.beforeTitleImage "block_title_image"/>
+			<@common.addImageIcon block.beforeTitleImage "block_title_image" block.title/>
 		</#if>
 		<#if (contentImageBefore)>
-			<@common.addImageIcon block.contentImage "block_title_image"/>
+			<@common.addImageIcon block.contentImage "block_title_image" block.title/>
 		</#if>
 		${block.title}</#escape>
 		</${titleTag}>
@@ -105,7 +105,7 @@
 		<div class="blockBody">
 			<@generateBodyContent block/>
 			<#if (block.contentImage)??>
-				<@common.addImageIcon block.contentImage "blockIcon"/>
+				<@common.addImageIcon block.contentImage "blockIcon" block.title/>
 			</#if>
 		</div>
 	</div>
@@ -116,7 +116,7 @@
 		<@generateTitle block/>
 		<div class="blockBody">
 			<#if (block.contentImage)??>
-				<@common.addImageIcon block.contentImage "blockIcon"/>
+				<@common.addImageIcon block.contentImage "blockIcon" block.title/>
 			</#if>
 			<@generateBodyContent block/>
 		</div>
@@ -126,7 +126,7 @@
 <#macro imageLeftTitleAndContentSubTemplate block>
 	<div <@generateAnchor block/> <@generateCssClass block "imageLeftTitleAndContentSubTemplate"/>>
 		<#if (block.contentImage)??>
-				<@common.addImageIcon block.contentImage "blockIcon"/>
+				<@common.addImageIcon block.contentImage "blockIcon" block.title/>
 		</#if>
 		<div class="groupe_content">
 			<@generateTitle block/>
@@ -146,7 +146,7 @@
 			</div>
 		</div>
 		<#if (block.contentImage)??>
-				<@common.addImageIcon block.contentImage "blockIcon"/>
+				<@common.addImageIcon block.contentImage "blockIcon" block.title/>
 		</#if>
 	</div>
 </#macro>
