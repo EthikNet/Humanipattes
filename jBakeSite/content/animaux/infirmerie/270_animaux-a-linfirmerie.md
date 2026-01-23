@@ -1,4 +1,4 @@
-title=A l'infirmerie
+title=Animaux à l'infirmerie
 date=2026-01-04
 type=org_openCiLife_post
 includeContent={"type":"org_openCiLife_post", "category":"AlInfirmerie", "specificClass":"fourPerRow cardAnimal", "display":{"type":"card", "content":"visible"}}

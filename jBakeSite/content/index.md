@@ -1,4 +1,4 @@
-title=Acceuil
+title=Humani'Pattes : accueil
 date=2025-10-16
 type=org_openCiLife_post
 includeBlocks={"category":"homepage"}
