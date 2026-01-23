@@ -38,6 +38,17 @@
 	width: auto;
 	height:auto;
 }
+#preHeader .social_icon_and_text .blockContent{
+	display: flex;
+	flex-flow: column;
+	gap: 10px;
+}
+
+.social_icon_and_text a{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
 
 .homePage {
 	text-align:center;
@@ -517,6 +528,7 @@
 
 #footer_blocks .block {
 	text-align:left;
+	padding-left:10px;
 }
 #footer_blocks .blockBody {
 	flex-direction: row;
@@ -533,6 +545,13 @@
 	font-size:small;
 }
 
+#footer_blocks .footer_menu ul {
+	padding-left:0px;
+}
+#footer_blocks .footer_menu li {
+	list-style: none;
+}
+
 #push,
 #footer {
   padding: 0;
@@ -541,6 +560,9 @@
 @media screen and (min-width: 640px) {
 	#preHeader_blocks {
 		justify-content: flex-start;
+	}
+	#preHeader .social_icon_and_text .blockContent{
+		flex-flow: row;
 	}
 	.preHeader .blockContent {
 		margin-left:25px;
