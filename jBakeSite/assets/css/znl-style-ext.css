@@ -559,7 +559,7 @@
 
 @media screen and (min-width: 640px) {
 	#preHeader_blocks {
-		justify-content: flex-start;
+		justify-content: flex-end;
 	}
 	#preHeader .social_icon_and_text .blockContent{
 		flex-flow: row;

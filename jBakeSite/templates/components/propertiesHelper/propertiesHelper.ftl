@@ -17,10 +17,11 @@
 </#function>
 
 <#--Read and display text from config file. Handle corectly when coma "," in text.
-param : theText : the text to display (may be a "sequence")
+param : theProperty : the text to display (may be a "sequence")
+param : usePropAsTextIfNotFound : tif true the "theProperty" param will be return, else a warning message
 return : a text (with original coma ",")
 -->
-<#function retrieveAndDisplayConfigText theProperty>
+<#function retrieveAndDisplayConfigText theProperty usePropAsTextIfNotFound=false comaReplacement=", ">
 	<#local prop = secureStringJsonData(theProperty)>
 	<#local prop = prop?replace(".", "_")>
 	
@@ -31,26 +32,31 @@ return : a text (with original coma ",")
 	</#if>
 	
 	<#if config[prop]??>
-		<#local text = displayConfigText(config[prop])>
+		<#local text = displayConfigText(config[prop], comaReplacement)>
 	<#else>
-		<#local text = "no '" + prop + "' in config file">
+		<#if usePropAsTextIfNotFound>
+			<#local text = theProperty>
+		<#else>
+			<#local text = "no '" + prop + "' in config file">
+		</#if>
 	</#if>
 	<#return text>
 </#function>
 
 <#-- display text from config file. Handle corectly when coma "," in text
 param : theText : the text to display (may be a "sequence")
-return : a text (with original coma ",")
+param : comaReplacement : separator to use for sequences
+return : a text (with original coma "," replaced with comaReplacement param)
 -->
-<#function displayConfigText theText>
-	<#return sequenceToString(theText)>
+<#function displayConfigText theText comaReplacement=", ">
+	<#return sequenceToString(theText, comaReplacement)>
 </#function>
 
-<#function sequenceToString sequence>
+<#function sequenceToString sequence comaReplacement=", ">
 	<#local text = "">
 	<#if (sequence)??>
 		<#if sequence?is_sequence>
-			<#local text = sequence?join(", ")>
+			<#local text = sequence?join(comaReplacement)>
 		<#else>
 			<#local text = sequence>
 		</#if>
