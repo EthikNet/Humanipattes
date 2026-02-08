@@ -42,7 +42,7 @@ $('span[data-obfuscatedkey]').on('click', function() {
 	$(this).next('img.showHiddenDataAppendedButton').remove();
 });
 
-$('span[data-obfuscatedkey]').append('<img class="showHiddenDataAppendedButton" style="width: 24px;margin: 0 4px 0 4px;" src="${webleger.build.host}/${webleger.site.template}/images/eyes.svg" alt="cliquez pour voir en clair"></img>');
+$('span[data-obfuscatedkey]').append("<img class=\"showHiddenDataAppendedButton\" style=\"width: 24px;margin: 0 4px 0 4px;\" src=\"${webleger.build.host}/${webleger.site.template}/images/eyes.svg\" alt=\"cliquez pour voir en clair\"></img>");
 
 
 $('a[data-obfuscatedkey]').on('click', function() {
