@@ -13,6 +13,6 @@ specificClass=secondary lp_title
 order=110
 ~~~~~~
 ## Humani'Pattes
-### Association de protection animale dans la Haute-Vienne
+### Association de protection animale dans la Haute-Vienne, l'Indre et la Creuse
 
 Stérilisation, sauvetage et adoption de chiens et chats. Ensemble, donnons-leur une seconde chance.

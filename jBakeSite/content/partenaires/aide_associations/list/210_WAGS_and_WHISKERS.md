@@ -7,4 +7,4 @@ contentImage=<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" view
 status=published
 order=210
 ~~~~~~
-2 femmes au grand cœur qui nous aident grâce a leur ventes qu'elles transforme en dons
+2 femmes au grand cœur qui nous aident grâce à leurs ventes qu'elles transforment en dons

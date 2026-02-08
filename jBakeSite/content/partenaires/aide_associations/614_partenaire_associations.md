@@ -8,4 +8,4 @@ status=published
 specificClass=associations
 order=614
 ~~~~~~
-	
+D'autres associations avec qui nous coopérons régulièrement.

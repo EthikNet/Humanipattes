@@ -9,4 +9,4 @@ hooks={"data":[{"position":"endItemSubContent", "action":"action.build", "render
 status=published
 order=218
 ~~~~~~
-Vous pouvez nous donner vos créations, nous les vendront lors de nos éventements ou sur notre page Vinted
+Offres-nous vos créations afin de les vendre lors de nos éventements ou sur notre page Vinted

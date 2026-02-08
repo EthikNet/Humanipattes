@@ -12,8 +12,8 @@ order=319
 ~~~~~~
 Ensemble, nous pouvons faire encore plus pour les animaux en Haute-veinne, Creuse et Indre.
 
-- Augmenter le nombre de nos partenariat avec de nouvelles communes
-- Développer notre réseau de familles d'accueil
+- Augmenter le nombre de nos partenariats avec de nouvelles communes
+- Développer notre réseau de familles d'accueil et de bénévoles
 - Organiser davantage d'événements de sensibilisation
 - Créer des partenariats avec des entreprises locales
 - Améliorer le suivi post-adoption

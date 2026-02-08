@@ -9,6 +9,6 @@ contentImage=images/activitees/sterilisation.jpg
 status=published
 order=312
 ~~~~~~
-En partenariat avec les communes du Var, nous organisons des campagnes de stérilisation pour les chats errants. Cette action préventive est essentielle pour limiter la surpopulation féline et améliorer les conditions de vie des animaux.
+En partenariat avec les communes de la Haute-Vienne, l'Indre et la Creuse, nous organisons des campagnes de stérilisation pour les chats errants. Cette action préventive est essentielle pour limiter la surpopulation féline et améliorer les conditions de vie des animaux.
 
-**13 stérilisations réalisées en 2025**
+**30 stérilisations réalisées en 2025**

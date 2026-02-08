@@ -37,14 +37,6 @@
 				<#if hookHelper??>
 					<@hookHelper.hook "beginItemSubContent" subContent/>
 				</#if>
-				<#if (subContent.tags)?? && (subContent.tags?size > 0) >
-					<ul class="subContent_tags">
-					<#list subContent.tags as tag>
-						<li class="subContent_tag">${tag}</li>
-					</#list>
-					</ul>
-				</#if>
-				
 				<#if (subContent.contentImage??)>
 					<#if (subContent.contentImage)??>
 						<@common.addImageIcon subContent.contentImage "partenairesCard_image" subContent.title/>
@@ -58,6 +50,13 @@
 				<div class="partenairesCard_content">
 					${subContent.body!""}
 				</div>
+				<#if (subContent.tags)?? && (subContent.tags?size > 0) >
+					<ul class="subContent_tags">
+					<#list subContent.tags as tag>
+						<li class="subContent_tag">${tag}</li>
+					</#list>
+					</ul>
+				</#if>
 				<#if hookHelper??>
 					<@hookHelper.hook "endItemSubContent" subContent/>
 				</#if>

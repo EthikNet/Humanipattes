@@ -15,4 +15,14 @@ Venez découvrir ces loulous en cliquant sur leur fiche de présentation. Vous y
 
 N’hésitez pas à remplir le formulaire pour plusieurs chats si votre coeur balance ; le bénévole qui vous recontactera se fera un plaisir de voir avec vous quels chats vous correspondront le mieux. Dans tous les cas, un certificat d’engagement vous sera demandé pour attester de la mesure de l’engagement pris. 
 
-Ils partent tous identifiés, vermifugés, primo-vaccinés, testés FIV et FELV et stérilisés ou avec promesse de stérilisation aux 6 mois de l’animal. A cause des différents prix de stérilisation, les chatons partent à 115 euros, les chattes adultes à 160 euros et les chats adultes à 140 euros. De plus, lorsque l’animal a une maladie particulière ou qu’il entre dans la dernière phase de sa vie, nous faisons le choix de réduire le coût de son adoption pour augmenter ses chances d’adoption !
+Tous nos chats partent dans leur nouvelle famille :
+
+- Identifiés
+- Primo-vaccinés
+- Déparasités (puces et vers)
+- Avec certificat de bonne santé
+- Testés FIV et FELV (sida et leucose)
+- Avec son carnet de santé
+- Stérilisés ou avec promesse de stérilisation aux 6 mois de l’animal
+
+Les chatons non stérilisés : 115€, les chats mâle stérilisés : 140€, les chattes stérilisées : 160€. De plus, lorsque l’animal a une maladie particulière ou qu’il entre dans la dernière phase de sa vie, nous faisons le choix de réduire le coût de son adoption pour augmenter ses chances d’adoption !
