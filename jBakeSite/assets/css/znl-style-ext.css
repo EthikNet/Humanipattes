@@ -244,6 +244,7 @@
 }
 .association .valeurs {
 	background-color:${webleger.site.style.highlight.background.color};
+	color:${webleger.site.style.highlight.color};
 }
 
 .association .valeurs .card {
@@ -363,6 +364,11 @@
 	background-repeat: no-repeat;
 	background-position: 0px 3px;
 	margin-top: 7px;
+}
+
+.nousAider .merciDonateurs .blockTitle {
+	margin-top:0;
+	padding-left:10px;
 }
 
 .nousAider .particuliers .card {
@@ -559,6 +565,10 @@
 }
 #footer_blocks .footer_menu li {
 	list-style: none;
+}
+
+#footer_blocks .contact  img {
+	margin:0;
 }
 
 #push,

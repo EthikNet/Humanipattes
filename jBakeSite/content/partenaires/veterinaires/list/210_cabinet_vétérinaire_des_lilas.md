@@ -6,4 +6,4 @@ contentImage=/images/partenaires/cabinet_vétérinaire_des_lilas.jpg
 status=published
 order=210
 ~~~~~~
-Cabinet vétérinaire des Lilas àSaint-Sulpice-Les-Feuilles
+Cabinet vétérinaire des Lilas à Saint-Sulpice-Les-Feuilles

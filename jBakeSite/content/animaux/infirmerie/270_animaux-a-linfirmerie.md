@@ -5,7 +5,7 @@ includeContent={"type":"org_openCiLife_post", "category":"AlInfirmerie", "specif
 category=typeAnimal
 displayDate=false
 status=published
-contentImage=images/animal_infimerie.svg
+contentImage=images/animal_infimerie.jpg
 order=270
 exerpt=Nos animaux en cours soins.
 ~~~~~~
