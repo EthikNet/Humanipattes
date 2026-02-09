@@ -322,15 +322,9 @@
 
 .activitees .pageContent .blockIcon {
 	border-radius:20px;
-}
-
-.activitees .pageContent .blockIcon {
 	width:250px;
 	height:auto;
 	margin:auto;
-}
-
-.activitees .pageContent .block img {
 	max-width:initial;
 }
 
@@ -488,6 +482,26 @@
 	margin: 20px 0;
 }
 
+.animalAdopte .card_image_wraper, .animalInfirmerie .card_image_wraper {
+	height: 200px;
+	overflow: hidden;	
+}
+
+.animalAAdopter .card_image_wraper {
+	height: 350px;
+	overflow: hidden;	
+}
+
+.partenaireVeto .partenairesCard_image_wraper {
+	height: 200px;
+	overflow: hidden;	
+}
+
+.lieuCollectePermanent .partenairesCard_image_wraper {
+	height: 200px;
+	overflow: hidden;	
+}
+
 .aAdopterSubTemplate .animalBio {
 	display: flex;
 	flex-direction: column;
@@ -596,9 +610,14 @@
 		gap:50px;
 	}
 	.activitees .pageContent .blockIcon {
-		width:50%;
 		height:auto;
 		margin:0;
+	}
+	.activitees .pageContent .imageLeftTitleAndContentSubTemplate .blockIcon {
+		margin-right:12px !important;
+	}
+	.activitees .pageContent .imageRightTitleAndContentSubTemplate .blockIcon {
+		margin-left:12px !important;
 	}
 	.activitees .objectif2026 ul {
 		width:60%;

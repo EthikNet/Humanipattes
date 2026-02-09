@@ -6,7 +6,16 @@
 	<#return "" />
 </#function>
 
-<#macro partenairesCard contentHolder subContents>
+<#macro partenairesCardNoTitle contentHolder subContents>
+	<@partenairesCard contentHolder subContents />
+</#macro>
+
+<#macro partenairesCardWithTitle contentHolder subContents>
+	<@partenairesCard contentHolder subContents true/>
+</#macro>
+
+
+<#macro partenairesCard contentHolder subContents displayTitle=false>
 	<#local featauredText = "">
 	<#local specificContentClass = "">
 	<#local specificClass = "">
@@ -36,6 +45,9 @@
 				</#if>
 				<#if hookHelper??>
 					<@hookHelper.hook "beginItemSubContent" subContent/>
+				</#if>
+				<#if displayTitle>
+					<h3>${subContent.title}</h3>
 				</#if>
 				<#if (subContent.contentImage??)>
 					<#if (subContent.contentImage)??>

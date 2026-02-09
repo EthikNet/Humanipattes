@@ -1,11 +1,11 @@
 title=Nos animaux adoptés
 date=2026-01-04
 type=org_openCiLife_post
-includeContent={"type":"org_openCiLife_post", "category":"Adoptes", "specificClass":"fourPerRow cardAnimal", "display":{"type":"card", "content":"visible"}}
+includeContent={"type":"org_openCiLife_post", "category":"Adoptes", "specificClass":"fourPerRow cardAnimal animalAdopte", "display":{"type":"card", "content":"visible"}}
 category=typeAnimal
 displayDate=false
 status=published
-contentImage=images/animal_adoptes.svg
+contentImage=images/animal_adopte.jpg
 order=290
 exerpt=Nos animaux déja adoptés.
 ~~~~~~
