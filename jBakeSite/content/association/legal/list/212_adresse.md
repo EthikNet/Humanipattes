@@ -7,5 +7,5 @@ contentImage=<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w
 status=published
 order=212
 ~~~~~~
-2 Place du 8 Mai 1945
-87160 Cromac
+2 place du 8 Mai 1945
+87160 CROMAC

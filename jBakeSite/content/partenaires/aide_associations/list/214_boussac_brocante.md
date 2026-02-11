@@ -7,6 +7,6 @@ contentImage=/images/partenaires/logo_boussac.png
 status=published
 order=214
 ~~~~~~
-qui grâces à leur gala annuel et leur ventes nous font des dons.
+qui grâce à leur gala annuel et leur ventes nous font des dons.
 
 [https://boussacbrocante.fr/](https://boussacbrocante.fr/)

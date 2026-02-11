@@ -6,4 +6,4 @@ contentImage=/images/partenaires/Vigoux-Mairie-logo.jpg
 status=published
 order=222
 ~~~~~~
-Mairie, 12 Rue de la République, 36170 Vigoux
+Mairie, 12 rue de la République, 36170 Vigoux

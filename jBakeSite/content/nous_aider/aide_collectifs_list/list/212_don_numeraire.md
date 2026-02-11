@@ -9,4 +9,4 @@ hooks={"data":[{"position":"endItemSubContent", "action":"action.build", "render
 status=published
 order=212
 ~~~~~~
-Vous pouvez ausi faire un don d'argent
+Vous pouvez aussi faire un don d'argent

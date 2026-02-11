@@ -9,4 +9,4 @@ exerpt=Les avocats sont toxiques, même pour les gros chiens !
 moreInfoLink=https://www.google.com
 order=710
 ~~~~~~
-Les avocats sont toxiques, même pour un berger allemand de 35 kg, un seul avocats a suffit à le rendre très malade.
+Les avocats sont toxiques, même pour un berger allemand de 35 kg, un seul avocat a suffi à le rendre très malade.

@@ -7,4 +7,4 @@ contentImage=/images/partenaires/logo-maximum-long.svg
 status=published
 order=220
 ~~~~~~
-Maximum, Mailhac sur Benaize pour leurs dons en couverture et en sciure et copeaux de bois.
+Maximum, Mailhac-sur-Benaize pour leurs dons en couverture et en sciure et copeaux de bois.

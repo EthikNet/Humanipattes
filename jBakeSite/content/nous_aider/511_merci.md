@@ -7,6 +7,6 @@ status=published
 specificClass=primary merciDonateurs
 order=511
 ~~~~~~
-Un grand **merci** à tous ceux et celles qui nous aident déjà : par leurs dons (réguliers ou occasionnelles) par leurs actions et/ou leur bienveillance.
+Un grand **merci** à tous ceux et celles qui nous aident déjà : par leurs dons (réguliers ou occasionnels) par leurs actions et/ou leur bienveillance.
 
-Si vous souhaitez (et pouvez) les rejoindre voici une liste de choses que vous pouvez faire pour nous aider. Chaque action petite ou grande  contribue à faire vivre l'association et à aider des annimaux.
+Si vous souhaitez (et pouvez) les rejoindre voici une liste de choses que vous pouvez faire pour nous aider. Chaque action petite ou grande  contribue à faire vivre l'association et à aider des animaux.

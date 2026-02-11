@@ -6,4 +6,4 @@ contentImage=/images/partenaires/logo_animalook.jpg
 status=published
 order=216
 ~~~~~~
-7 Rue Fontfroide, 23300 La Souterraine
+7 rue Fontfroide, 23300 La Souterraine

@@ -6,4 +6,4 @@ contentImage=/images/partenaires/logo-vetoptisoins.jpg
 status=published
 order=218
 ~~~~~~
-à Pierre Buffière
+à Pierre-Buffière

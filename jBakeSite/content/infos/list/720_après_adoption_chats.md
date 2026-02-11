@@ -5,7 +5,7 @@ category=infos
 tags=adoption
 contentImage=images/information.svg
 status=published
-exerpt=Après une adoption, ou après un démnagement enfermez votre chat dans une pièce pendant 1 semaine environ
+exerpt=Après une adoption, ou après un déménagement, enfermez votre chat dans une pièce pendant 1 semaine environ
 order=720
 ~~~~~~
 	

@@ -4,7 +4,7 @@ type=org_openCiLife_block
 category=infos
 tags=adoption
 contentImage=images/animaux/boulette.jpg
-status=published
+status=draft
 exerpt=Une info de niveau 2 avec du contenu à changer
 order=730
 ~~~~~~

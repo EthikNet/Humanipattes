@@ -9,4 +9,4 @@ hooks={"data":[{"position":"endItemSubContent", "action":"action.build", "render
 status=published
 order=220
 ~~~~~~
-Même si vous ne participez pas aux actions vous pouvez adhérer à l'association : cela nous aides !
+Même si vous ne participez pas aux actions, vous pouvez adhérer à l'association : cela nous aide !

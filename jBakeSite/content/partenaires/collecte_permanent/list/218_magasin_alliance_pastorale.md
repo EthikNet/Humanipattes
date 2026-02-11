@@ -6,4 +6,4 @@ contentImage=<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" view
 status=published
 order=218
 ~~~~~~
-Zone des Narrons, 36200 Argenton-Sur-Creuse
+Zone des Narrons, 36200 Argenton-sur-Creuse

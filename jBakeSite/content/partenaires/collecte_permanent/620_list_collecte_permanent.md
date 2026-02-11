@@ -7,4 +7,4 @@ tags=
 status=published
 order=620
 ~~~~~~
-Voici des endroits ou vous pouvez nous déposer de la nourriture ou des objets. Plus besoin d'attendre un collecte pour nous faire des dons !
+Voici des endroits ou vous pouvez nous déposer de la nourriture ou des objets. Plus besoin d'attendre une collecte pour nous faire des dons !

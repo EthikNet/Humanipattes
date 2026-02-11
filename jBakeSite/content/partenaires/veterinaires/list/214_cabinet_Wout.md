@@ -6,4 +6,4 @@ contentImage=/images/partenaires/cabinet_wout.png
 status=published
 order=214
 ~~~~~~
-à la Souterraine et Bessines/Gartempe
+à la Souterraine et Bessines-sur-Gartempe

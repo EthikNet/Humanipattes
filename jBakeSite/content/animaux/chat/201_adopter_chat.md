@@ -13,7 +13,7 @@ exerpt=Tous nos chats sont identifiés, vaccinés et stérilisés.
 
 Venez découvrir ces loulous en cliquant sur leur fiche de présentation. Vous y trouverez un résumé de leur début de vie et des raisons de leur prise en charge par Humani’Pattes ainsi qu’une présentation de leur caractère, de leurs ententes potentielles et évidemment des photos.
 
-N’hésitez pas à remplir le formulaire pour plusieurs chats si votre coeur balance ; le bénévole qui vous recontactera se fera un plaisir de voir avec vous quels chats vous correspondront le mieux. Dans tous les cas, un certificat d’engagement vous sera demandé pour attester de la mesure de l’engagement pris. 
+N’hésitez pas à remplir le formulaire pour plusieurs chats si votre cœur balance ; le bénévole qui vous recontactera se fera un plaisir de voir avec vous quels chats vous correspondront le mieux. Dans tous les cas, un certificat d’engagement vous sera demandé pour attester de la mesure de l’engagement pris. 
 
 Tous nos chats partent dans leur nouvelle famille :
 
@@ -25,4 +25,4 @@ Tous nos chats partent dans leur nouvelle famille :
 - Avec son carnet de santé
 - Stérilisés ou avec promesse de stérilisation aux 6 mois de l’animal
 
-Les chatons non stérilisés : 115€, les chats mâle stérilisés : 140€, les chattes stérilisées : 160€. De plus, lorsque l’animal a une maladie particulière ou qu’il entre dans la dernière phase de sa vie, nous faisons le choix de réduire le coût de son adoption pour augmenter ses chances d’adoption !
+Les chatons non stérilisés : 115€, les chats mâles stérilisés : 140€, les chattes stérilisées : 160€. De plus, lorsque l’animal a une maladie particulière ou qu’il entre dans la dernière phase de sa vie, nous faisons le choix de réduire le coût de son adoption pour augmenter ses chances d’adoption !

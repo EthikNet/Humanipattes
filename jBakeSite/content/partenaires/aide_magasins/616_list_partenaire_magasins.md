@@ -8,4 +8,4 @@ status=published
 specificClass=magasins
 order=616
 ~~~~~~
-Il nous aident en faisant des dons ou nous fournissant un lieu pour les collectes.
+Ils nous aident en faisant des dons ou nous fournissant un lieu pour les collectes.

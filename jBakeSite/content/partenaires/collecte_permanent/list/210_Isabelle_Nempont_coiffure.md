@@ -1,4 +1,4 @@
-title=sabelle Nempont coiffure
+title=Isabelle Nempont coiffure
 date=2026-02-09
 type=org_openCiLife_block
 category=lieuCollectePermanent

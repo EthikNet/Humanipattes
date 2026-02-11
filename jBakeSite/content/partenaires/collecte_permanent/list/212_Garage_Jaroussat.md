@@ -6,4 +6,4 @@ contentImage=/images/partenaires/logo_garage_jaroussat.svg
 status=published
 order=212
 ~~~~~~
-Lieu-dit Abloux, 36170 Saint Gilles
+Lieu-dit Abloux, 36170 Saint-Gilles
