@@ -12,13 +12,12 @@ exerpt=Aïko, petit gabarit noir et blanc, est tendre et très câlin même si t
 sexe=Mâle
 dateNaissance=Estimé au début juin 2025
 vigilance=Tout à découvrir
-tarif=Adoptée pour 115 euros 
-caractere=Chasseuse,Gentiment câline,Joueuse
-autre=Caution pour sa stérilisation future ,Vermifugé et déparasité,Primo-vacciné,Testé FIV/FeLV négatif
+tarif=Adopté pour 140 euros
+caractere=Chasseur,Gentiment câlin,Joueur
+autre=Stérilisé,Vermifugé et déparasité,Primo-vacciné,Testé FIV/FeLV négatif
 visible=Visible à La Chapelle Baloue
+chaton=true
 ~~~~~~
-Prendre un chaton a des avantages : si les choses sont bien faites, le chaton s’habituera généralement plus facilement à votre mode de vie ainsi qu’à vos animaux déjà présents (et inversement).  Néanmoins, cela représente aussi un investissement plus important : un chaton a besoin d’encore plus d’attention qu’un adulte (câlins, séances de jeux…) pour se développer correctement. De plus, nous pouvons (presque) garantir le tempérament de nos adultes, que nous connaissons très bien, mais pour nos chatons… c’est ce qu’on appelle une loterie pour 20 ans ! Alors… bonne chance !
-
 Aïko est un chaton. Et comme tout chaton, sa personnalité est encore à découvrir et affirmer ! 
 
 A leurs trois mois, l’association et ses deux sauveuses devenues sa famille d’accueil, ont attrapé 7 chatons (Aïko, Astro, Arkan, Angoune, Apple, Aïdy et Amande) pour les mettre au chaud, en sécurité et surtout que leur prodiguer les premiers soins. Pour certains assez agressifs au départ, ils commencent à faire confiance à l’humain et sont dorénavant prêts à partir dans leur nouvelle famille pour la vie.

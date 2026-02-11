@@ -82,6 +82,13 @@
 
 <#macro aAdopterSubTemplate theContent>
 	<div class="aAdopterSubTemplate">
+		<#if (theContent.chaton)?? && theContent.chaton!="false">
+			<div class="secondary animalChaton">
+				Prendre un chaton a des avantages : si les choses sont bien faites, le chaton s’habituera généralement plus facilement à votre mode de vie ainsi qu’à vos animaux déjà présents (et inversement). 
+				<br/>Néanmoins, cela représente aussi un investissement plus important : un chaton a besoin d’encore plus d’attention qu’un adulte (câlins, séances de jeux…) pour se développer correctement. 
+				<br/>De plus, nous pouvons (presque) garantir le tempérament de nos adultes, que nous connaissons très bien, mais pour nos chatons… c’est ce qu’on appelle une loterie pour 20 ans ! Alors… bonne chance !
+			</div>
+		</#if>
 		<div class="animalBio">
 			<div class="animalPhoto">
 				<#if (theContent.contentImage)??>

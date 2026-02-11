@@ -107,6 +107,21 @@ a.no_state:active {
 	background-color: ${webleger.site.style.alternate.background.color};
 }
 
+.highlight {
+	background-color:${webleger.site.style.highlight.background.color};
+	color:${webleger.site.style.highlight.color};
+}
+
+.primary .highlight {
+	background-color:${webleger.site.style.primary.highlight.background.color};
+	color:${webleger.site.style.primary.highlight.color};
+}
+
+.secondary .highlight {
+	background-color:${webleger.site.style.secondary.highlight.background.color};
+	color:${webleger.site.style.secondary.highlight.color};
+}
+
 .discret {
 	color: ${webleger.site.style.discret.color};
 	background-color: ${webleger.site.style.discret.background.color};
