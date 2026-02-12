@@ -11,5 +11,5 @@ order=316
 ~~~~~~
 À travers nos balades solidaires et notre présence sur les réseaux sociaux et nos stands sur différents évènements : nous sensibilisons le public à la cause animale, à l'adoption responsable et à l'importance de la stérilisation.
 
-**Balades mensuelles**
-**Stands de sensibilisons**
+**Balades régulières**
+**Stands de sensibilisation**

@@ -7,7 +7,7 @@ displayDate=false
 status=published
 contentImage=images/animal_adopte.jpg
 order=290
-exerpt=Nos animaux déja adoptés.
+exerpt=Nos animaux déjà adoptés.
 ~~~~~~
 Nous souhaitions garder une trace de tous les loulous passés par chez nous.
 Nous leur souhaitons une très belle vie !

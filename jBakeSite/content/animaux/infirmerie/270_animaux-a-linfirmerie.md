@@ -7,7 +7,7 @@ displayDate=false
 status=published
 contentImage=images/animal_infimerie.jpg
 order=270
-exerpt=Nos animaux en cours soins.
+exerpt=Nos animaux en cours de soins.
 ~~~~~~
 Nous pouvons parfois garder certains de nos animaux sauvés jusqu’à plusieurs mois, le temps de les remettre sur pied. Eh oui, certains n’arrivent pas que craintifs face à l’humain ! Nos animaux sont parfois en mauvaise santé : maladies, blessures, pathologies voire des problèmes comportementaux manifestes qui empêchent, en l’état, de les faire adopter. 
 Ainsi, ces loulous méritent d’être gentiment accompagnés dans leur reconstruction ou leurs soins, par leur famille d’accueil ou leur famille d’accueil longue durée.

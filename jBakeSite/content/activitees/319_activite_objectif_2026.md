@@ -10,7 +10,7 @@ hooks={"data":[{"position":"afterBlockBody", "action":"action.build", "renderOnc
 status=published
 order=319
 ~~~~~~
-Ensemble, nous pouvons faire encore plus pour les animaux en Haute-veinne, Creuse et Indre.
+Ensemble, nous pouvons faire encore plus pour les animaux en Haute-Vienne, Creuse et Indre.
 
 - Augmenter le nombre de nos partenariats avec de nouvelles communes
 - Développer notre réseau de familles d'accueil et de bénévoles
