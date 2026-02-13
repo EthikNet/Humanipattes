@@ -134,6 +134,9 @@ img {
 .impact_img svg {
 	border-radius: 5px;
 }
+.impact {
+	color:${webleger.site.style.impact.color};
+}
 
 #mainContent img {
 	margin: 5px;

@@ -64,7 +64,7 @@ abbr[title] {
 b,
 strong {
 	font-weight: 700;
-	color:${webleger.site.style.primary.background.color}
+	color:${webleger.site.style.impact.color}
 }
 
 dfn {

@@ -121,7 +121,7 @@
     background-color: #e5eae3;
     justify-content: center;
     align-items: center;
-	color:${webleger.site.style.primary.background.color};
+	color:${webleger.site.style.impact.color};
 }
 .lp_impact .card_content strong {
 	color:${webleger.site.style.color};
@@ -143,11 +143,11 @@
 }
 
 #mainContent .pageContent a:not(:no_state) {
-	color:${webleger.site.style.primary.background.color};
+	color:${webleger.site.style.impact.color};
 	text-decoration: underline;
 }
 #mainContent .pageContent a:hover:not(:no_state) {
-	color:${webleger.site.style.secondary.background.color};
+	color:${webleger.site.style.impact.color};
 	text-decoration: none;
 }
 
@@ -175,6 +175,9 @@
 	height:auto;
 	max-width: 100%;
 }
+.cardAnimal .card {
+	margin-bottom:20px;
+}
 .cardAnimal  .card .card_title {
 	 padding: 10px 0;
 }
@@ -187,9 +190,16 @@
 	color: ${webleger.site.style.titles.color};
 }
 
+.lp_help {
+	background-color:${webleger.site.style.discret.background.color};
+}
+
 .homePage .help .card, .homePage .help .card h3 {
-	background-color : #5a8a79;
-	color:${webleger.site.style.primary.color};
+	background-color:${webleger.site.style.background.color};
+	color: ${webleger.site.style.titles.color};
+}
+.homePage .help .card h3 {
+	min-height:50px;
 }
 
 .homePage .help .card {
@@ -208,7 +218,7 @@
 }
 
 .sticker {
-	color:${webleger.site.style.primary.background.color};
+	color:${webleger.site.style.impact.color};
 }
 
 .secondary a.no_state:link, 
@@ -226,6 +236,9 @@
   color: ${webleger.site.style.secondary.background.color} !important;
 }
 
+.secondary .btn-primary {
+  color: ${webleger.site.style.primary.color} !important;
+}
 
 .headerTile {
 	text-align:center;
@@ -306,21 +319,30 @@
     border-radius: 9999px;
     justify-content: center;
     align-items: center;
-	color:${webleger.site.style.primary.background.color};
+	color:${webleger.site.style.impact.color};
 }
 
-.activitees .pageContent .block_title_image {
-	display:flex;
+.activitees .pageContent .activitee .blockTitle {
+	display: flex;
+	gap: 12px;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.activitees .pageContent .activitee .block_title_image {
+	display: inline-flex;
     height: 60px;
     width: 60px;
     border-radius: 9999px;
     justify-content: center;
     align-items: center;
-	color:${webleger.site.style.primary.background.color};
+	color:${webleger.site.style.impact.color};
 	background-color:#e5eae3;
 }
 
-.activitees .pageContent .blockIcon {
+.activitees .pageContent .activitee .blockIcon {
 	border-radius:20px;
 	width:250px;
 	height:auto;
@@ -328,7 +350,7 @@
 	max-width:initial;
 }
 
-.activitees .pageContent .blockContent{
+.activitees .pageContent .activitee .blockContent{
 	padding-left:0;
 }
 
@@ -380,7 +402,7 @@
     border-radius: 9999px;
     justify-content: center;
     align-items: center;
-	color:${webleger.site.style.primary.background.color};
+	color:${webleger.site.style.impact.color};
 }
 
 .nousAider .collectif .card {
@@ -398,7 +420,7 @@
     border-radius: 9999px;
     justify-content: center;
     align-items: center;
-	color:${webleger.site.style.primary.background.color};
+	color:${webleger.site.style.impact.color};
 }
 
 .partenaires .associations .card {
@@ -417,23 +439,24 @@
     border-radius: 9999px;
     justify-content: center;
     align-items: center;
-	color:${webleger.site.style.primary.background.color};
+	color:${webleger.site.style.impact.color};
 }
 
 .partenaires .magasins .subContent_tags {
 	text-align:left;
 	padding-left: 5px;
 	margin-top: 5px;
+	margin-bottom: 25px;
 }
 
 .partenaires .magasins .subContent_tag {
 	display: inline-block;
     list-style-type: none;
     background-color:${webleger.site.style.primary.background.color};
-    color:${webleger.site.style.primary.color};
+    color:${webleger.site.style.color};
     border: 1px solid ${webleger.site.style.primary.background.color};
     border-radius:12px;
-    padding: 0px 3px;
+    padding: 1px 4px;
     margin-top: 5px;
     margin-left:0;
     text-align:left;
@@ -452,6 +475,19 @@
 	flex-flow: column;
 }
 
+.infos .card_image_wraper {
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
+}
+.infos .card_tags {
+	margin-top: 10px;
+}
+.infos .card_title {
+	min-height: 50px;
+}
 .infos .card_image {
 	width: auto;
 	height:initial;
@@ -463,12 +499,13 @@
 	display: flex;
 	justify-content: flex-end;
 	gap: 12px;
+	margin-right:10px;
 }
 .infos .content_tags li {
 	list-style-type: none;
-	background-color: hsl(158, 27%, 39%);
-	color: ${webleger.site.style.primary.color};
-	border: 1px solid hsl(158, 27%, 39%);
+	background-color:${webleger.site.style.primary.background.color};
+	color: initial;
+	border: 1px solid ${webleger.site.style.primary.background.color};
 	border-radius: 12px;
 	padding: 3px;
 	margin-top: 5px;
@@ -488,18 +525,26 @@
 }
 
 .animalAAdopter .card_image_wraper, .moreAdopter .card_image_wraper {
-	height: 350px;
+	height: 320px;
 	overflow: hidden;	
 }
 
 .partenaireVeto .partenairesCard_image_wraper {
 	height: 200px;
-	overflow: hidden;	
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
 }
 
 .lieuCollectePermanent .partenairesCard_image_wraper {
 	height: 200px;
-	overflow: hidden;	
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
 }
 
 .aAdopterSubTemplate .animalChaton {
@@ -569,6 +614,19 @@
 	flex-direction: row;
 }
 
+#footer_blocks .acrroche_footer .blockTitle {
+	display: flex;
+	align-content: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: column;
+}
+#footer_blocks .acrroche_footer .blockTitle .block_title_image_wraper {
+	display: flex;
+	align-content: center;
+	flex-wrap: wrap;
+	justify-content: center;
+}
 #footer_blocks .acrroche_footer .blockTitle img {
 	width:50px;
 	height:auto;
@@ -614,6 +672,10 @@
 	}
 	.lp_title .title_cta {
 		gap:50px;
+	}
+	.activitees .pageContent .activitee .blockTitle {
+		justify-content: flex-start;
+		flex-direction: row;
 	}
 	.activitees .pageContent .blockIcon {
 		height:auto;

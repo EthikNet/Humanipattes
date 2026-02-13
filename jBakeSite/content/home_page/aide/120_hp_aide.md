@@ -4,7 +4,7 @@ type=org_openCiLife_block
 includeContent={"type":"org_openCiLife_block", "category":"aide", "specificClass":"fourPerRow help", "display":{"type":"card", "content":"visible"}}
 category=homepage
 tags=
-specificClass=primary
+specificClass=lp_help
 status=published
 order=120
 ~~~~~~

@@ -12,9 +12,9 @@ Nous prenons soin de nos animaux et de notre planète.
 
 Nous essayons de suivre une démarche éco-responsable le plus possible :
 
-nous limitons nos déchets,
-nous réutilisons,
-nous utilisons des produits sains
-nous utilisons de la sciure pour nos litières. (sauf pour nos animaux qui ne le supportent pas)
+- nous limitons nos déchets,
+- nous réutilisons,
+- nous utilisons des produits sains
+- nous utilisons de la sciure pour nos litières. (sauf pour nos animaux qui ne le supportent pas)
 
 Même ce site web suit cette logique, il est éco-conçu et a une empreinte carbone minimaliste  (construit avec [Webleger](https://ethiknet.fr/webleger/) par l'agence locale [**<span style="color:hsl(145, 45%, 28%)">Ethik<span style="color:#D6A63B">Net</span></span>**](https://ethiknet.fr/ethiknet/)).
