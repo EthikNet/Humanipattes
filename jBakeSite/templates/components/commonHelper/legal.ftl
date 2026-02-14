@@ -27,6 +27,7 @@
 				<@displayPropsIfSet "site.legal.hosting.company.name"/>
 				<@displayPropsIfSet "site.legal.hosting.company.address"/>
 				<@displayPropsIfSet "site.legal.hosting.company.phone_number"/>
+				<@displayPropsIfSet "site.legal.hosting.company.email"/>
 			</div>
 			<div class="legal_specific">
 				<h3>Autres informations</h3>
@@ -71,7 +72,7 @@
 	<#if (allLegalContents?size>0)>
 		<ul class="${classes}">
 			<#list allLegalContents?sort_by("date") as legalContent>
-				<li><a href=${legalContent.uri}>${legalContent.title}</a></li>
+				<li><a href=${common.buildRootPathAwareURL(legalContent.uri)}>${legalContent.title}</a></li>
 			</#list>
 		</ul>
 	</#if>
