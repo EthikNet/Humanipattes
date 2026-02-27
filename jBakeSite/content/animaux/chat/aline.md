@@ -8,19 +8,19 @@ status=published
 contentImage=images/animaux/aline.jpg
 imageList={"data":[{"file":"images/animaux/aline_profil.jpg", "alt":"Aline de profil", "width":"550px"}, {"file":"images/animaux/aline_et_autre_chatons.jpg", "alt":"Aline et autres châtons","width":"550px"}, {"file":"images/animaux/aline_sur_couverture.jpg", "alt":"Aline sur une couverture","width":"1100px"}]}
 order=203
-exerpt=Aline est une chatonne d’environ 3 mois, petite maline surtout  très douée en cachette secrète !! Elle se laisse faire lors des manipulations
+exerpt=Selon ma maman d’accueil, je suis « d’une extrême mignonnerie » et en toute modestie, je suis entièrement d’accord avec elle !
 sexe=Femelle
 dateNaissance=Née le 26 mai 2025
-vigilance=Tout à découvrir
-tarif=Adoptée pour 115 euros 
+vigilance=Pipelette, Energique, Pot de colle
+tarif=Adoptée pour 160 euros
 caractere=Maline,Observatrice
-autre=Caution pour sa stérilisation future ,Vermifugé et déparasité,Primo-vacciné,Testé FIV/FeLV négatif
-visible=Visible à Saint Pardoux 
+autre=Vermifugée et déparasitée,Primo-vaccinée,Testée FIV/FeLV négatif
+visible=Visible à Lussac-les-Eglises
 ~~~~~~
-Prendre un chaton a des avantages : si les choses sont bien faites, le chaton s’habituera généralement plus facilement à votre mode de vie ainsi qu’à vos animaux déjà présents (et inversement).  Néanmoins, cela représente aussi un investissement plus important : un chaton a besoin d’encore plus d’attention qu’un adulte (câlins, séances de jeux…) pour se développer correctement. De plus, nous pouvons (presque) garantir le tempérament de nos adultes, que nous connaissons très bien, mais pour nos chatons… c’est ce qu’on appelle une loterie pour 20 ans ! Alors… bonne chance !
+J’ai été trouvée avec mon frère et ma soeur, ainsi que notre maman qui était nourrie par un monsieur. Celui-ci étant décédé, son aide à domicile a contacté l’association et nous a tous pris sous son aile jusqu’à ce qu’une famille d’accueil de l’association soit disponible.
 
-Aline est un chaton. Et comme tout chaton, sa personnalité est encore à découvrir et affirmer ! 
+Selon ma maman d’accueil, je suis « d’une extrême mignonnerie » et en toute modestie, je suis entièrement d’accord avec elle ! C’est vrai ! J’adore les câlins, je les réclame à corps et à cri et j’en suis tellement fan que je suis (un peu !) brusque avec ma jolie tête lorsque je me frotte contre mes humains. Ils disent que je ressemble à une véritable rugbyman professionnelle quand je fais ça…
 
-Aline a été trouvée avec son frère et sa soeur, tout près de leur maman qui jusque là,  était nourrie par un monsieur. Celui-ci étant décédé, l’aide à domicile nous a contacté et a pris tout le monde sous son aile. 
+Alors okkkk, je suis une vraie petite pipelette. Mais ce n’est pas ma faute, j’ai plein de choses à dire ! Parce que mon passe-temps favori ce sont les commérages assise devant ma fenêtre …à l’affût des potins du trafic de croquettes de ma rue ou de tout autre infos croustillantes. Et il s’en passe à Lussac-les-Eglises, moi j’vous l’dis !
 
-Aline est une chatonne d’environ 3 mois, petite maline surtout  très douée en cachette secrète !! Elle se laisse faire lors des manipulations. Evolution incroyable quand on sait que ces petits loulous ont été accueillis il y a tout juste 2 semaines. Elle commence à être plus en confiance lorsque l’humaine est présente dans la pièce. Elle l’observe sans crainte et sans chercher à se cacher sauf s’il y a un bruit fort ou inhabituel. Cette petite chatonne était la plus frêle à son arrivée mais a désormais récupéré le gabarit de son frère
+Très énergique, je suis aussi un petit pot de colle qui vous suivra partout ! Je suis aussi très joueuse avec mes copains, et tata dit que je suis très agile. Un vrai chat de cirque !

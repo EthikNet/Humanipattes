@@ -51,6 +51,10 @@
 				<@displayPropsIfSet "site.legal.specific.regulated_activities.professional_order.name"/>
 			</div>
 		</div>
+	<#else>
+		<#if logHelper??>
+			<@logHelper.debug "No Legal Informations for this content" />
+		</#if>
 	</#if>
 </#macro>
 
@@ -78,17 +82,19 @@
 	</#if>
 </#macro>
 
-<#macro buildCGV theContent>
-	<#local cssClass="cgv">
-	<#if (theContent.cgv)?? && theContent.cgv=="true">
-		<div<#if (cssClass)??> class="${cssClass}</#if>">
-			<div class="cgv_current">
-					//TODO
-			</div>
-			<div class="cgv_old">
-					//TODO
-			</div>
-		</div>
+<#function isCgvContent theContent>
+	<#local isCgv = sequenceHelper.seq_containsOne(propertiesHelper.retrieveAndDisplayConfigText("site.legal.cgv.category", true, ","), theContent.category)>
+	<#return isCgv/>
+</#function>
+
+<#macro displayCgvLinks theContent classes="legal_menu">
+	<#local allCgvContents = db.getPublishedContent("org_openCiLife_post")?filter(ct -> (isCgvContent(ct)))>
+	<#if (allCgvContents?size>0)>
+		<ul class="${classes}">
+			<#list allCgvContents?sort_by("date") as cgvContent>
+				<li><a href=${cgvContent.uri}>${cgvContent.title} (${cgvContent.date?date})</a></li>
+			</#list>
+		</ul>
 	</#if>
 </#macro>
 

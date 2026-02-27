@@ -8,19 +8,22 @@ status=published
 contentImage=images/animaux/nina.jpg
 imageList={"data":[{"file":"images/animaux/nina_gros_plan.jpg", "alt":"Nina de près", "width":"1100px"}, {"file":"images/animaux/nina_profil.jpg", "alt":"Nina de profil","width":"550px"}, {"file":"images/animaux/nina_encore.jpg", "alt":"Nina","width":"550px"}]}
 order=203
-exerpt=Nina est une chatte de 2 ans absolument adorable qui recherche une famille pour la vie.
+exerpt=Je suis une chatte de 3 ans absolument adorable – ce n’est pas moi qui le dis mais mes proches !
 sexe=Femelle
 dateNaissance=Née en janvier 2023 
 bonus=maison avec extérieur
 tarif=160 euros
 caractere=Douce,Câline,Calme
-autre=Stérilisé,Vermifugé et déparasité,Vacciné,Testée FIV/FeLV négative
+autre=Stérilisée,Vermifugée et déparasitée,Vaccinée,Testée FIV/FeLV négative
 visible=Visible à Saint Léger Magnazeix
 ~~~~~~
-Nina est une chatte de 2 ans absolument adorable qui recherche une famille pour la vie.
+J’ai eu la chance de commencer ma vie sous une belle étoile : née dans la rue, j’ai été récupérée par une dame qui a pris soin de moi, qui m’a chouchoutée et m’a donné tout plein d’amour durant mes deux premières années – je ne la remercierai jamais assez. Malheureusement, tombée malade, ma première maman a pris la décision de me confier à l’association pour qu’elle me garde en sécurité et me trouve une nouvelle famille.
 
-Elle a commencé sa vie sous une belle étoile : née dans la rue, elle a été récupérée par une dame qui a pris soin d’elle, qui l’a chouchouté, qui l’a mis en règle et lui a donné tout plein d’amour durant ses deux premières années. Malheureusement, tombée malade, sa propriétaire a pris la décision de la placer chez nous afin que nous lui trouvions la meilleure famille possible. 
+Grâce à ce début de vie heureux, je suis, selon mon tonton et ma tata, un amour de chat ! Apparemment, je les exploite en ne le prenant que pour des distributeurs de câlins ambulants (rooooh ! ils se plaignent pour pas grand-chose, je trouve …). Je les couve de câlins également ! Moi je dis : c’est donnant-donnant ! En plus, je suis plutôt calme même si j’aime bien me faire une petite séance de jeux, seule, de temps en temps après une balle ou une souris en plastique. Je miaule un peu – je communique avec mes humains mais ils ne comprennent pas toujours tout… Et enfin, j’ai un poils tout doux !
 
-Grâce à ce début de vie heureux, Nina est un amour de chat qui n’a aucune crainte envers l’humain et ne le voit que comme un distributeur de câlins. Inquiète de la présence d’un chien par exemple, elle viendra se rassurer auprès de vous.  Néanmoins, il est rassurant de voir qu’en quelques semaines, elle s’est vite habituée au chien de la famille ! Finalement, se sont ses congénères mâles très entreprenants qui l’agacent vite et ce qu’elle sait leur faire remarquer à coup de grognements !
+Alors oui, c’est vrai, j’ai des mini défauts :
 
-Elle adore venir se blottir contre l’humain, ne joue que très peu et préfère largement une place sur le lit pour dormir avec ses humains. Elle a connu l’extérieur et cela lui manque, nous lui cherchons donc une famille qui lui proposera un extérieur adapté.
+- Je m’inquiète facilement lorsqu’il y a un changement comme un nouvel individu dans la maison … Par exemple, quand le nouveau chien de ma famille d’accueil est arrivé, j’ai eu peur alors je suis allée me rassurer auprès de mon papa d’accueil. Néanmoins, selon lui je suis trop forte car je me suis vite habituée à ce truc poilu et tout foufou !
+- Le plus agaçant dans ma famille d’accueil, ce sont mes demi-frères félins… enfin l’un d’entre eux surtout ! Il m’éneeerve ! Il m’observe de loin, me colle aux basques comme dit tata et parfois il me poursuit dans toute la maison ! Alors je le feule pour lui expliquer son manque flagrant de savoir-vivre – je tente une rééducation… mais celle-ci est longue et difficile. Parfois, c’est vrai, je perds patience et lui lance des coups de pattes. Mais promis, il a mérité chacun d’entre eux !
+- J’ai eu une grosse infection urinaire – on a cru que je ne m’en sortirai pas… - et selon les docteurs, c’est parce que j’ai très mal vécu la perte de ma première maman… apparemment je suis une grande sensible et une anxieuse par nature. C’est ce qui expliquerait l’absence de poils sur mon bidon, toujours selon ma vétérinaire préférée.
+- Alors pour moi ce n’est pas un défaut, mais malheureusement ça peut être rédhibitoire pour certains : j’ai besoin de mettre ma petite frimousse à l’air libre. J’ai toujours connu l’extérieur et j’aime trop ça… 

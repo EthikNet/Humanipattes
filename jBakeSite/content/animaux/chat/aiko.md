@@ -13,17 +13,17 @@ sexe=Mâle
 dateNaissance=Estimé au début juin 2025
 vigilance=Tout à découvrir
 tarif=Adopté pour 140 euros
-caractere=Chasseur,Gentiment câlin,Joueur
+caractere=Joueur, Câlin, Gourmand
 autre=Stérilisé,Vermifugé et déparasité,Primo-vacciné,Testé FIV/FeLV négatif
 visible=Visible à La Chapelle Baloue
 chaton=true
 ~~~~~~
-Aïko est un chaton. Et comme tout chaton, sa personnalité est encore à découvrir et affirmer ! 
+A nos trois mois environ, l’association et nos deux sauveuses devenues notre famille d’accueil, ont réussi à nous attraper, mes frères et sœurs et moi - 7 chatons d’un coup ! - pour nous mettre au chaud, en sécurité et nous prodiguer les premiers soins. Pour certains d’entre nous assez agressifs au départ, nous faisons de plus en plus confiance à nos humains et sommes dorénavant prêts à partir dans notre famille pour la vie !
 
-A leurs trois mois, l’association et ses deux sauveuses devenues sa famille d’accueil, ont attrapé 7 chatons (Aïko, Astro, Arkan, Angoune, Apple, Aïdy et Amande) pour les mettre au chaud, en sécurité et surtout que leur prodiguer les premiers soins. Pour certains assez agressifs au départ, ils commencent à faire confiance à l’humain et sont dorénavant prêts à partir dans leur nouvelle famille pour la vie.
+Moi c'est Aïko, je suis un chat de petit gabarit noir et blanc, je suis très tendre et très câlin même si je suis parfois un peu timide… Néanmoins, dès que j'entends mes humaines arriver, c'est la fête ! Je me précipite et leur réclame pleins de câlins ! Je suis fier de moi car j'ai fait d’énormes progrès. Maintenant, on peut me faire des petits bisous et je me laisse même prendre dans les bras ! Bon, n’imaginez pas que vous pourrez me prendre dans vos bras la première semaine de mon arrivée chez vous - j'ai quand même besoin de temps pour me laisser apprivoiser et avoir pleinement confiance – mais je sais qu’avec un peu de patience de votre part, je serai un parfait partenaire de vie.
 
-Aïko, petit gabarit noir et blanc, est tendre et très câlin même si toujours un peu timide : se précipite dès qu’il entend ses humaines. Il adooore réclamer des câlins! Attention tout de même à lui laisser un petit peu de temps pour qu’on s’apprivoise…
+Quand l’heure de la soupe arrive, là, je fais chauffer mon ronron et les miaou ! Je n'hésite pas à me faire entendre ; il ne faudrait surtout pas qu’on m’oublie – oui oui… c’est vrai, je suis très gourmand !
 
-Quand l’heure de la soupe arrive il sait se faire entendre et, après une bonne sieste, est le premier à jouer! Un vrai petit chat espiègle et rapide qui adore les parties de jeux!
+Après ma sieste, j'aime particulièrement jouer – je suis rapide comme l’éclair ! (et très espiègle selon mes tatas…)
 
-Alors si vous avez envie de lui accorder votre confiance et lui laisser un tout petit peu de temps pour qu’il s’adapte, il sera ravi de faire partie de votre famille.
+Alors si vous avez envie de m'accorder votre confiance et quand même me laisser un petit peu de temps pour m'adapter, je serai sera ravi de faire partie de votre belle famille.
