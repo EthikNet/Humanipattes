@@ -154,3 +154,36 @@ param : theObject : object to transform in String
     <#assign oldRdnValues = oldRdnValues + [returnVal]>
     <#return returnVal/>	
 </#function>
+
+<#assign allGeneratedAnchorIdByTitle = []>
+
+<#function generatedAnchorId blockTitle>
+	<#if logHelper??>
+ 		${logHelper.stackDebugMessage("generatedAnchorId : generating and storing an id for : " + blockTitle)}
+ 	</#if>
+	<#local generatedAnchorId = common.randomNumber()>
+	<#assign allGeneratedAnchorIdByTitle = allGeneratedAnchorIdByTitle + [{"title":blockTitle, "anchorId":generatedAnchorId}]>
+	<#return generatedAnchorId>
+</#function>
+
+<#function getGeneratedAnchorId blockTitle>
+	<#if logHelper??>
+ 		${logHelper.stackDebugMessage("getGeneratedAnchorId : searching for the eventually generated ID for : '${blockTitle}' in ${allGeneratedAnchorIdByTitle?size} generatedIds")}
+ 	</#if>
+	<#local anchorId = "">
+	<#list allGeneratedAnchorIdByTitle as  generatedAnchorIdByTitle>
+		<#if generatedAnchorIdByTitle.title == blockTitle>
+			<#local anchorId = generatedAnchorIdByTitle.anchorId>
+			<#break>
+		</#if>
+	</#list>
+	<#return anchorId>
+</#function>
+
+<#function clearGeneratedAnchorId>
+	<#if logHelper??>
+ 		${logHelper.stackDebugMessage("clearGeneratedAnchorId : Clearing generated AnchorsIds")}
+ 	</#if>
+	<#assign allGeneratedAnchorIdByTitle = []>
+	<#return "">
+</#function>
