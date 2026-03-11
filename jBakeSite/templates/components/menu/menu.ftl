@@ -1,8 +1,23 @@
 <#function getComponnentInfo>
-	<#return {"componnentVersion":1, "name":"menu", "description":"Build dynamic menus bases on content", "recommandedNamespace":"menu", "version":"0.2.0", "require":[{"value":"sequenceHelper", "type":"lib", "value":"common", "type":"lib"}, {"value":"bootstrap3", "type":"lib"}], "uses":[{"value":"langHelper", "type":"lib"},{"value":"logHelper", "type":"lib"}, {"value":"site.debug.enabled", "type":"config"}, {"value":"menu", "type":"contentHeader"}, {"value":"displayMenu", "type":"contentHeader"}]}>
+	<#return {"componnentVersion":2, "name":"menu", "description":"Build dynamic menus bases on content", "recommandedNamespace":"menu", "version":"0.2.0", "require":[{"value":"sequenceHelper", "type":"lib", "value":"common", "type":"lib"}, {"value":"bootstrap3", "type":"lib"}], "uses":[{"value":"langHelper", "type":"lib"},{"value":"logHelper", "type":"lib"}, {"value":"site.debug.enabled", "type":"config"}, {"value":"menu", "type":"contentHeader"}, {"value":"displayMenu", "type":"contentHeader"}]}>
 </#function>
 
 <#function init>
+	<#return "" />
+</#function>
+
+<#function registerDefaultHooks()>
+	<#local registerComponnentHooks = true>
+	<#if registerComponnentHooks>
+		${hookHelper.registerHook("beforeMainContent", "menu.build", false)}
+	</#if>
+</#function>
+
+<#function addHeaderScripts()>
+	<#return "" />
+</#function>
+
+<#function addFooterScripts()>
 	<#return "" />
 </#function>
 

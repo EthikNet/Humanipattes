@@ -1,8 +1,24 @@
 <#function getComponnentInfo>
-	<#return {"componnentVersion":1, "name":"carousel", "description":"Add carousel in content", "recommandedNamespace":"carousel", "version":"0.1.0", "require":[{"value":"common", "type":"lib"}, {"value":"carouselData", "type":"contentHeader"}, {"value":"bootstrap 3", "type":"frontLib"}]}>
+	<#return {"componnentVersion":2, "name":"carousel", "description":"Add carousel in content", "recommandedNamespace":"carousel", "version":"0.1.0", "require":[{"value":"common", "type":"lib"}, {"value":"carouselData", "type":"contentHeader"}, {"value":"bootstrap 3", "type":"frontLib"}]}>
 </#function>
 
 <#function init>
+	<#return "" />
+</#function>
+
+<#function registerDefaultHooks()>
+	<#local registerComponnentHooks = true>
+	<#if registerComponnentHooks>
+		${hookHelper.registerHook("afterBody", "carousel.build", false)}
+		${hookHelper.registerHook("afterBlockBody", "carousel.build", false)}
+	</#if>
+</#function>
+
+<#function addHeaderScripts()>
+	<#return "" />
+</#function>
+
+<#function addFooterScripts()>
 	<#return "" />
 </#function>
 

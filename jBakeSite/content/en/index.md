@@ -6,7 +6,7 @@ status=published
 displayDate=false
 displayTitle=false
 displayBreadcrumb=false
-lang=en_EN
+lang=en-EN
 order=001
 ~~~~~~
 	

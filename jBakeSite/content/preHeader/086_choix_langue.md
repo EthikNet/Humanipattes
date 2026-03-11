@@ -5,7 +5,7 @@ category=header
 tags=
 status=published
 languageSwitcher=true
-lang=fr_FR, en_EN
+lang=fr-FR, en-EN
 order=086
 ~~~~~~
 	

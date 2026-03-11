@@ -2,7 +2,7 @@
 <launchConfiguration type="org.eclipse.m2e.Maven2LaunchConfigurationType">
     <intAttribute key="M2_COLORS" value="0"/>
     <booleanAttribute key="M2_DEBUG_OUTPUT" value="false"/>
-    <stringAttribute key="M2_GOALS" value="clean initialize resources:resources org.primefaces.extensions:resources-optimizer-maven-plugin:optimize  jbake:generate com.github.hazendaz.maven:htmlcompressor-maven-plugin:html"/>
+    <stringAttribute key="M2_GOALS" value="clean initialize resources:resources compile org.primefaces.extensions:resources-optimizer-maven-plugin:optimize  jbake:generate com.github.hazendaz.maven:htmlcompressor-maven-plugin:html package"/>
     <booleanAttribute key="M2_NON_RECURSIVE" value="false"/>
     <booleanAttribute key="M2_OFFLINE" value="false"/>
     <stringAttribute key="M2_PROFILES" value=""/>

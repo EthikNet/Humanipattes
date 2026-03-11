@@ -16,13 +16,15 @@
     
     <#if hookHelper?? && hookHelper.hasContributors("afterFooter")>
     	<div id="afterFooter_blocks" class="blocks ${webleger.site.afterFooter.class}">
-		<@hookHelper.hook "afterFooter" content/>
+	    	<div class="container">
+				<@hookHelper.hook "afterFooter" content/>
+			</div>
 		</div>
 	</#if>
     
     <!-- Javascript here load faster -->
     <#if ressourcesHelper??>
-    	<@ressourcesHelper.buildExternalInjection config.site_script_footer />
+    	<@ressourcesHelper.buildExternalInjectionFooter config.site_script_footer />
     </#if>
   </body>
 </html>

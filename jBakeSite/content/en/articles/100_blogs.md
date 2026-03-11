@@ -5,7 +5,7 @@ includeContent={"type":"org_openCiLife_post", "category":"article", "display":{"
 category=global
 status=published
 displayDate=false
-lang=en_EN
+lang=en-EN
 order=100
 ~~~~~~
 Check out advice to build a better Web.

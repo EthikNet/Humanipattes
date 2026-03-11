@@ -1,8 +1,24 @@
 <#function getComponnentInfo>
-	<#return {"componnentVersion":1, "name":"form", "description":"Add form in content", "recommandedNamespace":"form", "version":"0.1.0", "require":[{"value":"formData", "type":"contentHeader"}], "uses":[{"value":"logHelper", "type":"lib"}, {"value":"bootstrap 3", "type":"frontLib"}]}>
+	<#return {"componnentVersion":2, "name":"form", "description":"Add form in content", "recommandedNamespace":"form", "version":"0.1.0", "require":[{"value":"formData", "type":"contentHeader"}], "uses":[{"value":"logHelper", "type":"lib"}, {"value":"bootstrap 3", "type":"frontLib"}]}>
 </#function>
 
 <#function init>
+	<#return "" />
+</#function>
+
+<#function registerDefaultHooks()>
+	<#local registerComponnentHooks = true>
+	<#if registerComponnentHooks>
+		${hookHelper.registerHook("afterBody", "form.build", false)}
+		${hookHelper.registerHook("afterBlockBody", "form.build", false)}
+	</#if>
+</#function>
+
+<#function addHeaderScripts()>
+	<#return "" />
+</#function>
+
+<#function addFooterScripts()>
 	<#return "" />
 </#function>
 

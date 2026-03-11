@@ -1,8 +1,27 @@
 <#function getComponnentInfo>
-	<#return {"componnentVersion":1, "name":"legal", "description":"help for legal informations", "recommandedNamespace":"legal", "version":"0.1.0", "uses":[{"value":"propertiesHelper", "type":"lib"}, {"value":"logHelper", "type":"lib"}]}>
+	<#return {"componnentVersion":2, "name":"legal", "description":"help for legal informations", "recommandedNamespace":"legal", "version":"0.1.0", "uses":[{"value":"propertiesHelper", "type":"lib"}, {"value":"logHelper", "type":"lib"}]}>
 </#function>
 
 <#function init>
+	<#return "" />
+</#function>
+
+<#function registerDefaultHooks()>
+	<#local registerComponnentHooks = true>
+	<#if registerComponnentHooks>
+		${hookHelper.registerHook("afterBody", "legal.buildLegal", false)}
+		${hookHelper.registerHook("afterBlockBody", "legal.buildLegal", false)}
+		
+		${hookHelper.registerHook("afterFooter", "legal.displayLegaleLinks", false)}
+		${hookHelper.registerHook("afterFooter", "legal.displayCgvLinks", false)}
+	</#if>
+</#function>
+
+<#function addHeaderScripts()>
+	<#return "" />
+</#function>
+
+<#function addFooterScripts()>
 	<#return "" />
 </#function>
 

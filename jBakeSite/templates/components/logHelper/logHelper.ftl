@@ -1,8 +1,23 @@
 <#function getComponnentInfo>
-	<#return {"componnentVersion":1, "name":"logHelper", "description":"Helper for debugging", "recommandedNamespace":"logHelper", "version":"0.1.0", "require":[{"value":"site.debug.enabled", "type":"config"}, {"value":"common", "type":"lib"}]}>
+	<#return {"componnentVersion":2, "name":"logHelper", "description":"Helper for debugging", "recommandedNamespace":"logHelper", "version":"0.1.0", "require":[{"value":"site.debug.enabled", "type":"config"}, {"value":"common", "type":"lib"}]}>
 </#function>
 
 <#function init>
+	<#return "" />
+</#function>
+
+<#function registerDefaultHooks()>
+	<#local registerComponnentHooks = true>
+	<#if registerComponnentHooks>
+		${hookHelper.registerHook("afterFooter", "logHelper.displayDebugFunctionMessages", false)}
+	</#if>
+</#function>
+
+<#function addHeaderScripts()>
+	<#return "" />
+</#function>
+
+<#function addFooterScripts()>
 	<#return "" />
 </#function>
 
