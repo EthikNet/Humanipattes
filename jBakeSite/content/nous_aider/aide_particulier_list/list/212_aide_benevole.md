@@ -11,3 +11,4 @@ anchorId=devenir_benevole
 order=212
 ~~~~~~
 Aidez-nous lors des collectes, balades solidaires et événements.
+Puis suivez nos actions sur [faceBook](https://www.facebook.com/HumaniPattes/)&nbsp;!
