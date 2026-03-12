@@ -270,6 +270,12 @@ img {
   padding: 25px 0 0 0;
 }
 
+#afterFooter_blocks, #afterFooter_blocks .container {
+	display: flex;
+	flex-direction:column;
+	justify-content: space-evenly;
+}
+
 /* Lastly, apply responsive CSS fixes as necessary */
 @media (min-width: 640px) {
 	#go_to_top {
@@ -293,6 +299,11 @@ img {
 	}
 	#logoLeft {
 		width: ${webleger.site.logoLeft.size.width.desktop};
+	}
+	#afterFooter_blocks, #afterFooter_blocks .container {
+		display: flex;
+		flex-direction:row;
+		justify-content: space-evenly;
 	}
 }
 

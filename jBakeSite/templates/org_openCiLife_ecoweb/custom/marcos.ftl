@@ -1,8 +1,41 @@
 <#function getComponnentInfo>
-	<#return {"componnentVersion":1, "name":"WebLegerMacro", "description":"WebLeger Template", "recommandedNamespace":"ecoWeb", "uses":[{"value":"logHelper", "type":"lib"}, {"value":"displayDate", "type":"contentHeader"}, {"value":"displaySiteHeaderTitle", "type":"contentHeader"}]}>
+	<#return {"componnentVersion":2, "name":"WebLegerMacro", "description":"WebLeger Template", "recommandedNamespace":"ecoWeb", "uses":[{"value":"logHelper", "type":"lib"}, {"value":"displayDate", "type":"contentHeader"}, {"value":"displaySiteHeaderTitle", "type":"contentHeader"}]}>
 </#function>
 
 <#function init>
+	<#return "" />
+</#function>
+
+<#function registerDefaultHooks()>
+	<#local registerComponnentHooks = true>
+	<#if registerComponnentHooks>
+		${hookHelper.registerHook("beforePageHeader", "ecoWeb.displayPublicationDate", false)}
+		${hookHelper.registerHook("afterBlockBody", "ecoWeb.displayPublicationDate", false)}
+		${hookHelper.registerHook("beforePageHeader", "ecoWeb.displayTags", false)}
+	</#if>
+</#function>
+
+<#function addHeaderScripts()>
+	<#if ressourcesHelper??>
+		${ressourcesHelper.addHeaderRessource({"tagType":"link", "href":"static/top.css", "rel":"stylesheet", "order":50})}
+		${ressourcesHelper.addHeaderRessource({"tagType":"script", "href":"static/top.js", "order":55})}
+	<#else>
+		<#if logHelper??>
+			${logHelper.stackDebugMessage("ecoWeb.addHeaderScripts : ERROR cannot add footer script, missing 'ressourcesHelper' component")}
+		</#if>
+	</#if>
+	<#return "" />
+</#function>
+
+<#function addFooterScripts()>
+	<#if ressourcesHelper??>
+		${ressourcesHelper.addFooterRessource({"tagType":"script", "src":"static/bottom.js", "order":60})}
+		${ressourcesHelper.addFooterRessource({"tagType":"link", "href":"static/bottom.css", "rel":"stylesheet", "order":65})}
+	<#else>
+		<#if logHelper??>
+			${logHelper.stackDebugMessage("ecoWeb.addFooterScripts : ERROR cannot add footer script, missing 'ressourcesHelper' component")}
+		</#if>
+	</#if>
 	<#return "" />
 </#function>
 

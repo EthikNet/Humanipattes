@@ -1,8 +1,23 @@
 <#function getComponnentInfo>
-	<#return {"componnentVersion":1, "name":"breadcrumb", "description":"Display breadcrumb", "recommandedNamespace":"breadcrumb", "version":"0.1.0", "require":[{"value":"commonHelper", "type":"lib"}, {"value":"site.breakcrumb.display", "type":"config"}, {"value":"site.breakcrumb.seprator", "type":"config"}], "uses":[{"value":"logHelper", "type":"lib"}, {"value":"displayBreadcrumb", "type":"contentHeader"}]}>
+	<#return {"componnentVersion":2, "name":"breadcrumb", "description":"Display breadcrumb", "recommandedNamespace":"breadcrumb", "version":"0.1.0", "require":[{"value":"commonHelper", "type":"lib"}, {"value":"site.breakcrumb.display", "type":"config"}, {"value":"site.breakcrumb.seprator", "type":"config"}], "uses":[{"value":"logHelper", "type":"lib"}, {"value":"displayBreadcrumb", "type":"contentHeader"}]}>
 </#function>
 
 <#function init>
+	<#return "" />
+</#function>
+
+<#function registerDefaultHooks()>
+	<#local registerComponnentHooks = true>
+	<#if registerComponnentHooks>
+		${hookHelper.registerHook("topContentContainer", "breadcrumb.build", false)}
+	</#if>
+</#function>
+
+<#function addHeaderScripts()>
+	<#return "" />
+</#function>
+
+<#function addFooterScripts()>
 	<#return "" />
 </#function>
 

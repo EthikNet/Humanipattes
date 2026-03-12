@@ -6,6 +6,17 @@
 	<#return "" />
 </#function>
 
+<#function registerDefaultHooks()>
+</#function>
+
+<#function addHeaderScripts()>
+	<#return "" />
+</#function>
+
+<#function addFooterScripts()>
+	<#return "" />
+</#function>
+
 <#macro buildNews content>
 	<@buildfaceBook "timeline" "${webleger.component.meta.facebook.container.url}"/>
 </#macro>

@@ -1,10 +1,25 @@
 <#import "../../components/propertiesHelper/propertiesHelper.ftl" as propertiesHelper>
 
 <#function getComponnentInfo>
-	<#return {"componnentVersion":1, "name":"includes", "description":"Include ftl file as import in templates", "recommandedNamespace":"commonInc", "version":"0.1.0", "require":[{"value":"propertiesHelper", "type":"lib"}, {"value":"common", "type":"lib"}, {"value":"components", "type":"config", "desc":"with *namespace* attributs"}, {"value":"init()", "type":"componentFunction"}, {"value":"getComponnentInfo()", "type":"componentFunction"}], "uses":[{"value":"logHelper", "type":"lib"}, {"value":"documentationComponent", "type":"contentHeader", "description":"To display component documentation in an other content"}]}>
+	<#return {"componnentVersion":2, "name":"includes", "description":"Include ftl file as import in templates", "recommandedNamespace":"commonInc", "version":"0.2.0", "require":[{"value":"propertiesHelper", "type":"lib"}, {"value":"common", "type":"lib"}, {"value":"components", "type":"config", "desc":"with *namespace* attributs"}, {"value":"init()", "type":"componentFunction"}, {"value":"getComponnentInfo()", "type":"componentFunction"}], "uses":[{"value":"logHelper", "type":"lib"}, {"value":"documentationComponent", "type":"contentHeader", "description":"To display component documentation in an other content"}]}>
 </#function>
 
 <#function init>
+	<#return "" />
+</#function>
+
+<#function registerDefaultHooks()>
+	<#local registerComponnentHooks = true>
+	<#if registerComponnentHooks>
+		${hookHelper.registerHook("afterBlockBody", "commonInc.buildComponnentInfos", false)}
+	</#if>
+</#function>
+
+<#function addHeaderScripts()>
+	<#return "" />
+</#function>
+
+<#function addFooterScripts()>
 	<#return "" />
 </#function>
 
@@ -33,7 +48,8 @@
 			<#import "/"+include.file as includeNameSpace>
 			<@'<#global ${namespaceAlias} = includeNameSpace>'?interpret />
 			<#local addedComponents = addedComponents + [namespaceAlias]>
-			<#assign allComponentsData = allComponentsData + [{"file":fileName, "namespace":namespaceAlias, "configNamespace":include.namespace!""}]>
+			<#assign allComponentsData = allComponentsData + [{"file":fileName, "namespace":namespaceAlias, "configNamespace":include.namespace!"" 
+					, "registerDefaultHooks":include.registerDefaultHooks!"", "addHeaderScripts":include.addHeaderScripts!"", "addFooterScripts":include.addFooterScripts!""}]>
 		</#list>
 		
 		<#if logHelper??>
@@ -41,20 +57,46 @@
 		</#if>
 		
 		<#if logHelper??>
-			${logHelper.stackDebugMessage("commonInc.buildIncludes : calling init() on added components")}
+			${logHelper.stackDebugMessage("commonInc.buildIncludes : calling global function (init, registerDefaultHooks, ...) on added components")}
 		</#if>
 		<#list allComponentsData as include>
 			<#attempt>
 				<#local component = .vars[include.namespace]>
 				<#local componentInfo = component.getComponnentInfo() >
-				<#if componentInfo?? && (componentInfo.componnentVersion)?? && componentInfo.componnentVersion == 1>
+				<#if logHelper??>
+					${logHelper.stackDebugMessage("commonInc.buildIncludes : Checking " + componentInfo.name + " with comp version : " + componentInfo.componnentVersion)}
+				</#if>
+				<#if (componentInfo.componnentVersion >= 1)>
 					${component.init()}
+				</#if>
+				<#if (componentInfo.componnentVersion >= 2)>
+					<#if isCompParamEnabled(include, componentInfo, "registerDefaultHooks")>
+						${component.registerDefaultHooks()}
+					</#if>
+					<#if isCompParamEnabled(include, componentInfo, "addHeaderScripts")>
+						${component.addHeaderScripts()}
+					</#if>
+					<#if isCompParamEnabled(include, componentInfo, "addFooterScripts")>
+						${component.addFooterScripts()}
+					</#if>
 				</#if>
 			<#recover>
 			</#attempt>
 		</#list>
 	</#if>
 </#macro>
+
+<#function isCompParamEnabled compData componentInfo paramName>
+	<#local isEnabled = false>
+	<#if (!((compData[paramName])??) || !(compData[paramName]?has_content) || compData[paramName] == true)>
+	<#if logHelper??>
+			${logHelper.stackDebugMessage("commonInc.buildIncludes.isCompParamEnabled : " + componentInfo.name + " calling " + paramName+"()")}
+		</#if>
+		<#local isEnabled = true>
+	</#if>
+	
+	<#return isEnabled>
+</#function>
 
 <#-- pass content to all componnent wihich need a per content actions. -->
 <#function propagateContentChain content>

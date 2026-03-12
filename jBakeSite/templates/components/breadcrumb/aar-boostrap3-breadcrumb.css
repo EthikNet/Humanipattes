@@ -1,0 +1,33 @@
+
+.breadcrumb {
+	padding: 8px 15px;
+	margin-bottom: 20px;
+	list-style: none;
+	background-color: ${webleger.site.style.discret.background.color};
+	border-radius: 4px
+}
+
+.breadcrumb>li {
+	display: inline-block;
+	padding: 15px 0;
+    border-radius: 20px;
+}
+
+.breadcrumb li a {
+    white-space: nowrap;
+	color : ${webleger.site.style.primary.color};
+	background-color:${webleger.site.style.primary.background.color};
+	padding:10px;
+	border-radius: 15px;
+}
+
+.breadcrumb>li+li:before {
+	content: "${webleger.site.breakcrumb.seprator}";
+	padding: 0 5px;
+	color: ${webleger.site.style.primary.background.color}
+}
+
+.breadcrumb>.active {
+	color: ${webleger.site.style.primary.highlight.color};
+	background-color:${webleger.site.style.primary.highlight.background.color};
+}
