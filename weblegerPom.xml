@@ -162,14 +162,6 @@
 										failonerror="false" />
 									<mkdir dir="${jbake.outputDirectory}" />
 
-									<echo
-										message="Copying ressources from components to assets" />
-									<mkdir dir="${jbake.inputDirectory}/assets/static" />
-									<copy todir="${jbake.inputDirectory}/assets">
-										<fileset dir="${src.dir}"
-											includes="**/copyToAssets/**" />
-									</copy>
-
 									<echo message="Prepare folder for cmpressed CSS and JS" />
 									<mkdir dir="${jbake.outputDirectory}/static" />
 								</target>
@@ -178,6 +170,23 @@
 
 						<execution>
 							<!-- launched AFTER Maven copy (and filter) files -->
+							<id>copy-resssource-from-component-to-asset</id>
+							<phase>compile</phase>
+							<goals>
+								<goal>run</goal>
+							</goals>
+							<configuration>
+								<target>
+									<echo
+										message="Copying ressources from components to assets" />
+									<copy todir="${jbake.inputDirectory}/assets">
+										<fileset dir="${jbake.inputDirectory}"
+											includes="**/copyToAssets/**" />
+									</copy>
+								</target>
+							</configuration>
+						</execution>
+						<execution>
 							<id>clean-inputDir-remove-useless-files</id>
 							<phase>compile</phase>
 							<goals>
@@ -201,7 +210,8 @@
 											</delete>
 										</then>
 										<else>
-											<echo message="WL.webleger.remove.component.files is NOT set" />
+											<echo
+												message="WL.webleger.remove.component.files is NOT set" />
 										</else>
 									</if>
 
@@ -222,7 +232,8 @@
 											</for>
 										</then>
 										<else>
-											<echo message="WL.webleger.remove.component.dirs is NOT set" />
+											<echo
+												message="WL.webleger.remove.component.dirs is NOT set" />
 										</else>
 									</if>
 								</target>
