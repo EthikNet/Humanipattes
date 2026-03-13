@@ -21,6 +21,8 @@
 			</div>
 		</div>
 	</#if>
+	
+	${commonInc.handleComponentLastActions()}
     
     <!-- Javascript here load faster -->
     <#if ressourcesHelper??>

@@ -76,9 +76,6 @@
 					<#if isCompParamEnabled(include, componentInfo, "addHeaderScripts")>
 						${component.addHeaderScripts()}
 					</#if>
-					<#if isCompParamEnabled(include, componentInfo, "addFooterScripts")>
-						${component.addFooterScripts()}
-					</#if>
 				</#if>
 			<#recover>
 			</#attempt>
@@ -104,7 +101,7 @@
 			<#attempt>
 				<#local includeNameSpace = .vars[include.namespace]>
 				<#local componentInfo = includeNameSpace.getComponnentInfo() >
-				<#if componentInfo?? && (componentInfo.componnentVersion)?? && componentInfo.componnentVersion == 1 
+				<#if componentInfo?? && (componentInfo.componnentVersion)?? && (componentInfo.componnentVersion >= 1) 
 					&& (componentInfo.contentChainBefore)?? && componentInfo.contentChainBefore == true>
 					<#if logHelper??>
 						<#local contentUri = content.uri!"no_uri">
@@ -115,6 +112,25 @@
 			<#recover>
 			</#attempt>
 		</#list>
+</#function>
+
+<#function handleComponentLastActions>
+	<#list allComponentsData as include>
+		<#attempt>
+			<#local component = .vars[include.namespace]>
+			<#local componentInfo = component.getComponnentInfo() >
+			<#if logHelper??>
+				${logHelper.stackDebugMessage("commonInc.handleComponentLastActions : Checking " + componentInfo.name + " with comp version : " + componentInfo.componnentVersion)}
+			</#if>
+			<#if (componentInfo.componnentVersion >= 2)>
+				<#if isCompParamEnabled(include, componentInfo, "addFooterScripts")>
+					${component.addFooterScripts()}
+				</#if>
+			</#if>
+		<#recover>
+		</#attempt>
+	</#list>
+	<#return "" />
 </#function>
 
 
