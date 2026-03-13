@@ -1,12 +1,15 @@
 <#function getComponnentInfo>
-	<#return {"componnentVersion":1, "name":"facebook", "description":"To integrate FaceBook in website", "recommandedNamespace":"facebook", "version":"0.2.0", "require":[{"value":"propertiesHelper", "type":"lib"}, {"value":"component.fairlytics.key", "type":"config"}]}>
+	<#return {"componnentVersion":2, "name":"facebook", "description":"To integrate FaceBook in website", "recommandedNamespace":"facebook", "version":"0.2.0", "require":[{"value":"propertiesHelper", "type":"lib"}, {"value":"component.fairlytics.key", "type":"config"}]}>
 </#function>
+
+<#global pageUseFacebook=false />
 
 <#function init>
 	<#return "" />
 </#function>
 
 <#function registerDefaultHooks()>
+	<#return "" />
 </#function>
 
 <#function addHeaderScripts()>
@@ -14,6 +17,19 @@
 </#function>
 
 <#function addFooterScripts()>
+	<#if pageUseFacebook>
+		<#if ressourcesHelper??>
+			${ressourcesHelper.addFooterRessource({"tagType":"script", "src":"templates/components/facebook/copyToAssets/noAgregation/facebook.js", "order":40})}
+		<#else>
+			<#if logHelper??>
+				${logHelper.stackDebugMessage("facebook.addFooterScripts : ERROR cannot add footer script, missing 'ressourcesHelper' component")}
+			</#if>
+		</#if>
+		<#else>
+		<#if logHelper??>
+			${logHelper.stackDebugMessage("facebook.addFooterScripts : Facebook component are not use in this page, no script added")}
+		</#if>
+	</#if>
 	<#return "" />
 </#function>
 
@@ -26,6 +42,10 @@
 </#macro>
 
 <#macro buildfaceBook tabs href>
+	<#if logHelper??>
+			${logHelper.stackDebugMessage("facebook.buildfaceBook : adding facebook component. page already contain Facebook component : " + pageUseFacebook?string("yes","no"))}
+		</#if>
+	<#global pageUseFacebook=true />
 	<div class="faceBookContainer">
     	<div class="fb-page" 
     		data-href="${href}" 
