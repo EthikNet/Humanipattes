@@ -14,6 +14,9 @@
     <meta name="author" content="${propertiesHelper.retrieveAndDisplayConfigText("site.header.author")}">
     <meta name="keywords" content="${ecoWeb.retrieveMetaKeyWord(content)}">
     <meta name="generator" content="JBake">
+    <#if (content.uri)??>
+    	<link rel="canonical" href="${common.getCanonicalUrl()}" />
+    </#if>
     <#if content.type == "org_openCiLife_block" || ((content.status)?? && content.status == "draft")>
     	<meta name="robots" content="noindex, nofollow" />
     <#else>
@@ -22,6 +25,23 @@
     		<meta name="robots" content="${robotsVal}" />
     	</#if>
     </#if>
+    <meta property="og:title" content="<#if (content.title)??><#escape x as x?xml>${content.title}</#escape><#else>${propertiesHelper.retrieveAndDisplayConfigText("site.header.title")}</#if>" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="${common.getCanonicalUrl()}" />
+	<#if (content.contentImage)??>
+		<meta property="og:image" content="${common.buildAbsoluteURL(content.contentImage)}" />
+	<#else>
+		<meta property="og:image" content="${common.buildRootPathAwareURL(propertiesHelper.retrieveAndDisplayConfigText("site.logoLeft.file"))}" />
+	</#if>
+	<#if (content.excerpt)??>
+		<meta name="og:description" content="${content.excerpt}">
+	<#else>
+		<meta name="og:description" content="${ecoWeb.retrieveMetaDescription(content)}">
+	</#if>
+	<meta name="og:locale" content="<#if (langHelper)??>${langHelper.getLangForHtmlHeader(content)}<#elseif (config.site_langs_default)??>${config.site_langs_default}<#else>fr</#if>">
+	<meta name="og:site_name " content="${propertiesHelper.retrieveAndDisplayConfigText("site.header.title")}">
+	
+	<meta name="twitter:card" content="summary_large_image">
     
     <#if ressourcesHelper??>
     	<@ressourcesHelper.buildExternalInjectionHeader config.site_script_header />
