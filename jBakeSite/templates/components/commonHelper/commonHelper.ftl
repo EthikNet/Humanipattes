@@ -123,8 +123,8 @@ param : theObject : object to transform in String
 		<#local stringVal = stringVal + "{" />
 		<#local separator = "">
 		<#list theObject as key, value>
-			<#local stringVal = stringVal + separator + toString(key) + ":"/>
-			<#local stringVal = stringVal + toString(value)/>
+			<#local stringVal = stringVal + separator + toString(key!"NO_KEY") + ":"/>
+			<#local stringVal = stringVal + toString(value!"NO_VALUE")/>
 			<#local separator = ",">
 		</#list>
 		<#local stringVal = stringVal + "}" />
@@ -132,7 +132,7 @@ param : theObject : object to transform in String
 		<#local stringVal = stringVal + "[" />
 		<#local separator = "">
 		<#list theObject as value>
-			<#local stringVal = stringVal + separator + toString(value)/>
+			<#local stringVal = stringVal + separator + toString(value!"NO_VALUE")/>
 			<#local separator = ",">
 		</#list>
 		<#local stringVal = stringVal + "]" />
@@ -140,6 +140,8 @@ param : theObject : object to transform in String
 		<#local stringVal = stringVal + theObject?string('true', 'false') />
 	<#elseif (theObject?is_number)>
 		<#local stringVal = stringVal + theObject  />
+	<#elseif (theObject?is_date)>
+		<#local stringVal = stringVal + theObject?date  />
 	<#else>
 		<#local stringVal = stringVal + "\"" + theObject + "\"" />
 	</#if>

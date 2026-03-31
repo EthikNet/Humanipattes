@@ -9,7 +9,7 @@
 
 <#function handleContentChain content>
 	${registerContentHook(content)}
-	<#return "" />
+	<#return content />
 </#function>
 
 <#function getContentIdentifier content>

@@ -55,13 +55,13 @@
 	<#list getBlocks(content, categoryFilter, order) as block>
 		<#local blockCategory = block.category!"__empty_categ__">
 		<#if (sequenceHelper.seq_containsOne(blockCategory, categoryFilter))>
-	 		<#local uselessTempVar = commonInc.propagateContentChain(block) />
+	 		<#local alteredBlock = commonInc.propagateContentChain(block) />
 			<#local subTemplateName = "defaultBlockSubTemplate">
 			<#if (block.subTemplate??)>
 				<#local subTemplateName=block.subTemplate>
 			</#if>
 			
-			<#local subTemplateInterpretation = "<@${subTemplateName} block />"?interpret>
+			<#local subTemplateInterpretation = "<@${subTemplateName} alteredBlock />"?interpret>
 			<@subTemplateInterpretation/>
 		</#if>
   	</#list>
