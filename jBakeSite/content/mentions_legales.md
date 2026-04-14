@@ -6,4 +6,4 @@ exerpt=Mentions légales
 legalPage=true
 order=9999
 ~~~~~~
-##Mentions Légales
+# Mentions Légales

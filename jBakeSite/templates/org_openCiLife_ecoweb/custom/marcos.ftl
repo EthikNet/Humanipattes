@@ -74,6 +74,18 @@
 	<#return keywords />
 </#function>
 
+<#function retrieveSiteHeadline content>
+	<#local headline = propertiesHelper.retrieveAndDisplayConfigText("site.headline")>
+	<#local stardTag = propertiesHelper.retrieveAndDisplayConfigText("site.headline.tag", true)>
+	<#local endTag = propertiesHelper.retrieveAndDisplayConfigText("site.headline.tag.end", true)>
+	<#local fullHeadLine = "<h1 id=\"headerTitle\">"+headline+"</h1>">
+	
+	<#if (stardTag != "site.headline.tag") && (endTag != "site.headline.tag.end")>
+		<#local fullHeadLine = stardTag+headline+endTag>
+	</#if>
+	<#return fullHeadLine />
+</#function>
+
 <#macro bob block>
 	A Basic BOB template !!!!
 </#macro>

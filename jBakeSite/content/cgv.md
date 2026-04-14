@@ -6,6 +6,7 @@ status=draft
 exerpt=Conditions générales de vente (prestations de service) entre professionnels
 order=9990
 ~~~~~~
+# Conditions générales de vente
 ## Article 1 - Champ d’application
 
 Ici vos CGV. Aide pour la France : https://entreprendre.service-public.gouv.fr/vosdroits/F33527.

@@ -8,7 +8,7 @@ exerpt=un petit résumé de l'article d'exemple
 contentImage=images/contact.svg
 order=210
 ~~~~~~
-##un Titre
+# Un Titre
 Un paragraphe avec du **gras** et de l'*italic* et un texte. Voici un lien vers [google](https://www.google.com).
 
 Une petite image juste en dessous : 

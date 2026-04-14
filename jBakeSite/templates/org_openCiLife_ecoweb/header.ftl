@@ -82,7 +82,7 @@
 					<img src="${common.buildRootPathAwareURL(propertiesHelper.retrieveAndDisplayConfigText("site.logoLeft.file"))}" alt="${propertiesHelper.displayConfigText(propertiesHelper.retrieveAndDisplayConfigText("site.logoLeft.description"))}" id="logoLeft"/>
 				</a>
 				</#if>
-				<h1 id="headerTitle">${propertiesHelper.retrieveAndDisplayConfigText("site.headline")}</h1>
+				${ecoWeb.retrieveSiteHeadline(alteredContent)}
 				<#if propertiesHelper.hasConfigValue("site.logoRight.file")>
 					<img src="${common.buildRootPathAwareURL(propertiesHelper.retrieveAndDisplayConfigText("site.logoRight.file"))}" alt="${propertiesHelper.displayConfigText(propertiesHelper.retrieveAndDisplayConfigText("site.logoRight.description"))}" id="logoRight"/>
 				</#if>

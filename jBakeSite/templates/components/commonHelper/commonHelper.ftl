@@ -203,7 +203,7 @@ param : theObject : object to transform in String
 <#function getCanonicalUrl>
 	<#local canonicalUri="" />
 	<#if (content.uri)??>
-		<#local canonicalUri="${webleger.build.host.prefered.protocol}://${webleger.build.host}/${content.uri}" />
+		<#local canonicalUri="${webleger.build.host}/${content.uri}" />
 	</#if>
 	<#return canonicalUri>
 </#function>
