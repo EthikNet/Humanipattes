@@ -11,10 +11,9 @@ order=203
 exerpt=Selon ma maman d’accueil, je suis « d’une extrême mignonnerie » et en toute modestie, je suis entièrement d’accord avec elle !
 sexe=Femelle
 dateNaissance=Née le 26 mai 2025
-vigilance=Pipelette, Energique, Pot de colle
 tarif=Adoptée pour 160 euros
-caractere=Maline,Observatrice
-autre=Vermifugée et déparasitée,Primo-vaccinée,Testée FIV/FeLV négatif
+caractere=Pipelette, Energique, Pot de colle
+autre=Stérilisée,Vermifugée et déparasitée,Primo-vaccinée,Testée FIV/FeLV négatif
 visible=Visible à Lussac-les-Eglises
 ~~~~~~
 J’ai été trouvée avec mon frère et ma soeur, ainsi que notre maman qui était nourrie par un monsieur. Celui-ci étant décédé, son aide à domicile a contacté l’association et nous a tous pris sous son aile jusqu’à ce qu’une famille d’accueil de l’association soit disponible.

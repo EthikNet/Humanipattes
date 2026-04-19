@@ -15,7 +15,7 @@ bonus=congénères présents,maison avec extérieur
 tarif=140 euros
 caractere=Doux,Gourmand,Câlin
 autre=Stérilisé,Vermifugé et déparasité,Vacciné
-visible=Visible à St Hilaire la Treille
+visible=visible à Cromac
 ~~~~~~
 Boulette fait partie des chats libres que nous souhaitons faire adopter.
 

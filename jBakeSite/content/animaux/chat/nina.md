@@ -1,4 +1,4 @@
-title=Nina
+title=Nina - réservé
 date=2026-01-08
 type=org_openCiLife_post
 includeContent={"type":"org_openCiLife_post", "category":"AAdopter_chat", "specificClass":"fourPerRow cardAnimal moreAdopter", "title":"Nos autres chats à adopter", "displaySelf":"none", "noContentText":"Pas d'autres chats à adopter", "limit":8, "showMore":{"label":"voir tous les chats à adopter", "to":"${webleger.build.host}/animaux/chat/201_adopter_chat.html", "specificClass":"btn btn-primary no_state"}, "display":{"type":"card", "content":"link"}}
@@ -15,7 +15,7 @@ bonus=maison avec extérieur
 tarif=160 euros
 caractere=Douce,Câline,Calme
 autre=Stérilisée,Vermifugée et déparasitée,Vaccinée,Testée FIV/FeLV négative
-visible=Visible à Saint Léger Magnazeix
+visible=visible à Lussac-les-Eglises
 ~~~~~~
 J’ai eu la chance de commencer ma vie sous une belle étoile : née dans la rue, j’ai été récupérée par une dame qui a pris soin de moi, qui m’a chouchoutée et m’a donné tout plein d’amour durant mes deux premières années – je ne la remercierai jamais assez. Malheureusement, tombée malade, ma première maman a pris la décision de me confier à l’association pour qu’elle me garde en sécurité et me trouve une nouvelle famille.
 
