@@ -157,6 +157,10 @@ param : content : content to search for include content
 					</#switch>
 				</#if>
 				
+				<#if (altSubContent.specificClass)??>
+					<#local specificContentClass += " " + altSubContent.specificClass>
+				</#if>
+				
 				<#if (altSubContent.featured)??>
 					<#local specificContentClass = specificContentClass + " featured">
 					<#if (altSubContent.featured.text)??>
@@ -164,7 +168,7 @@ param : content : content to search for include content
 					</#if>
 				</#if>
 				
-				<#if (content.includeContent.hooks)??>
+				<#if (altSubContent.includeContent.hooks)??>
 					<#if logHelper??>
 						${logHelper.stackDebugMessage("SubContent.build : Custom Hooks detected for : " + altSubContent.uri + " : " + common.toString(content.includeContent.hooks))}
 					</#if>
@@ -172,7 +176,7 @@ param : content : content to search for include content
 						<#if logHelper??>
 							${logHelper.stackDebugMessage("SubContent.build : Registering Custom Hooks")}
 						</#if>
-						${hookHelper.registerHookFromJson(content.includeContent.hooks)}
+						${hookHelper.registerHookFromJson(altSubContent.includeContent.hooks)}
 					</#if>
 				</#if>
 				
@@ -405,4 +409,92 @@ param : content : content to search for include content
 			<@logHelper.debug "No SubContent for this content"/>
 		</#if>
 	</#if>
+</#macro>
+
+<#macro stepAlternateSubTemplate theContent items>
+	<#local className = "hsitoAlternate">
+	<#local maxItemToDisplay = theContent.includeContent.limit!-1>
+	<#local specificContentClass = (theContent.includeContent.display.specificClass)!"">
+	<#local displayTitle = true>
+	<#if (theContent.includeContent.display.displayTitle)?? && theContent.includeContent.display.displayTitle == false>
+		<#local displayTitle = false>
+	</#if>
+	<#local subContentDisplayContentMode = (theContent.includeContent.display.content)!"link">
+	<#local subContentDisplayTags = (theContent.includeContent.display.displayTags)!false>
+	<#local currentIndex = 0>
+	
+	
+	<div class="${className}_list content_type_${subContentDisplayContentMode}">
+		<div class="middleLine"></div>
+		<div class="${className}_items">
+			<#list items?sort_by("order") as subContent>
+				<#if (maxItemToDisplay!=-1) && (subContent?counter > maxItemToDisplay) >
+					<#break>
+				</#if>
+				<#local altSubContent = commonInc.propagateContentChain(subContent) />
+				
+				<#if (altSubContent.featured)??>
+					<#local specificContentClass = specificContentClass + " featured">
+					<#if (altSubContent.featured.text)??>
+						<#local featauredText = altSubContent.featured.text>
+					</#if>
+				</#if>
+				
+				<#if (altSubContent.includeContent.hooks)??>
+					<#if logHelper??>
+						${logHelper.stackDebugMessage("SubContent.build(stepAlternateSubTemplate) : Custom Hooks detected for : " + altSubContent.uri + " : " + common.toString(content.includeContent.hooks))}
+					</#if>
+					<#if hookHelper??>
+						<#if logHelper??>
+							${logHelper.stackDebugMessage("SubContent.build(stepAlternateSubTemplate) : Registering Custom Hooks")}
+						</#if>
+						${hookHelper.registerHookFromJson(altSubContent.includeContent.hooks)}
+					</#if>
+				</#if>
+				
+				<#local blockPosition = "left">
+				<#if currentIndex%2 == 1>
+					<#local blockPosition = "right">
+				</#if>
+				
+				<div class="${className} ${className}_${blockPosition}">
+					<div class="lineMarker"></div>
+						<div class="${className}_block">
+						<#if featauredText?has_content>
+							<span class="featured_label">${featauredText}</span>
+						</#if>
+						<div class="${className}_body">
+							<#if (altSubContent.contentImage)??>
+								<@common.addImageIcon altSubContent.contentImage className+"_image" altSubContent.title/>
+							</#if>
+							<#if (altSubContent.exerpt??)>
+								<div class="${className}_exerpt">
+									${altSubContent.exerpt!""}
+								</div>
+							</#if>
+							
+							<#if subContentDisplayTags>						
+								<span class="${className}_tags"><#rt>
+								<@ecoWeb.displayTags altSubContent ""/>
+								</span>
+							</#if>
+							
+							<#if displayTitle>						
+								<h3 class="${className}_title"><#rt>
+								<#if (subContentBeforeTitleImage?has_content)>
+									<img src="${common.buildRootPathAwareURL(subContentBeforeTitleImage)}" class="widget_title_image icon"/>
+								</#if>
+									<#t>${altSubContent.title!""}
+								<#lt></h3>
+							</#if>
+							<div class="${className}_content">
+								${altSubContent.body!""}
+							</div>
+						</div>
+					</div>
+				</div>
+				<#local currentIndex = currentIndex +1>
+			</#list>
+		</div>
+	<div>
 </#macro>

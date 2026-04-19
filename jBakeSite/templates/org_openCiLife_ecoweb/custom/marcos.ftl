@@ -74,17 +74,42 @@
 	<#return keywords />
 </#function>
 
-<#function retrieveSiteHeadline content>
-	<#local headline = propertiesHelper.retrieveAndDisplayConfigText("site.headline")>
-	<#local stardTag = propertiesHelper.retrieveAndDisplayConfigText("site.headline.tag", true)>
-	<#local endTag = propertiesHelper.retrieveAndDisplayConfigText("site.headline.tag.end", true)>
-	<#local fullHeadLine = "<h1 id=\"headerTitle\">"+headline+"</h1>">
-	
-	<#if (stardTag != "site.headline.tag") && (endTag != "site.headline.tag.end")>
-		<#local fullHeadLine = stardTag+headline+endTag>
+<#macro imageHero>
+
+	<#local imageProp = propertiesHelper.retrieveAndDisplayConfigText("site.imageHero.image", true)>
+	<#if logHelper??>
+		${logHelper.stackDebugMessage("ecoWeb.imageHero : site.imageHero.image = " + imageProp)}
 	</#if>
-	<#return fullHeadLine />
-</#function>
+	
+	<#if !imageProp?has_content>
+		<#nested>
+	<#else>
+		<#local image= common.buildRootPathAwareURL(imageProp)>
+		<#local categoryContent=propertiesHelper.retrieveAndDisplayConfigText("site.imageHero.category")>
+		<#local orderBy="order">
+		
+		<section class="imageHeroSection"> 
+			<div class="imageHeroContainer"> 
+				<img src="${image}"> 
+				<div class="imageHeroMask"></div> 
+			</div>
+			
+			<#nested>
+			
+			<#local imageHeroBlocks = org_openCiLife_blocks?filter(b -> b.status=="published")?filter(b-> sequenceHelper.seq_containsOne(b.category!"__empty_categ__", categoryContent))?sort_by(orderBy)>
+			<#if (langHelper)??>
+				<#local imageHeroBlocks = imageHeroBlocks?filter(ct -> langHelper.isCorectLang(ct, langHelper.getLang(content)))>
+			</#if>
+			<#if logHelper??>
+				${logHelper.stackDebugMessage("ecoWeb.imageHero : category :" + categoryContent + " (published, filtered by lang if resquired) used with " + imageHeroBlocks?size + " blocks")}
+			</#if>
+			
+			<#list imageHeroBlocks as imageHeroBlock>
+				<@block.buildWithCategory imageHeroBlock categoryContent orderBy />
+			</#list>
+		</section>
+	</#if>
+</#macro>
 
 <#macro bob block>
 	A Basic BOB template !!!!
