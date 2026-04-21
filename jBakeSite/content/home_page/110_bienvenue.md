@@ -7,7 +7,7 @@ status=published
 specificClass=mainBlock primary
 contentImage=images/contact.svg
 anchorId=bienvenu
-order=4
+order=110
 ~~~~~~
 **Bienvenue**
 
