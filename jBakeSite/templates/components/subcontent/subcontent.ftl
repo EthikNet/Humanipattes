@@ -312,7 +312,7 @@ param : content : content to search for include content
 							<#break>
 							<#case "card">
 								<#if (subContentDisplayContentMode == "modalLink")>
-									<@modal.extractContentForModal altSubContent, "link", listDisplayType, "", [], subContentDisplayTags/>
+									<@modal.extractContentForModal altSubContent, "link", listDisplayType, "Plus", subContentDisplayTags />
 								<#elseif (subContentDisplayContentMode == "link")>
 									<a href="${common.buildRootPathAwareURL(altSubContent.uri)}">
 								</#if>
