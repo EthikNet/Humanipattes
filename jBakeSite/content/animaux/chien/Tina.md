@@ -12,15 +12,19 @@ exerpt=Tina est une chienne Jagd Terrier de 11 ans
 sexe=Femelle
 dateNaissance=01.01.2015
 requis=Du fait de sa race besoin de jardin sécurisé / sortie en laisse
-tarif=Adoption à 280 euros
-caractere=Dynamique,Non destructrice,aime les balades
+aEviter=pas ok chats, pas ok animaux de basse cour
+tarif=Adoption SOS 80 euros
+caractere=Energique,Aime  le canapé,Calme (intérieur)
+vigilance=Clôture solide (pour éviter des promenades non voulues..)
+bonus=Tarif adoption 80 euros dû à l'âge
 autre=Vaccinée,Vermifugée et déparasitée,Stérilisée
-visible=A définir
+visible=Refuge Vakanima
 ~~~~~~
-Je suis une mamie Jagd Terrier estimée à 11 ans trouvée errante dans le sud de l’Indre il y a plus d’1 an. J’ai passé de longs mois à la fourrière jusqu’à ce qu’une dame me prenne en famille d’accueil pour pouvoir ensuite m’adopter, mais je n’ai pas eu de chance, ma tatie a eu un gros problème de santé et a été hospitalisée. Je suis depuis dans un refuge ami chez Lisa qui prend soin de moi avec plein d’autres congénères. Après avoir essayé de faire ma « tête brûlée » en essayant de faire ma cheffe devant les gros chiens, je suis devenue plus sage et plutôt obéissante, mais attention l’envie du grand air est dans mes gènes... J’ai besoin d’un jardin bien clôturé ou de sortir en laisse.
+Je suis une mamie estimée à 11 ans trouvée errante dans le sud de d'indre il y a plus d'1 an. Non identifiée, je suis restée plusieurs mois en fourrière et je n'ai jamais été réclamée.
+Une dame m'a prise en famille d'accueil en vue de m'adopter mais  je n'ai pas pu rester, ma tatie a eu de graves problèmes de santé et n'a plus eu les capacités de me garder. Depuis, je suis accueillie dans un refuge ami avec Lisa qui prend soin de moi. 
 
-Je viens d’apprendre que je ne retournerai pas chez ma tatie, car elle n’a plus la capacité de prendre soin de moi, je cherche donc une famille qui voudra bien m’accueillir, moi, peƟte mamie qui n’a plus l’âge de monter sur des podiums.
-J’adore les balades, je ne tire absolument pas sur la laisse, je veux juste renifler toutes les bonnes odeurs. J’ai encore beaucoup d’énergie et je suis très curieuse. Je recherche une famille qui adore marcher. Grâce à Lisa, aujourd’hui, je peux rencontrer et être avec d’autres chiens, ils ne m’intéressent pas vraiment, je ne les embête pas, je veux juste marcher, courir et renifler !!
-En voiture, je suis super calme et tranquille bref un vrai ange !!
+Après avoir essayé de faire ma "tête brûlée" en essayant de faire ma cheffe devant les gros chiens, je suis devenue plus sage et obéissante mais attention l'envie du grand air est dans mes gènes. J'ai besoin d'un jardin bien clôturé ou de sortir en laisse.
 
-Si tu aimes les balades en nature, et que tu veux être accompagnée d’une petite boule de poils alors je suis faite pour toi. Prépare tes baskets, ma laisse et mon collier et hop nous partons pour l’aventure.
+J'adore les balades, je ne tire absolument pas en laisse, je veux renifler toutes les bonnes odeurs. J'ai encore beaucoup d'énergie et je suis très curieuse. Je recherche une famille qui adore marcher. Aujourd'hui grâce à Lisa, je peux rencontrer et évoluer avec d'autres chiens, ils ne m'intéressent pas vraiment, je ne les embête pas, je veux juste marcher, courir, renifler ou profiter d'un bon canapé ou d'un dodo bien douillet  En voiture, je suis super calme et tranquille bref un vrai ange !! 
+
+Si tu aimes les balades en nature et que tu veux être accompagnée d'une petite boule de poils  alors je suis faite pour toi. Prépare tes baskets, ma laisse et mon collier et hop nous partons pour  l'aventure !!
