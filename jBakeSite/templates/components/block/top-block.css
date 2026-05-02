@@ -28,6 +28,20 @@
 	text-align: center;
 }
 
+.block_wraping {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	width: 100%;
+	height: auto;
+	vertical-align: middle;
+	margin: auto;
+	padding-bottom: 3%;
+	line-height: 170%;
+	border-radius: 20px;
+    margin-bottom: 10px;
+}
+
 .blockTitle {
 	font-size: 200%;
 }
@@ -87,5 +101,8 @@
 	}
 	.fivePerRow .card, .fivePerRow .block{
 		width:19%
+	}
+	.block_wraping {
+		flex-direction: row;
 	}
 }

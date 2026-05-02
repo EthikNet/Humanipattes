@@ -97,6 +97,7 @@
 
 <#-- pass content to all componnent wihich need a per content actions. -->
 <#function propagateContentChain content>
+	<#assign alteredContent = content>
 	<#list allComponentsData as include>
 			<#attempt>
 				<#local includeNameSpace = .vars[include.namespace]>
@@ -107,11 +108,12 @@
 						<#local contentUri = content.uri!"no_uri">
 						${logHelper.stackDebugMessage("commonInc.propagateContentChain : INFO : send content to component : " + include.file + " for " + contentUri + ", from : " + .caller_template_name)}
 					</#if>
-					${includeNameSpace.handleContentChain(content)}
+					<#assign alteredContent = includeNameSpace.handleContentChain(alteredContent)>
 				</#if>
 			<#recover>
 			</#attempt>
 		</#list>
+		<#return alteredContent>
 </#function>
 
 <#function handleComponentLastActions>

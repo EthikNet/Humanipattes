@@ -130,8 +130,9 @@ param : content : content to search for include content
 				<#if (maxItemToDisplay!=-1) && (subContent?counter > maxItemToDisplay) >
 					<#break>
 				</#if>
-				<#local uselessTempVar = commonInc.propagateContentChain(subContent) />
-				<#local subContentCategory = (subContent.category)!"__none__">
+				<#local altSubContent = commonInc.propagateContentChain(subContent) />
+				
+				<#local subContentCategory = (altSubContent.category)!"__none__">
 				<#local specificContentClass = (content.includeContent.display.specificClass)!"">
 				<#local displayTitle = true>
 				<#if (content.includeContent.display.displayTitle)?? && content.includeContent.display.displayTitle == false>
@@ -139,7 +140,7 @@ param : content : content to search for include content
 				</#if>
 				<#local collapseClass = "">
 				<#local collapseId = "">
-				<#local isSelf = subContent.title == content.title>
+				<#local isSelf = altSubContent.title == content.title>
 				<#local featauredText = "">
 				
 				<#if isSelf>
@@ -156,34 +157,38 @@ param : content : content to search for include content
 					</#switch>
 				</#if>
 				
-				<#if (subContent.featured)??>
+				<#if (altSubContent.specificClass)??>
+					<#local specificContentClass += " " + altSubContent.specificClass>
+				</#if>
+				
+				<#if (altSubContent.featured)??>
 					<#local specificContentClass = specificContentClass + " featured">
-					<#if (subContent.featured.text)??>
-						<#local featauredText = subContent.featured.text>
+					<#if (altSubContent.featured.text)??>
+						<#local featauredText = altSubContent.featured.text>
 					</#if>
 				</#if>
 				
-				<#if (content.includeContent.hooks)??>
+				<#if (altSubContent.includeContent.hooks)??>
 					<#if logHelper??>
-						${logHelper.stackDebugMessage("SubContent.build : Custom Hooks detected for : " + subContent.uri + " : " + common.toString(content.includeContent.hooks))}
+						${logHelper.stackDebugMessage("SubContent.build : Custom Hooks detected for : " + altSubContent.uri + " : " + common.toString(content.includeContent.hooks))}
 					</#if>
 					<#if hookHelper??>
 						<#if logHelper??>
 							${logHelper.stackDebugMessage("SubContent.build : Registering Custom Hooks")}
 						</#if>
-						${hookHelper.registerHookFromJson(content.includeContent.hooks)}
+						${hookHelper.registerHookFromJson(altSubContent.includeContent.hooks)}
 					</#if>
 				</#if>
 				
 				<#if (listDisplayType == "table")>
 					<#local specificClassForContent = specificContentClass>
-					<#if (subContent.featured)??>
+					<#if (altSubContent.featured)??>
 						<#local specificClassForContent = specificClassForContent + "featured">
 					</#if>
 					
-					<tr <@generateAnchor subContent/> <#rt>
+					<tr <@generateAnchor altSubContent/> <#rt>
 						<#if (subContentDisplayContentMode == "link")>
-							<#lt> data-href="${common.buildRootPathAwareURL(subContent.uri)}"<#rt>
+							<#lt> data-href="${common.buildRootPathAwareURL(altSubContent.uri)}"<#rt>
 						</#if>
 						
 						<#if (specificContentClass != "")>
@@ -202,8 +207,8 @@ param : content : content to search for include content
 									</#if>
 									<#if (column.attr)?? && column.attr?has_content>
 										<#local contentAtttrName = column.attr>
-										<#if (subContent[contentAtttrName])??>
-											<#local contentAtttrValue = subContent[contentAtttrName]>
+										<#if (altSubContent[contentAtttrName])??>
+											<#local contentAtttrValue = altSubContent[contentAtttrName]>
 											
 											<#if contentAtttrName=="title">
 												<#if (subContentBeforeTitleImage?has_content)>
@@ -213,8 +218,8 @@ param : content : content to search for include content
 											<#if (contentAtttrValue?is_date)>
 												${contentAtttrValue?string('dd/MM/yyyy à HH:mm')}
 											<#elseif contentAtttrName=="contentImage">
-												<#if (subContent.contentImage)??>
-													<@common.addImageIcon subContent.contentImage "" subContent.title/>
+												<#if (altSubContent.contentImage)??>
+													<@common.addImageIcon altSubContent.contentImage "" altSubContent.title/>
 												</#if>
 											<#else>
 												${contentAtttrValue}
@@ -227,12 +232,12 @@ param : content : content to search for include content
 						</#if>
 						<#if (subContentDisplayContentMode == "modal")>
 						<td>
-							<@modal.extractContentForModal subContent, "button", listDisplayType, "voir plus", subContentDisplayTags />
+							<@modal.extractContentForModal altSubContent, "button", listDisplayType, "voir plus", subContentDisplayTags />
 						</td>
 						</#if>
 						<#if subContentDisplayContentMode == "visible">
 						<td class="${listDisplayType}_content">
-							${subContent.body!""}
+							${altSubContent.body!""}
 						</td>
 						</#if>
 					</tr>
@@ -241,28 +246,28 @@ param : content : content to search for include content
 						<div class="featured_label">${featauredText}</div>
 					</#if>
 					<#if hookHelper??>
-						<@hookHelper.hook "beforeItemSubContent" subContent/>
+						<@hookHelper.hook "beforeItemSubContent" altSubContent/>
 					</#if>
-					<div <@generateAnchor subContent/> class="${listDisplayType} content_type_${subContentDisplayContentMode} ${specificContentClass}">
+					<div <@generateAnchor altSubContent/> class="${listDisplayType} content_type_${subContentDisplayContentMode} ${specificContentClass}">
 						<#if hookHelper??>
-							<@hookHelper.hook "beginItemSubContent" subContent/>
+							<@hookHelper.hook "beginItemSubContent" altSubContent/>
 						</#if>
 						<div class="step_icon">
-							<#if (subContent.contentImage)??>
-								<@common.addImageIcon subContent.contentImage listDisplayType+"_image" subContent.title/>
+							<#if (altSubContent.contentImage)??>
+								<@common.addImageIcon altSubContent.contentImage listDisplayType+"_image" altSubContent.title/>
 							</#if>
 							<div class="vertical_line"></div>
 						</div>
 						<div class="step_content">
-							<#if (subContent.exerpt??)>
+							<#if (altSubContent.exerpt??)>
 								<div class="${listDisplayType}_exerpt">
-									${subContent.exerpt!""}
+									${altSubContent.exerpt!""}
 								</div>
 							</#if>
 							
 							<#if subContentDisplayTags>						
 								<span class="${listDisplayType}_tags"><#rt>
-								<@ecoWeb.displayTags subContent ""/>
+								<@ecoWeb.displayTags altSubContent ""/>
 								</span>
 							</#if>
 							
@@ -271,34 +276,34 @@ param : content : content to search for include content
 								<#if (subContentBeforeTitleImage?has_content)>
 									<img src="${common.buildRootPathAwareURL(subContentBeforeTitleImage)}" class="widget_title_image icon"/>
 								</#if>
-									<#t>${subContent.title!""}
+									<#t>${altSubContent.title!""}
 								<#lt></h3>
 							</#if>
 							<div class="${listDisplayType}_content<#if subContentDisplayContentMode == "modalLink"> contentHidden</#if>">
-								${subContent.body!""}
+								${altSubContent.body!""}
 							</div>
 						</div>
 						<#if hookHelper??>
-							<@hookHelper.hook "endItemSubContent" subContent/>
+							<@hookHelper.hook "endItemSubContent" altSubContent/>
 						</#if>
 					</div>
 					<#if hookHelper??>
-						<@hookHelper.hook "afterItemSubContent" subContent/>
+						<@hookHelper.hook "afterItemSubContent" altSubContent/>
 					</#if>
 				<#else><#-- NOT a table -->
 					<#if hookHelper??>
-						<@hookHelper.hook "beforeItemSubContent" subContent/>
+						<@hookHelper.hook "beforeItemSubContent" altSubContent/>
 					</#if>
-					<div <@generateAnchor subContent/> class="${listDisplayType} content_type_${subContentDisplayContentMode} ${specificContentClass}">
+					<div <@generateAnchor altSubContent/> class="${listDisplayType} content_type_${subContentDisplayContentMode} ${specificContentClass}">
 						<#if featauredText?has_content>
 							<div class="featured_label">${featauredText}</div>
 						</#if>
 						<#if hookHelper??>
-							<@hookHelper.hook "beginItemSubContent" subContent/>
+							<@hookHelper.hook "beginItemSubContent" altSubContent/>
 						</#if>
 						<#switch listDisplayType>
 							<#case  "link">
-								<a href="${common.buildRootPathAwareURL(subContent.uri)}" class="widget_link">
+								<a href="${common.buildRootPathAwareURL(altSubContent.uri)}" class="widget_link">
 							<#break>
 							<#case "collapse_block">
 								<#local collapseClass = "collapse">
@@ -307,22 +312,22 @@ param : content : content to search for include content
 							<#break>
 							<#case "card">
 								<#if (subContentDisplayContentMode == "modalLink")>
-									<@modal.extractContentForModal subContent, "link", listDisplayType, "", [], subContentDisplayTags/>
+									<@modal.extractContentForModal altSubContent, "link", listDisplayType, "Plus", subContentDisplayTags />
 								<#elseif (subContentDisplayContentMode == "link")>
-									<a href="${common.buildRootPathAwareURL(subContent.uri)}">
+									<a href="${common.buildRootPathAwareURL(altSubContent.uri)}">
 								</#if>
 							<#break>
 						</#switch>
 						<#if listDisplayType == "card">
-							<#if (subContent.contentImage??)>
-								<#if (subContent.contentImage)??>
-									<@common.addImageIcon subContent.contentImage listDisplayType+"_image" subContent.title/>
+							<#if (altSubContent.contentImage??)>
+								<#if (altSubContent.contentImage)??>
+									<@common.addImageIcon altSubContent.contentImage listDisplayType+"_image" altSubContent.title/>
 								</#if>
 							</#if>
 						</#if>
 						<#if subContentDisplayTags>						
 							<span class="${listDisplayType}_tags"><#rt>
-							<@ecoWeb.displayTags subContent ""/>
+							<@ecoWeb.displayTags altSubContent ""/>
 							</span>
 						</#if>
 						<#if displayTitle>						
@@ -330,7 +335,7 @@ param : content : content to search for include content
 							<#if (subContentBeforeTitleImage?has_content)>
 								<img src="${common.buildRootPathAwareURL(subContentBeforeTitleImage)}" class="widget_title_image icon"/>
 							</#if>
-								<#t>${subContent.title!""}
+								<#t>${altSubContent.title!""}
 							<#lt></h3>
 						</#if>
 						
@@ -339,16 +344,16 @@ param : content : content to search for include content
 						</#if>
 						
 						<#if listDisplayType != "card">
-							<#if (subContent.contentImage??)>
-								<#if (subContent.contentImage)??>
-								<@common.addImageIcon subContent.contentImage listDisplayType+"_image" subContent.title/>
+							<#if (altSubContent.contentImage??)>
+								<#if (altSubContent.contentImage)??>
+								<@common.addImageIcon altSubContent.contentImage listDisplayType+"_image" altSubContent.title/>
 								</#if>
 							</#if>
 						</#if>
 						
-						<#if (subContent.exerpt??)>
+						<#if (altSubContent.exerpt??)>
 							<div class="${listDisplayType}_exerpt">
-								${subContent.exerpt!""}
+								${altSubContent.exerpt!""}
 							</div>
 						</#if>
 						
@@ -357,11 +362,11 @@ param : content : content to search for include content
 						</#if>
 						
 						<#if (subContentDisplayContentMode == "modal")>
-							<@modal.extractContentForModal subContent, "button", listDisplayType, "voir plus", subContentDisplayTags />
+							<@modal.extractContentForModal altSubContent, "button", listDisplayType, "voir plus", subContentDisplayTags />
 						</#if>
 						<#if (subContentDisplayContentMode == "visible" || subContentDisplayContentMode == "modalLink")>
 							<div class="${listDisplayType}_content<#if subContentDisplayContentMode == "modalLink"> contentHidden</#if>">
-								${subContent.body!""}
+								${altSubContent.body!""}
 							</div>
 						</#if>
 						<#if (listDisplayType == "link" || subContentDisplayContentMode == "modalLink") || subContentDisplayContentMode == "link" || subContentDisplayContentMode == "modal">
@@ -371,11 +376,11 @@ param : content : content to search for include content
 							</div>
 						</#if>
 						<#if hookHelper??>
-							<@hookHelper.hook "endItemSubContent" subContent/>
+							<@hookHelper.hook "endItemSubContent" altSubContent/>
 						</#if>
 					</div>
 					<#if hookHelper??>
-						<@hookHelper.hook "afterItemSubContent" subContent/>
+						<@hookHelper.hook "afterItemSubContent" altSubContent/>
 					</#if>
 				</#if> <#-- end onf contentDisplayType "switch" -->
 			</#list>
@@ -404,4 +409,92 @@ param : content : content to search for include content
 			<@logHelper.debug "No SubContent for this content"/>
 		</#if>
 	</#if>
+</#macro>
+
+<#macro stepAlternateSubTemplate theContent items>
+	<#local className = "hsitoAlternate">
+	<#local maxItemToDisplay = theContent.includeContent.limit!-1>
+	<#local specificContentClass = (theContent.includeContent.display.specificClass)!"">
+	<#local displayTitle = true>
+	<#if (theContent.includeContent.display.displayTitle)?? && theContent.includeContent.display.displayTitle == false>
+		<#local displayTitle = false>
+	</#if>
+	<#local subContentDisplayContentMode = (theContent.includeContent.display.content)!"link">
+	<#local subContentDisplayTags = (theContent.includeContent.display.displayTags)!false>
+	<#local currentIndex = 0>
+	
+	
+	<div class="${className}_list content_type_${subContentDisplayContentMode}">
+		<div class="middleLine"></div>
+		<div class="${className}_items">
+			<#list items?sort_by("order") as subContent>
+				<#if (maxItemToDisplay!=-1) && (subContent?counter > maxItemToDisplay) >
+					<#break>
+				</#if>
+				<#local altSubContent = commonInc.propagateContentChain(subContent) />
+				
+				<#if (altSubContent.featured)??>
+					<#local specificContentClass = specificContentClass + " featured">
+					<#if (altSubContent.featured.text)??>
+						<#local featauredText = altSubContent.featured.text>
+					</#if>
+				</#if>
+				
+				<#if (altSubContent.includeContent.hooks)??>
+					<#if logHelper??>
+						${logHelper.stackDebugMessage("SubContent.build(stepAlternateSubTemplate) : Custom Hooks detected for : " + altSubContent.uri + " : " + common.toString(content.includeContent.hooks))}
+					</#if>
+					<#if hookHelper??>
+						<#if logHelper??>
+							${logHelper.stackDebugMessage("SubContent.build(stepAlternateSubTemplate) : Registering Custom Hooks")}
+						</#if>
+						${hookHelper.registerHookFromJson(altSubContent.includeContent.hooks)}
+					</#if>
+				</#if>
+				
+				<#local blockPosition = "left">
+				<#if currentIndex%2 == 1>
+					<#local blockPosition = "right">
+				</#if>
+				
+				<div class="${className} ${className}_${blockPosition}">
+					<div class="lineMarker"></div>
+						<div class="${className}_block">
+						<#if featauredText?has_content>
+							<span class="featured_label">${featauredText}</span>
+						</#if>
+						<div class="${className}_body">
+							<#if (altSubContent.contentImage)??>
+								<@common.addImageIcon altSubContent.contentImage className+"_image" altSubContent.title/>
+							</#if>
+							<#if (altSubContent.exerpt??)>
+								<div class="${className}_exerpt">
+									${altSubContent.exerpt!""}
+								</div>
+							</#if>
+							
+							<#if subContentDisplayTags>						
+								<span class="${className}_tags"><#rt>
+								<@ecoWeb.displayTags altSubContent ""/>
+								</span>
+							</#if>
+							
+							<#if displayTitle>						
+								<h3 class="${className}_title"><#rt>
+								<#if (subContentBeforeTitleImage?has_content)>
+									<img src="${common.buildRootPathAwareURL(subContentBeforeTitleImage)}" class="widget_title_image icon"/>
+								</#if>
+									<#t>${altSubContent.title!""}
+								<#lt></h3>
+							</#if>
+							<div class="${className}_content">
+								${altSubContent.body!""}
+							</div>
+						</div>
+					</div>
+				</div>
+				<#local currentIndex = currentIndex +1>
+			</#list>
+		</div>
+	<div>
 </#macro>

@@ -5,7 +5,7 @@
 
 	<groupId>org.webleger.builder</groupId>
 	<artifactId>framework</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Webleger WebSite Builder</name>
 
@@ -154,6 +154,7 @@
 							</goals>
 							<configuration>
 								<target>
+									<echo message="Bulding site for host : ${webleger.build.host}" />
 									<echo message="Cleaning main structure" />
 									<delete dir="${jbake.inputDirectory}"
 										failonerror="false" />

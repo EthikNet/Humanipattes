@@ -1,4 +1,5 @@
 div.debug {
 	border: thin ridge red;
 	background-color: lightgray;
+	line-break: anywhere;
 }
