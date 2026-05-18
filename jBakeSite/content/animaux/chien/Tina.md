@@ -16,7 +16,6 @@ aEviter=pas ok chats, pas ok animaux de basse cour
 tarif=Adoption SOS 80 euros
 caractere=Energique,Aime  le canapé,Calme (intérieur)
 vigilance=Clôture solide (pour éviter des promenades non voulues..)
-bonus=Tarif adoption 80 euros dû à l'âge
 autre=Vaccinée,Vermifugée et déparasitée,Stérilisée
 visible=Refuge Vakanima
 ~~~~~~
