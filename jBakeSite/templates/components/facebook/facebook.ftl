@@ -38,7 +38,7 @@
 </#macro>
 
 <#macro buildEvent content>
-	<@buildfaceBook "events" "${webleger.component.meta.facebook.container.url}/events" />
+	<@buildfaceBook "events" "${webleger.component.meta.facebook.container.url}" />
 </#macro>
 
 <#macro buildfaceBook tabs href>
