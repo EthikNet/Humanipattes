@@ -14,6 +14,10 @@
 	background-color:${webleger.site.style.primary.highlight.color};
 }
 
+.homePage .modal-content {
+	text-align:initial;
+}
+
 #preHeader_blocks .action_centered a {
 	margin:0;
 }
@@ -188,6 +192,10 @@
 .lp_event {
 	background-color:${webleger.site.style.discret.background.color};
 	color: ${webleger.site.style.titles.color};
+}
+
+.lp_event .events .card {
+	background-color:${webleger.site.style.background.color};
 }
 
 .lp_help {
@@ -470,38 +478,39 @@
 	height:auto;
 }
 
-.infos .card {
+.infos .card, .events .card {
 	display: flex;
 	flex-flow: column;
 }
 
-.infos .card_image_wraper {
+.infos .card_image_wraper, .events .card_image_wraper {
 	overflow: hidden;
 	display: flex;
 	justify-content: center;
 	align-content: center;
 	flex-wrap: wrap;
+	min-height: 150px;
 }
-.infos .card_tags {
+.infos .card_tags, .events .card_tags {
 	margin-top: 10px;
 }
-.infos .card_title {
+.infos .card_title, .events .card_title {
 	min-height: 50px;
 }
-.infos .card_image {
+.infos .card_image, .events .card_image {
 	width: auto;
 	height:initial;
 	max-height: 150px;
 	margin: 0 auto !important;
 	padding-top: 10px;
 }
-.infos .content_tags {
+.infos .content_tags, .events .content_tags {
 	display: flex;
 	justify-content: flex-end;
 	gap: 12px;
 	margin-right:10px;
 }
-.infos .content_tags li {
+.infos .content_tags li, .events .content_tags li {
 	list-style-type: none;
 	background-color:${webleger.site.style.primary.background.color};
 	color: initial;
@@ -509,6 +518,13 @@
 	border-radius: 12px;
 	padding: 3px;
 	margin-top: 5px;
+}
+.infos .card_exerpt, .events .card_exerpt {
+	height:5em;
+}
+
+.events .modal-image img {
+	max-width:100%;
 }
 
 .contact_adopter a {

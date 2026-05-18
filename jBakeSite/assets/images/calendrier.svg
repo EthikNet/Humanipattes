@@ -1,0 +1,29 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Corps du calendrier -->
+  <rect x="6" y="10" width="52" height="48" rx="6"
+        fill="white" stroke="black" stroke-width="2"/>
+
+  <!-- Barre supérieure -->
+    <rect x="6" y="11" width="52" height="12" rx="2"
+        fill="black"/>
+
+
+  <!-- Anneaux -->
+  <circle cx="18" cy="10" r="3" fill="white" stroke="black"/>
+  <circle cx="46" cy="10" r="3" fill="white" stroke="black"/>
+
+  <!-- Points représentant les jours -->
+  <g fill="black">
+    <circle cx="18" cy="30" r="2"/>
+    <circle cx="32" cy="30" r="2"/>
+    <circle cx="46" cy="30" r="2"/>
+
+    <circle cx="18" cy="40" r="2"/>
+    <circle cx="32" cy="40" r="2"/>
+    <circle cx="46" cy="40" r="2"/>
+
+    <circle cx="18" cy="50" r="2"/>
+    <circle cx="32" cy="50" r="2"/>
+    <circle cx="46" cy="50" r="2"/>
+  </g>
+</svg>
