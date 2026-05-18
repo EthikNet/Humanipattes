@@ -52,6 +52,9 @@ param : content : content to search for include content
 		<#local includeContentFilter = content.includeContent.category!"all">
 		<#local noCnontentText = content.includeContent.noContentText!"">
 		<#local maxItemToDisplay = content.includeContent.limit!-1>
+		<#local orderBy = content.includeContent.order!"order">
+		<#local orderDirection = content.includeContent.orderDirection!"ascending">
+		<#local filter = content.includeContent.filter!"">
 		
 		<#local subContents = allSubContents>
 		
@@ -73,6 +76,18 @@ param : content : content to search for include content
 			<#if logHelper??>
 				<@logHelper.debug "Included Type " + content.includeContent.type + " ("+allSubContents?size+") (category : " + includeContentFilter + ") : number of subContent to display " + subContents?size/>
 			</#if>
+		</#if>
+		
+		<#if filter?has_content>
+			<#local subContents = subContents?filter(filter?eval)>
+		</#if>
+		
+		<#if logHelper??>
+			<@logHelper.debug "Included ordering : order : " + orderBy + ", direction : " + orderDirection />
+		</#if>
+		<#local subContents = subContents?sort_by(orderBy)>
+		<#if orderDirection=="descending" || orderDirection=="desc">
+			<#local subContents = subContents?reverse>
 		</#if>
 		
 		<#local specificClass = (content.includeContent.specificClass)!"">
@@ -126,7 +141,8 @@ param : content : content to search for include content
 			<#else>
 				<div class="${listDisplayType}_list">
 			</#if>
-			<#list subContents?sort_by("order") as subContent>
+			
+			<#list subContents as subContent>
 				<#if (maxItemToDisplay!=-1) && (subContent?counter > maxItemToDisplay) >
 					<#break>
 				</#if>

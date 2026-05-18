@@ -207,3 +207,11 @@ param : theObject : object to transform in String
 	</#if>
 	<#return canonicalUri>
 </#function>
+
+<#function isTodayOrAfter theContent>
+	<#local returnVal = false>
+	<#if (theContent.date)?? && (.now?date <= theContent.date?date)>
+		<#local returnVal = true>
+	</#if>
+	<#return returnVal>
+</#function>
