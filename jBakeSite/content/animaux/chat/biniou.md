@@ -1,0 +1,25 @@
+title=Biniou
+date=2026-06-25
+type=org_openCiLife_post
+includeContent={"type":"org_openCiLife_post", "category":"AAdopter_chat", "specificClass":"fourPerRow cardAnimal moreAdopter", "title":"Nos autres chats à adopter", "displaySelf":"none", "noContentText":"Pas d'autres chats à adopter", "limit":8, "showMore":{"label":"voir tous les chats à adopter", "to":"${webleger.build.host}/animaux/chat/201_adopter_chat.html", "specificClass":"btn btn-primary no_state"}, "display":{"type":"card", "content":"link"}}
+category=AAdopter_chat
+subTemplate=humaniPattes.aAdopterSubTemplate
+status=published
+contentImage=images/animaux/biniou.jpg
+imageList={"data":[{"file":"images/animaux/biniou_assise.jpg", "alt":"Biniou assise", "width":"550px"}]}
+order=203
+exerpt=J'aime jouer avec mes frères et sœurs, mais je ménage des moments seuls.
+sexe=Mâle
+dateNaissance=01/05/2026
+bonnus=OK chien,OK chats
+tarif=160 euros
+caractere=Sociable,Affectueux,Câlin,Propre
+autre=Stérilisé,Vermifugé et déparasité,Caution pour stérilisation future
+visible=Chenier (23)
+chaton=true
+~~~~~~
+J'ai été trouvé sous un buisson avec mes frères et sœurs sans maman. J'ai été confié à une famille d'accueil qui m'a biberonné jusqu'à temps de passer à une alimentation solide.
+
+J'aime jouer avec mes frères et sœurs, mais je ménage des moments seuls. 
+
+Après un début de vie difficile, j'espère vivre avec des humains aimants.
