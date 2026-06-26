@@ -11,9 +11,9 @@ order=203
 exerpt=Je n'ai peur de rien (chiens, chats, enfants, personnes étrangères) et j'aime bien mordiller
 sexe=Femelle
 dateNaissance=5/04/2026
-tarif=160 euros
+tarif=115 euros
 caractere=Curieuse,Dynamique,Joueuse
-autre=Stérilisé,Vermifugé et déparasité,Caution pour stérilisation future
+autre=Vermifugée et déparasitée,Caution pour stérilisation future
 visible=Saint-Maurice-La-Souterraine
 chaton=true
 ~~~~~~

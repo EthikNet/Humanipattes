@@ -12,9 +12,9 @@ exerpt=Je suis très affectueuse et je suis trop contente de rencontrer de nouve
 sexe=Femelle
 dateNaissance=26/04/2026
 bonnus=OK chien,Peut être le seul chat de la maison
-tarif=160 euros
+tarif=115 euros
 caractere=Calme,Observatrice,A l'aise avec tous les humains, Sociable ++
-autre=Stérilisé,Vermifugé et déparasité,Caution pour stérilisation future
+autre=Vermifugée et déparasitée,Caution pour stérilisation future
 visible=Saint Georges les Landes
 chaton=trues
 ~~~~~~

@@ -12,9 +12,9 @@ exerpt=Je suis le petit dernier de la portée, mais j'apprends vite !
 sexe=Mâle
 dateNaissance=01/05/2026
 bonnus=OK chien,OK chats
-tarif=160 euros
+tarif=115 euros
 caractere=Affectueux,Joueur,Propre
-autre=Stérilisé,Vermifugé et déparasité,Caution pour stérilisation future
+autre=Vermifugé et déparasité,Caution pour stérilisation future
 visible=Chenier (23)
 chaton=true
 ~~~~~~

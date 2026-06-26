@@ -14,7 +14,7 @@ dateNaissance=23/04/2026
 vigilance=Début d'adaptation au chien,Semblerait être un chat à poils mi longs,Adoptable autour du 20 juillet
 tarif=160 euros
 caractere=Douce,Observatrice,Joueuse,Câline
-autre=Stérilisé,Vermifugé et déparasité,Caution pour stérilisation future
+autre=Vermifugée et déparasitée,Caution pour stérilisation future
 visible=Lussac-les-Eglises
 chaton=true
 ~~~~~~

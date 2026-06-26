@@ -12,9 +12,9 @@ exerpt=J'aime bien les caresses mais je ne me pose pas très longtemps et file m
 sexe=Femelle
 dateNaissance=26/04/2026
 bonnus=OK chien
-tarif=160 euros
+tarif=115 euros
 caractere=Chef de meute,Joueuse,Exploratrice née,Sociable ++
-autre=Stérilisé,Vermifugé et déparasité,Caution pour stérilisation future
+autre=Vermifugée et déparasitée,Caution pour stérilisation future
 visible=Saint Georges les Landes
 chaton=trues
 ~~~~~~

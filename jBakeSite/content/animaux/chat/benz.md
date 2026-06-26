@@ -11,9 +11,9 @@ order=203
 exerpt=Je suis discret et en pleine apprentissage de la sociabilisation
 sexe=Mâle
 dateNaissance=5/04/2026
-tarif=160 euros
+tarif=115 euros
 caractere=Peureux,Discret,Inquiet,Timide
-autre=Stérilisé,Vermifugé et déparasité,Caution pour stérilisation future
+autre=Vermifugé et déparasité,Caution pour stérilisation future
 visible=Saint-Maurice-La-Souterraine
 chaton=true
 ~~~~~~

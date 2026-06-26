@@ -12,9 +12,9 @@ exerpt=J'aime explorer de nouveaux endroits et rencontrer de nouvelles personnes
 sexe=Femelle
 dateNaissance=26/04/2026
 bonnus=OK chien
-tarif=160 euros
+tarif=115 euros
 caractere=Boule d'énergie,Joueuse et ultra dynamique,Sociable ++
-autre=Stérilisé,Vermifugé et déparasité,Caution pour stérilisation future
+autre=Vermifugée et déparasitée,Caution pour stérilisation future
 visible=Saint Georges les Landes
 chaton=trues
 ~~~~~~

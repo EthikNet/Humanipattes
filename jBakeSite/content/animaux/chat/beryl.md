@@ -12,9 +12,9 @@ exerpt=J'adore cavaler dans la maison
 sexe=Femelle
 dateNaissance=01/05/2026
 bonnus=OK chien,OK chats
-tarif=160 euros
+tarif=115 euros
 caractere=Joueuse,Affectueuse,Vive,Propre
-autre=Stérilisé,Vermifugé et déparasité,Caution pour stérilisation future
+autre=Vermifugée et déparasitée,Caution pour stérilisation future
 visible=Chenier (23)
 chaton=true
 ~~~~~~

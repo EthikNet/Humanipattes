@@ -12,9 +12,9 @@ exerpt=Je suis un gros pépère qui demande beaucoup d'attention et adore de gri
 sexe=Mâle
 dateNaissance=23/04/2026
 vigilance=En cours de socialisation avec le chien (toujours très inquiet face à lui),Semblerait être un chat à poils longs,Adoptable autour du 20 juillet
-tarif=160 euros
+tarif=115 euros
 caractere=Grimpeur de l'extrême,Fils à maman,Pot de colle
-autre=Stérilisé,Vermifugé et déparasité,Caution pour stérilisation future
+autre=Vermifugé et déparasité,Caution pour stérilisation future
 visible=Lussac-les-Eglises
 chaton=true
 ~~~~~~

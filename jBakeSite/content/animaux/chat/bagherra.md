@@ -12,9 +12,9 @@ exerpt=Je demande de l'attention humaine surtout pour jouer mais je ne refuse ja
 sexe=Femelle
 dateNaissance=23/04/2026
 vigilance=Début d'adaptation au chien,Toute petite par rapport au reste de sa fratrie,Adoptable autour du 20 juillet
-tarif=160 euros
+tarif=115 euros
 caractere=Espiègle,Dynamique,Joueuse,Câline
-autre=Stérilisé,Vermifugé et déparasité,Caution pour stérilisation future
+autre=Vermifugée et déparasitée,Caution pour stérilisation future
 visible=Lussac-les-Eglises
 chaton=trues
 ~~~~~~

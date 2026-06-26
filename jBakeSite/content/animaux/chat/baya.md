@@ -11,10 +11,10 @@ order=203
 exerpt=
 sexe=Femelle
 dateNaissance=5/04/2026
-tarif=160 euros
+tarif=115 euros
 vigilance=Peureuse (étranger)
 caractere=Joueuse,Active,Mignone
-autre=Stérilisé,Vermifugé et déparasité,Caution pour stérilisation future
+autre=Vermifugée et déparasitée,Caution pour stérilisation future
 visible=Saint-Maurice-La-Souterraine
 chaton=true
 ~~~~~~

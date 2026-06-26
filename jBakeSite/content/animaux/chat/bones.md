@@ -12,9 +12,9 @@ exerpt=Je suis un peu bavard et j'aime m'endormir dans le cou de mon tonton
 sexe=Mâle
 dateNaissance=23/04/2026
 vigilance=Chaton blanc à la peau blanche : attention à l'extérieur !
-tarif=160 euros
+tarif=115 euros
 caractere=Extrêmement câlin,Pot de colle,Bavard
-autre=Stérilisé,Vermifugé et déparasité,Caution pour stérilisation future
+autre=Vermifugé et déparasité,Caution pour stérilisation future
 visible=Lussac-les-Eglises
 chaton=true
 ~~~~~~
