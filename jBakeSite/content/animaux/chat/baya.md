@@ -8,7 +8,7 @@ status=published
 contentImage=images/animaux/baya.jpg
 imageList={"data":[{"file":"images/animaux/baya_se_repose.jpg", "alt":"Baya se repose", "width":"550px"}, {"file":"images/animaux/baya_gros_plan.jpg", "alt":"Baya en gros plan", "width":"550px"}, {"file":"images/animaux/baya_couche.jpg", "alt":"Baya couchée", "width":"550px"}]}
 order=203
-exerpt=
+exerpt=Je suis joueuse, active mignonne, mais attention, je peux être peureuse avec les gens que je ne connais pas.
 sexe=Femelle
 dateNaissance=5/04/2026
 tarif=115 euros
@@ -18,7 +18,7 @@ autre=Vermifugée et déparasitée,Caution pour stérilisation future
 visible=Saint-Maurice-La-Souterraine
 chaton=true
 ~~~~~~
-Moi, c'est Baya, je suis une petite chatonne âgé d'un an et demi, trouver sur une aire d'autoroute avec ma maman, mon frère et mes sœurs.
+Moi, c'est Baya, je suis une petite chatonne âgé de 3 mois, trouver sur une aire d'autoroute avec ma maman, mon frère et mes sœurs.
 
 Je suis joueuse, active mignonne, mais attention, je peux être peureuse avec les gens que je ne connais pas. Je n'ai pas peur des chiens. J'aime jouer avec ma sœur à la bagarre.
 Bien évidemment, j'aime les temps calmes avec mes humains qui me câlinent et je ronronne très fort.

@@ -8,7 +8,7 @@ status=published
 contentImage=images/animaux/benz.jpg
 imageList={"data":[{"file":"images/animaux/benz_couche.jpg", "alt":"Benz couchée", "width":"550px"}, {"file":"images/animaux/benz_accompagne.jpg", "alt":"Benz accompagnée","width":"550px"}, {"file":"images/animaux/benz_allonge.jpg", "alt":"Benz allongée","width":"1100px"}]}
 order=203
-exerpt=Je suis discret et en pleine apprentissage de la sociabilisation
+exerpt=Je suis discret et en pleine apprentissage de la sociabilisation.
 sexe=Mâle
 dateNaissance=5/04/2026
 tarif=115 euros
@@ -17,7 +17,7 @@ autre=Vermifugé et déparasité,Caution pour stérilisation future
 visible=Saint-Maurice-La-Souterraine
 chaton=true
 ~~~~~~
-Moi, c'est Benz, je suis une petite chatonne âgé d'un an et demi, trouver sur une aire d'autoroute avec ma maman ainsi que mes 3 sœurs.
+Moi, c'est Benz, je suis une petite chatonne âgé de 3 mois, trouver sur une aire d'autoroute avec ma maman ainsi que mes 3 sœurs.
 
 Étant le seul petit mâle de la portée, j'aime bien me battre avec mes sœurs. Je reste toutefois peureux, discret et ne suis pas très câlin. Mais pour cela pas d'inquiétude, je suis en cours d'apprentissage avec les humains. 
 
