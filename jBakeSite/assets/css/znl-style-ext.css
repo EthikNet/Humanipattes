@@ -59,6 +59,11 @@
 	gap: 10px;
 }
 
+.smallImageIcone p img{
+	width:30px;
+	background-color: lightgoldenrodyellow;
+}
+
 .homePage {
 	text-align:center;
 }
