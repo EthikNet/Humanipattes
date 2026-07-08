@@ -13,14 +13,14 @@ sexe=Mâle
 dateNaissance=01/05/2026
 bonnus=OK chien,OK chats
 tarif=115 euros
-caractere=Affectueux,Joueur,Propre
+caractere=Giga affectueux,Joueur,Propre
 autre=Vermifugé et déparasité,Caution pour stérilisation future
 visible=Chenier (23)
 chaton=true
 ~~~~~~
 J'ai été trouvé sous un buisson avec mes frères et sœurs sans maman. J'ai été confié à une famille d'accueil qui m'a nourri au biberon et choyé.
 
-Je suis le petit dernier de la portée, car au début, je ne savais pas téter, j'avais donc toujours faim ! Depuis tout à changé et je me précipite sur ma petite gamelle...
+Je suis le petit dernier de la portée, car au début, je ne savais pas téter, j'avais donc toujours faim ! Depuis tout à changé et je me précipite sur ma petite gamelle... Je suis aussi le plus affectueux avec les humains de ma fratrie !
 
 Je connais les chats adultes et les gros chiens.
 
