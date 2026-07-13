@@ -15,13 +15,13 @@ bonnus=OK chien,OK chats
 tarif=115 euros
 caractere=Joueuse,Affectueuse,Vive,Propre
 autre=Vermifugée et déparasitée,Caution pour stérilisation future
-visible=Chenier (23)
+visible=Chéniers (23)
 chaton=true
 ~~~~~~
-J'ai été trouvé sous un buisson avec mes frères et sœurs sans maman. La dame qui m'a trouvé à contacter une association et j'ai été choyé dans une famille d'accueil.
+J'ai été trouvée sous un buisson avec mes frères et sœurs sans maman. La dame qui m'a trouvée à contacter une association et j'ai été choyée dans une famille d'accueil.
 
 J'ai du caractère et je recherche les câlins. J'ai un regard très expressif. Je déteste le bruit. J'adore cavaler dans la maison.
 
-Je connais les chats adultes et les gros chiens.
+Je connais les chats adultes et je me suis complètement habituée aux 2 gros chiens de ma tata ! Je n'ai absolument plus peur d'eux, en fait ils sont super gentils!
 
 Après un début de vie difficile, j'espère vivre avec des humains aimants.

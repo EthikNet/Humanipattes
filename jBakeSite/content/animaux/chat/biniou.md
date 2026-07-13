@@ -15,11 +15,13 @@ bonnus=OK chien,OK chats
 tarif=115 euros
 caractere=Sociable,Affectueux,Câlin,Propre
 autre=Vermifugée et déparasitée,Caution pour stérilisation future
-visible=Chenier (23)
+visible=Chéniers (23)
 chaton=true
 ~~~~~~
-J'ai été trouvé sous un buisson avec mes frères et sœurs sans maman. J'ai été confié à une famille d'accueil qui m'a biberonné jusqu'à temps de passer à une alimentation solide.
+J'ai été trouvée sous un buisson avec mes frères et sœurs sans maman. J'ai été confié à une famille d'accueil qui m'a biberonnée jusqu'à temps de passer à une alimentation solide.
 
 Je suis un chaton adorable et joueur/très proche de ses frères et soeurs mais qui aime aussi se mettre parfois de côté pour être un peu seule et tranquille. Une vraie princesse !
+
+Je connais les chats adultes et je me suis complètement habituée aux 2 gros chiens de ma tata ! Je n'ai absolument plus peur d'eux, en fait ils sont super gentils!
 
 Après un début de vie difficile, j'espère vivre avec des humains aimants.
