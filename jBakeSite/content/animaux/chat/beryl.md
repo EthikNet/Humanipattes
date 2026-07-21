@@ -11,17 +11,21 @@ order=203
 exerpt=J'adore cavaler dans la maison.
 sexe=Mâle
 dateNaissance=01/05/2026
-bonnus=OK chien,OK chats
+bonus=OK chien,OK chats
 tarif=115 euros
-caractere=Joueur,Affectueux,Vif,Propre
+caractere=Joueur,Affectueux,Vif
 autre=Vermifugé et déparasité,Caution pour stérilisation future
 visible=Chéniers (23)
 chaton=true
 ~~~~~~
-J'ai été trouvé sous un buisson avec mes frères et sœurs, sans notre maman. La dame qui m'a trouvé a contacté une association et depuis, je suis choyé dans ma famille d'accueil.
+J'ai été trouvé sous un buisson avec mes sœurs sans notre maman... La dame qui m'a trouvé a contacté l'association et depuis, nous sommes choyés par tata ! Nous avons d'abord dû être biberonnés et maintenant, nous mangeons tous solide.
 
-J'ai du caractère et je recherche les câlins. J'ai un regard très expressif. Je déteste le bruit. J'adore cavaler dans la maison.
+J'ai un sacré caractère : je sais me faire comprendre ! Je recherche tout le temps les câlins et tata est trop mignonne car elle accepte de m'en faire à chaque fois - hihihi! Apparemment, j'ai un regard très expressif... 
 
-Enfin, je connais les chats adultes et je me suis complètement habitué aux 2 gros chiens de ma tata ! Je n'ai absolument plus peur d'eux, en fait ils sont super gentils!
+Aussi, je déteste le bruit - l'aspirateur n'est pas mon meilleur ami ! 
+
+Enfin, je suis une petite chatonne bien dynamique qui adoooore cavaler dans la maison.
+
+Je connais les chats adultes et je me suis complètement habituée aux 2 gros chiens de ma tata ! Je n'ai absolument plus peur d'eux, en fait ils sont super gentils !
 
 Après un début de vie difficile, j'espère vivre avec des humains aimants.

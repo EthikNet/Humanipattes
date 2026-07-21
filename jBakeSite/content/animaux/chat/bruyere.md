@@ -6,22 +6,22 @@ category=AAdopter_chat
 subTemplate=humaniPattes.aAdopterSubTemplate
 status=published
 contentImage=images/animaux/bruyere.jpg
-imageList={"data":[{"file":"images/animaux/buyere_allongée.jpg", "alt":"Bruyère allongée", "width":"550px"}]}
+imageList={"data":[{"file":"images/animaux/buyere_allongée.jpg", "alt":"Bruyère allongée", "width":"550px"}, {"file":"images/animaux/bruyere_gros_plan.jpg", "alt":"Bruyère grps ^man sur la tête", "width":"550px"}]}
 order=203
 exerpt=J'ai du caractère et je recherche les câlins.
 sexe=Femelle
 dateNaissance=01/05/2026
-bonnus=OK chien,OK chats
+bonus=OK chien,OK chats
 tarif=115 euros
-caractere=Joueuse,Affectueuse,Vive,Propre
+caractere=Joueuse,Affectueuse,Vive
 autre=Vermifugée et déparasitée,Caution pour stérilisation future
 visible=Chéniers (23)
 chaton=true
 ~~~~~~
-J'ai été trouvée sous un buisson avec mes frères et sœurs sans maman. La dame qui m'a trouvée à contacter une association et j'ai été choyée dans une famille d'accueil.
+J'ai été trouvée sous un buisson avec mes frères et sœurs sans notre maman... La dame qui m'a trouvée a contacté l'association et depuis, nous sommes choyés par tata ! Nous avons d'abord dû être biberonnés et maintenant, nous mangeons tous solide.
 
-J'ai du caractère et je recherche les câlins. J'ai un regard très expressif. Je déteste le bruit. J'adore cavaler dans la maison.
+Selon tata, je suis la copie conforme de ma soeur Béryl - hihihi ! Moi aussi j'ai un gros caractère de bébé chat princesse et moi aussi je réclame des câlins toute la journée. Et je suis tout à fait d'accord avec ma soeur : le bruit, ça fait peur ! Mes frères et soeurs et moi nous entendons super bien et adorons jouer tous les 4 - c'est trop bien de grandir en famille, on a eu beaucoup de chance !
 
-Je connais les chats adultes et je me suis complètement habituée aux 2 gros chiens de ma tata ! Je n'ai absolument plus peur d'eux, en fait ils sont super gentils!
+Enfin, je connais les chats adultes et je me suis complètement habituée aux 2 gros chiens de ma tata ! Je n'ai absolument plus peur d'eux, en fait ils sont super gentils!
 
 Après un début de vie difficile, j'espère vivre avec des humains aimants.
