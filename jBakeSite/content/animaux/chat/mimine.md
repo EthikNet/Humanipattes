@@ -15,7 +15,7 @@ bonus=D'une douceur absolue
 tarif=160 euros
 caractere=timide,Calme
 autre=Stérilisée,Vermifugée et déparasitée,Vaccinée,Testée FIV/FeLV négative
-visible=Cromac
+visible=Bussière-Dunoise
 ~~~~~~
 J’ai passé mes premières années de vie chez une personne âgée, qui m’a donné un toit, de la nourriture, ma liberté et surtout de la douceur et beaucoup de calme… Cette vie douce et plutôt à l’abri des interactions humaines ne m’a pas permis d’améliorer ma timidité. Craintive de nature, il semblerait que je me sois habituée à vivre dans le silence de la nature, sans cris et pieds qui piétinent dans tous les sens.
 
