@@ -5,6 +5,6 @@ category=Adoptes
 subTemplate=humaniPattes.aAdopterSubTemplate
 status=published
 contentImage=images/animaux/bettyBoo.jpg
-order=201
+order=291
 ~~~~~~
 	
