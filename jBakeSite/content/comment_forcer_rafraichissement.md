@@ -9,7 +9,7 @@ exerpt=Comment forcer le rafraîchissement du cache sur une page
 order=999
 ~~~~~~
 Le site d'Humani'Pattes est conçu pour consommer le moins de ressources possibles afin d'éviter de brûler notre planète encore plus vite. Pour cela, le site utilise abondamment le **cache de ton navigateur**.
-Suivant votre navigateur, il se peut que vous ne voyiez pas la dernière version du site, et donc que vous ne voyez pas tous les animaux à adopter ! 
+Suivant ton navigateur, il se peut que tu ne voie pas la dernière version du site, et donc que tu ne voie pas tous les animaux à adopter ! 
 
 Voici quelques explications et comment résoudre ce problème si cela t'arrives.
 

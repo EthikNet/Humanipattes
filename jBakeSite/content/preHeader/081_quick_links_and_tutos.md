@@ -2,7 +2,6 @@ title=
 date=2026-07-08
 type=org_openCiLife_block
 category=header
-includeContent={"type":"org_openCiLife_block", "category":"quickLinkAndTutosNotExistWiatingForSubTemplateItem", "specificClass":"infos fourPerRow", "display":{"type":"card", "content":"modal", "closeButton":"fermer", "moreInfoLinkLabel":"En savoir encore plus", "displayTags":false}}
 tags=
 status=published
 specificClass=social_icon_and_text smallImageIcone
