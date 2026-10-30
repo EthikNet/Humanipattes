@@ -215,3 +215,22 @@ param : theObject : object to transform in String
 	</#if>
 	<#return returnVal>
 </#function>
+
+
+<#function dateDiff_y aDate, anOtherDate=.now>
+	<#return temporalDiff(aDate, anOtherDate, "yyyy")>
+</#function>
+
+<#function dateDiff_m aDate, anOtherDate=.now>
+	<#return temporalDiff(aDate, anOtherDate, "MM")>
+</#function>
+
+<#function dateDiff_d aDate, anOtherDate=.now>
+	<#return temporalDiff(aDate, anOtherDate, "dd")>
+</#function>
+
+<#function temporalDiff aDate, anOtherDate, temporal>
+	<#local aDateTemporal = aDate?string[temporal]?number>
+	<#local anOtherDateTemporal = anOtherDate?string[temporal]?number>
+	<#return anOtherDateTemporal-aDateTemporal>
+</#function>

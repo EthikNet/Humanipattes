@@ -110,7 +110,8 @@
 					<li class="animalSexe">${theContent.sexe}</li>
 				</#if>
 				<#if (theContent.dateNaissance)??>
-					<li class="animalDateNaissance">${theContent.dateNaissance}</li>
+					<#local birthDate = theContent.dateNaissance?date("dd/MM/yyyy")>
+					<li class="animalDateNaissance">${theContent.dateNaissance} (${caluclateAgeAsString(birthDate)})</li>
 				</#if>
 				<#if (theContent.bonus)??>
 					<@splitAsLi theContent.bonus "," "animalBonus" />
@@ -170,6 +171,31 @@
 	</div>
 </#macro>
 
+<#function caluclateAgeAsString birthDay>
+	<#local age = "">
+	<#local separator = " et ">
+	<#if (birthDay)?? && birthDay?is_date_like>
+		<#local nbYear = common.dateDiff_y(birthDay)>
+		<#local age = age + getDateDiffAsString(nbYear, "an", "ans", separator, nbYear>1)>
+		<#local nbMonth = common.dateDiff_m(birthDay)>
+		<#local age = age + getDateDiffAsString(nbMonth, "mois", "mois")>
+		<#local nbDay = common.dateDiff_d(birthDay)>
+		<#local age = age + getDateDiffAsString(nbDay, "jour", "jours", separator, nbYear==0)>
+	</#if>
+	<#return age?remove_beginning(separator)?trim>
+</#function>
+
+<#function getDateDiffAsString nbDiff, singular, plurial, separator = " et ", condition=true>
+	<#local diffAsString = "">
+	<#if (nbDiff >0 && condition)>
+		<#local label = singular>
+		<#if (nbDiff>1)>
+			<#local label = plurial>
+		</#if>
+		<#local diffAsString = separator + nbDiff + " " + label>
+	</#if>
+	<#return diffAsString>
+</#function>
 
 <#macro splitAsLi(content, separator=",", specificClass="")>
 	<#local splitedItems = content?split(separator)>
