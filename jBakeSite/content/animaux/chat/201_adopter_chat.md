@@ -25,4 +25,4 @@ Tous nos chats partent dans leur nouvelle famille :
 - Avec son carnet de santé
 - Stérilisés ou avec promesse de stérilisation aux 6 mois de l’animal
 
-Les chatons non stérilisés : 115€, les chats mâles stérilisés : 140€, les chattes stérilisées : 160€. De plus, lorsque l’animal a une maladie particulière ou qu’il entre dans la dernière phase de sa vie, nous faisons le choix de réduire le coût de son adoption pour augmenter ses chances d’adoption !
+Les chatons non stérilisés : 120€, les chats mâles stérilisés : 150€, les chattes stérilisées : 170€. De plus, lorsque l’animal a une maladie particulière ou qu’il entre dans la dernière phase de sa vie, nous faisons le choix de réduire le coût de son adoption pour augmenter ses chances d’adoption !
