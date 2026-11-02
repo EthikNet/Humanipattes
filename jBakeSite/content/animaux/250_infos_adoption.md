@@ -34,10 +34,10 @@ Pour les bonnes nouvelles et les moins bonnes, pour vos questions. Qu’il ait 2
 
 
 ### Les frais d’adoption
-- Un chaton : 115€ (sauf exception précisée)
-- Un chat : 140€ (sauf exception précisée)
-- Une chatte : 160€ (sauf exception précisée)
-- Un chien : 280€ (sauf exception précisée)
+- Un chaton : 120€ (sauf exception précisée)
+- Un chat : 150€ (sauf exception précisée)
+- Une chatte : 170€ (sauf exception précisée)
+- Un chien : 300€ (sauf exception précisée)
 - Une girafe : veuillez contacter un zoo le cas échéant 
 
 ⚠️ **ATTENTION** ⚠️ 
