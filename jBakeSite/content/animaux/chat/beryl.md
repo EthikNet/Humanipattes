@@ -6,26 +6,18 @@ category=AAdopter_chat
 subTemplate=humaniPattes.aAdopterSubTemplate
 status=published
 contentImage=images/animaux/beryl.jpg
-imageList={"data":[{"file":"images/animaux/beryl_2.jpg", "alt":"Béryl", "width":"550px"}]}
+imageList={"data":[{"file":"images/animaux/beryl_2.jpg", "alt":"Béryl", "width":"550px"},{"file":"images/animaux/beryl_3.jpg", "alt":"Béryl", "width":"550px"}]}
 order=203
-exerpt=J'adore cavaler dans la maison.
+exerpt=Je suis un beau matou qui aime la compagnie humaine.
 sexe=Mâle
 dateNaissance=01/05/2026
-bonus=OK chien,OK chats
-tarif=150 euros	
-caractere=Joueur,Affectueux,Vif
+tarif=120 euros	
+caractere=Gourmand,Affectueux,Joueur
 autre=Vermifugé et déparasité,Caution pour stérilisation future
 visible=Chéniers (23)
 chaton=true
 ~~~~~~
-J'ai été trouvé sous un buisson avec mes sœurs sans notre maman... La dame qui m'a trouvé a contacté l'association et depuis, nous sommes choyés par tata ! Nous avons d'abord dû être biberonnés et maintenant, nous mangeons tous solide.
-
-J'ai un sacré caractère : je sais me faire comprendre ! Je recherche tout le temps les câlins et tata est trop mignonne car elle accepte de m'en faire à chaque fois - hihihi! Apparemment, j'ai un regard très expressif... 
-
-Aussi, je déteste le bruit - l'aspirateur n'est pas mon meilleur ami ! 
-
-Enfin, je suis une petite chatonne bien dynamique qui adoooore cavaler dans la maison.
-
-Je connais les chats adultes et je me suis complètement habituée aux 2 gros chiens de ma tata ! Je n'ai absolument plus peur d'eux, en fait ils sont super gentils !
-
-Après un début de vie difficile, j'espère vivre avec des humains aimants.
+Coucou moi c'est Béryl, je suis un beau matou qui aime la compagnie humaine. Mon petit plaisir, grimper sur ma tata quand elle cuisine, hop là je me perche sur ses épaules ! Mais je fais ça ,car j'adore la nourriture, il faut faire attention à ce qui traîne sur la table car je mange tout...même les épluchures de patate ! 
+J'ai tout le temps besoin de me rassurer auprès de ma tata, mais ne vous détrompez pas, je n'ai pas froid aux yeux non plus, comme mon frère Bruyère. J'adore chercher mes copains pour aller jouer... Ce qui m'a fait faire quelques bêtises d'ailleurs... Désolé tata. Mon endroit préféré, c'est le lave-vaisselle, j'adore m'y mettre quand il est ouvert... Oui c'est plutôt insolite ! 
+Je bavarde moins que mon frère mais je n'ai pas besoin, car je suis toujours très proche des humains. 
+Si vous m'adoptez, attendez-vous à me voir très souvent dans vos bras.

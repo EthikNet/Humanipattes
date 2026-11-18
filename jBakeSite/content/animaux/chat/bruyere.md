@@ -6,22 +6,18 @@ category=AAdopter_chat
 subTemplate=humaniPattes.aAdopterSubTemplate
 status=published
 contentImage=images/animaux/bruyere.jpg
-imageList={"data":[{"file":"images/animaux/buyere_allongée.jpg", "alt":"Bruyère allongée", "width":"550px"}, {"file":"images/animaux/bruyere_gros_plan.jpg", "alt":"Bruyère grps ^man sur la tête", "width":"550px"}]}
+imageList={"data":[{"file":"images/animaux/bruyere_1.jpg", "alt":"Bruyère ", "width":"550px"}, {"file":"images/animaux/bruyere_2.jpg", "alt":"Bruyère", "width":"550px"}]}
 order=203
-exerpt=J'ai du caractère et je recherche les câlins.
+exerpt=si vous voulez un chat qui vous accompagne partout, doux et qui n'a peur de rien, je suis là.
 sexe=Femelle
 dateNaissance=01/05/2026
 bonus=OK chien,OK chats
-tarif=150 euros
+tarif=120 euros
 caractere=Joueuse,Affectueuse,Vive
 autre=Vermifugée et déparasitée,Caution pour stérilisation future
 visible=Chéniers (23)
 chaton=true
 ~~~~~~
-J'ai été trouvée sous un buisson avec mes frères et sœurs sans notre maman... La dame qui m'a trouvée a contacté l'association et depuis, nous sommes choyés par tata ! Nous avons d'abord dû être biberonnés et maintenant, nous mangeons tous solide.
-
-Selon tata, je suis la copie conforme de ma soeur Béryl - hihihi ! Moi aussi j'ai un gros caractère de bébé chat princesse et moi aussi je réclame des câlins toute la journée. Et je suis tout à fait d'accord avec ma soeur : le bruit, ça fait peur ! Mes frères et soeurs et moi nous entendons super bien et adorons jouer tous les 4 - c'est trop bien de grandir en famille, on a eu beaucoup de chance !
-
-Enfin, je connais les chats adultes et je me suis complètement habituée aux 2 gros chiens de ma tata ! Je n'ai absolument plus peur d'eux, en fait ils sont super gentils!
-
-Après un début de vie difficile, j'espère vivre avec des humains aimants.
+Coucou moi c'est Bruyère, ma tata me dit souvent que je suis très beau mais ce qu'elle ne sait pas, c'est que je le savais depuis longtemps. 
+Mon doux poil et mes traits sombres font craquer plus d'une personne ! Mais il n'y a pas que mon pelage qui est doux, mon caractère aussi. Je suis très câlin et j'adore m'exclamer pour rien. Une mouche qui passe, je miaule, ma tata qui part trop loin de moi, je miaule, je veux monter sur la table, je miaule, une vraie pipelette ! Je sais aussi jouer tout seul comme un grand, c'est mon petit côté indépendant. 
+Plutôt curieux, j'aime me percher en hauteur pour regarder dehors ! En tous cas, si vous voulez un chat qui vous accompagne partout, doux et qui n'a peur de rien, je suis là. 
